@@ -1,5 +1,5 @@
 # Nalu
-##HTML Version - Converted from Angular JS
+## HTML Version - Converted from Angular JS
 A Surfing Collective
 
 ## Build & development

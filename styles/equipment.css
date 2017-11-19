@@ -9,6 +9,10 @@
   margin: 2% 0% 2% 5% !important;
 }
 
+.litetooltip-hotspot-wrapper {
+    margin-left: 30%;
+}
+
 /* Photo Grid Start */
 
 .main-content.eqiupment {
