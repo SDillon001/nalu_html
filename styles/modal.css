@@ -1,0 +1,36 @@
+/* Modals */
+
+.carousel-inner.timeline {
+    padding: 2%;
+}
+
+.modal-content {
+    height: 900px;
+}
+
+.modal-dialog {
+    width: 930px;
+    margin: 10% 20%;
+}
+
+.modal-header {
+  color: #003859;
+  padding: 0px !important;
+  border-bottom: 0px !important;
+}
+
+.modal-body h1 {
+  color: #003859;
+}
+
+a.left.carousel-control.timeline,
+a.right.carousel-control.timeline {
+    top: 40%;
+}
+
+.col-2 p {
+  font-size: 1.2em;
+  color: #003859;
+  margin-top: 2%;
+}
+

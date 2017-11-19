@@ -1,0 +1,105 @@
+
+#HotspotPlugin_image {
+	position: relative;
+	display: inline-block;
+}
+
+/*
+* Hotspot message
+* 
+*/
+.HotspotPlugin_Hotspot > div {
+ background: #fff;
+ border: 1px solid #2eb6d1;
+ width: 300px;
+ height: 200px;
+ margin: 20px -75px;
+ border-radius: 4px;
+ overflow: hidden;
+ font-size: 10px;
+ top: 289px !important;
+ display: none;
+}
+}
+.HotspotPlugin_Hotspot:hover > div {
+	display: block; /* Required */
+}
+.HotspotPlugin_Hotspot > div > .Hotspot_Title {
+	background: rgba(255, 255, 255, 0.4);
+ 	height: 30px;
+ 	font-weight: bold;
+ 	padding: 4px 10px;
+ 	font-size: 16px;
+}
+.HotspotPlugin_Hotspot > div > .Hotspot_Message {
+	margin-top: 2px;
+	padding: 4px 10px;
+	width: 300px;
+	height: 200px;
+	font-size: 14px;
+	overflow-y: auto;
+	z-index: 10000;
+}
+
+/*
+* Hotspots
+* 
+*/
+.HotspotPlugin_Hotspot {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	background: #2eb6d1;
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 200;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+
+/*
+* Hotspots immediately after creation - admin-mode
+* 
+*/
+.HotspotPlugin_inc {
+	background: #2eb6d1;
+}
+
+/*
+* Overlay used in the admin-mode
+* 
+*/
+span.HotspotPlugin_Overlay {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.4);
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+}
+span.HotspotPlugin_Overlay > p {
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.4);
+	margin-top: 0px;
+	padding: 20px;
+	text-align: center;
+}
+
+/*
+* Buttons - admin-mode
+* 
+*/
+button.HotspotPlugin_Done {
+	position: absolute;
+	right: -120px;
+	bottom: 38px;
+}
+button.HotspotPlugin_Remove {
+	position: absolute;
+	right: -120px;
+	bottom: 2px;
+}
+button.HotspotPlugin_Server {
+	position: absolute;
+	right: -120px;
+	bottom: 74px;
+}

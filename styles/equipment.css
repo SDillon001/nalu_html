@@ -1,0 +1,66 @@
+
+.item.container.equipment {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel.slide.equipment {
+  height: 1200px !important;
+  margin: 2% 0% 2% 5% !important;
+}
+
+/* Photo Grid Start */
+
+.main-content.eqiupment {
+    padding-top: 8%;
+}
+
+.equip-grid-head {
+    width: 100%;
+    text-align: center;
+    background: #2eb6d1;
+    padding: 1%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a.left.equipment.carousel-control, a.right.equipment.carousel-control {
+    top: 40%;
+}
+
+span.glyphicon.equipment.right {
+    right: 5px !important;
+    border: none;
+    width: 50px;
+    height: 101px;
+    background: url(images/right_grey.png) no-repeat;
+    cursor: pointer;
+}
+
+span.glyphicon.equipment.left {
+    left: 5px !important;
+    border: none;
+    width: 50px;
+    height: 101px;
+    background: url(images/left_grey.png) no-repeat;
+    cursor: pointer;
+}
+
+.popups {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    background: #2eb6d1;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    z-index: 10000;
+}
+
+#img1,#img3{background:#b00;}
+#img2,#img4{background:#d00;}
+#div1{background:#077;left:0;}
+#div2{background:#0b0;left:40px;}
+#div3{background:#b0b;left:80px;}
+#div4{background:#555;left:120px;}

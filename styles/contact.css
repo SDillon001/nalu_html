@@ -1,0 +1,10 @@
+.about.content.ng-scope h3 {
+    font-weight: 600;
+}
+
+.disqus-input {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
