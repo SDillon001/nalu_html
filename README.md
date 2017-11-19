@@ -13,16 +13,22 @@ Steve Dillon | October, 2017 | 04299759
 
 ### Homepage
 
-![Home Page Mockup](https://cloud.githubusercontent.com/assets/14265710/26710893/0ba0d05a-4712-11e7-9531-f002bb872746.png)
-
-<hr>
-
-### Photographer's Page
-
-![Photographer's Page Mockup](https://cloud.githubusercontent.com/assets/14265710/26710723/0f611b10-4711-11e7-89d6-68dd6578fe52.png)
+![Home Page Mockup](https://user-images.githubusercontent.com/14265710/32986838-83eec0c8-cc8f-11e7-9a14-cb6e8c153d3e.png)
 
 <hr>
 
 ### Timeline
 
-![Timeline Page Mockup](https://cloud.githubusercontent.com/assets/14265710/26710665/87023312-4710-11e7-8457-1cfe9df81cfe.png)
+![Timeline Page Mockup](https://user-images.githubusercontent.com/14265710/32986839-885ab518-cc8f-11e7-8644-8c50356a7ddf.png)
+
+<hr>
+
+### Photographer's Page
+
+![Photographer's Page Mockup](https://user-images.githubusercontent.com/14265710/32986840-8af88e4e-cc8f-11e7-8d99-03c44b9634c0.png)
+
+<hr>
+
+### Equipment Page
+
+![Photographer's Page Mockup](https://user-images.githubusercontent.com/14265710/32986841-8dcb50f2-cc8f-11e7-9f82-327eed6b0132.png)
