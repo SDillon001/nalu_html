@@ -58,8 +58,24 @@ $(function(){
 
 // Timeline Modal
 $(function() {
-			$('.cd-timeline').on('click', '.flex-item1', function() {
-				$('#myModal').modal('show');
-				$('#MyCarousel').carousel($(this).index()); 
-			});	
-		});
+	$('.cd-timeline').on('click', '.flex-item1', function() {
+		$('#myModal').modal('show');
+		$('#MyCarousel').carousel($(this).index()); 
+	});	
+});
+
+// Photo Modal
+$(function() {
+	$('.photog-group').on('click', '.cap-bot', function() {
+		$('#myModal').modal('show');
+		$('#MyCarousel').carousel($(this).index()); 
+	});	
+});
+
+// Equipment Modal
+$(function() {
+	$('.photog-group').on('click', '.cap-bot', function() {
+		$('#myModal').modal('show');
+		$('#MyCarousel').carousel($(this).index()); 
+	});	
+});
