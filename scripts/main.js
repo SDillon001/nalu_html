@@ -56,14 +56,6 @@ $(function(){
   })
 })
 
-// Timeline Modal
-$(function() {
-	$('.cd-timeline').on('click', '.flex-item1', function() {
-		$('#myModal').modal('show');
-		$('#MyCarousel').carousel($(this).index()); 
-	});	
-});
-
 // Photo Modal
 $(function() {
 	$('.photog-group').on('click', '.cap-bot', function() {
@@ -79,3 +71,46 @@ $(function() {
 		$('#MyCarousel').carousel($(this).index()); 
 	});	
 });
+
+// Timeline Modal
+$(function() {
+	$('.flex-item1, .cd-read-more').on('click', function(event) {
+		//Gets the Item that was clicked
+		var $this = $(event.currentTarget);
+		$('#myModal').modal('show');
+		//Use the slide number of the clicked Item to open the slide on the carousel
+		$('#MyCarousel').carousel($this.data('slide'));
+	});
+});
+
+// Dropdown Nav - referenced this codepen: https://codepen.io/bsngr/pen/frDqh?editors=1010
+
+$(function() {
+  $('ul.nav li.dropdown').hover(function() {
+    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+  }, function() {
+    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+  });
+});
+
+
+// Pause home carousel on hover
+$(function() {
+  $('#container').hover(function(){
+    $("#main-carousel").carousel('pause');
+  },
+  function(){
+    $("#main-carousel").carousel('cycle');
+});
+  });
+
+// Pause photo carousel on hover
+
+$(function() {
+  $('#container').hover(function(){
+    $("#photo-carousel").carousel('pause');
+  },
+  function(){
+    $("#photo-carousel").carousel('cycle');
+});
+  });

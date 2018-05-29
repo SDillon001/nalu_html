@@ -15,6 +15,7 @@
   <script src="scripts/bootstrap.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
   <script type="text/javascript" src="scripts/jquery.fullPage.min.js"></script>
+  <script src="scripts/main.js"></script>
 
   <!-- Start CSS -->
   <link rel="stylesheet" href="styles/bootstrap.css" />
@@ -50,10 +51,20 @@
       </div>
 
       <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
         <ul class="nav navbar-nav">
           <!-- <li class="active"><a href="index.html">Home</a></li> -->
-          <li><a href="timeline.html">Timeline</a></li>
+          <li class="dropdown">
+            <a href="timeline.html" class="dropdown-toggle" data-toggle="dropdown">Timeline <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">1900's</a></li>
+              <li><a href="#">1950's</a></li>
+              <li><a href="#">1960's</a></li>
+              <li><a href="#">1960's</a></li>
+              <li><a href="#">1960's</a></li>
+              <li><a href="#">1960's</a></li>
+              <li><a href="#">1960's</a></li>
+            </ul>
+          </li>
           <li><a href="photo.html">Photo</a></li>
           <li><a href="equipment.html">Equipment</a></li>
           <li><a href="about.html">About</a></li>
@@ -133,317 +144,318 @@
           <h1>Choose a Board to View</h1>
         </div>
 
-        <div class="photogs">
+        <div class="boards">
 
           <!-- Image Grid Row 1 -->
-          <div class="photog-group clearfix">
+          <div class="board-group clearfix">
             <figure class="cap-bot">
-              <a href="#myModal" class="modalImg image-border image-border" data-toggle="modal">
-                <img class="photog-headshot" src="images/camera.png" class="img-thumbnail"></a>
-              <figcaption>
-                Bruce Brown, Malibu, CA
-              </figcaption>
-            </figure>
-          </div>
+              <a href="#myModal" class="modalImg" data-toggle="modal">
+                <img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
+                <figcaption>
+                  Channel Islands, Mini Eco Hybrid
+                </figcaption>
+              </figure>
+            </div>
 
-          <div class="photog-group clearfix">
-            <figure class="cap-bot">
-              <a href="#myModal" class="modalImg image-border image-border" data-toggle="modal">
-                <img class="photog-headshot" src="images/camera.png" class="img-thumbnail"></a>
-              <figcaption>
-                Bruce Brown, Malibu, CA
-              </figcaption>
-            </figure>
-          </div>
+            <div class="board-group clearfix">
+              <figure class="cap-bot">
+                <a href="#myModal" class="modalImg" data-toggle="modal">
+                  <img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
+                  <figcaption>
+                    Channel Islands, Mini Eco Hybrid
+                  </figcaption>
+                </figure>
+              </div>
 
-          <div class="photog-group clearfix">
-            <figure class="cap-bot">
-              <a href="#myModal" class="modalImg image-border image-border" data-toggle="modal">
-                <img class="photog-headshot" src="images/camera.png" class="img-thumbnail"></a>
-              <figcaption>
-                Bruce Brown, Malibu, CA
-              </figcaption>
-            </figure>
-          </div>
-
-          <!-- Image Grid Row 2 -->
-          <div class="photog-group clearfix">
-            <figure class="cap-bot">
-              <a href="#myModal" class="modalImg image-border image-border" data-toggle="modal">
-                <img class="photog-headshot" src="images/camera.png" class="img-thumbnail"></a>
-              <figcaption>
-                Bruce Brown, Malibu, CA
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="photog-group clearfix">
-            <figure class="cap-bot">
-              <a href="#myModal" class="modalImg image-border image-border" data-toggle="modal">
-                <img class="photog-headshot" src="images/camera.png" class="img-thumbnail"></a>
-              <figcaption>
-                Bruce Brown, Malibu, CA
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="photog-group clearfix">
-            <figure class="cap-bot">
-              <a href="#myModal" class="modalImg image-border image-border" data-toggle="modal">
-                <img class="photog-headshot" src="images/camera.png" class="img-thumbnail"></a>
-              <figcaption>
-                Bruce Brown, Malibu, CA
-              </figcaption>
-            </figure>
-          </div>
-
-          <!-- Image Grid Row 3 -->
-          <div class="photog-group clearfix">
-            <figure class="cap-bot">
-              <a href="#myModal" class="modalImg image-border image-border" data-toggle="modal">
-                <img class="photog-headshot" src="images/camera.png" class="img-thumbnail"></a>
-              <figcaption>
-                Bruce Brown, Malibu, CA
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="photog-group clearfix">
-            <figure class="cap-bot">
-              <a href="#myModal" class="modalImg image-border image-border" data-toggle="modal">
-                <img class="photog-headshot" src="images/camera.png" class="img-thumbnail"></a>
-              <figcaption>
-                Bruce Brown, Malibu, CA
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="photog-group clearfix">
-            <figure class="cap-bot">
-              <a href="#myModal" class="modalImg image-border image-border" data-toggle="modal">
-                <img class="photog-headshot" src="images/camera.png" class="img-thumbnail"></a>
-              <figcaption>
-                Bruce Brown, Malibu, CA
-              </figcaption>
-            </figure>
-          </div>
-          
-        </div>
-      </div>
-
-      <!-- Modal Code Start -->
-        <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-
+              <div class="board-group clearfix">
+                <figure class="cap-bot">
+                  <a href="#myModal" class="modalImg" data-toggle="modal">
+                    <img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
+                    <figcaption>
+                      Channel Islands, Mini Eco Hybrid
+                    </figcaption>
+                  </figure>
                 </div>
 
-                <div class="modal-body">
-                  <!-- Indicators -->
-                  <div class="carousel slide" data-interval="false" id="MyCarousel">
+                <!-- Image Grid Row 2 -->
+                <div class="board-group clearfix">
+                  <figure class="cap-bot">
+                    <a href="#myModal" class="modalImg" data-toggle="modal">
+                      <img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
+                      <figcaption>
+                        Channel Islands, Mini Eco Hybrid
+                      </figcaption>
+                    </figure>
+                  </div>
 
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner timeline">
+                  <div class="board-group clearfix">
+                    <figure class="cap-bot">
+                      <a href="#myModal" class="modalImg" data-toggle="modal">
+                        <img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
+                        <figcaption>
+                          Channel Islands, Mini Eco Hybrid
+                        </figcaption>
+                      </figure>
+                    </div>
 
-                      <!-- 1st Modal in Timeline -->
-                      <div class="item active">
-                        
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
+                    <div class="board-group clearfix">
+                      <figure class="cap-bot">
+                        <a href="#myModal" class="modalImg" data-toggle="modal">
+                          <img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
+                          <figcaption>
+                            Channel Islands, Mini Eco Hybrid
+                          </figcaption>
+                        </figure>
+                      </div>
 
-                        <div class="row">
-                          <h1>First Surfing Recorded</h1>
-                          <div class="col-1">
-                            <img src="images/boards.png" id="img1" alt="" /></a>
+                      <!-- Image Grid Row 3 -->
+                      <div class="board-group clearfix">
+                        <figure class="cap-bot">
+                          <a href="#myModal" class="modalImg" data-toggle="modal">
+                            <img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
+                            <figcaption>
+                              Channel Islands, Mini Eco Hybrid
+                            </figcaption>
+                          </figure>
+                        </div>
+
+                        <div class="board-group clearfix">
+                          <figure class="cap-bot">
+                            <a href="#myModal" class="modalImg" data-toggle="modal">
+                              <img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
+                              <figcaption>
+                                Channel Islands, Mini Eco Hybrid
+                              </figcaption>
+                            </figure>
                           </div>
 
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
+                          <div class="board-group clearfix">
+                            <figure class="cap-bot">
+                              <a href="#myModal" class="modalImg" data-toggle="modal">
+                                <img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
+                                <figcaption>
+                                  Channel Islands, Mini Eco Hybrid
+                                </figcaption>
+                              </figure>
+                            </div>
+                            
+                          </div>
+                        </div>
+
+                        <!-- Modal Code Start -->
+                        <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+
+                              </div>
+
+                              <div class="modal-body">
+                                <!-- Indicators -->
+                                <div class="carousel slide" data-interval="false" id="MyCarousel">
+
+                                  <!-- Wrapper for slides -->
+                                  <div class="carousel-inner timeline">
+
+                                    <!-- 1st Modal in Timeline -->
+                                    <div class="item active">
+                                      
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+
+                                      <div class="row">
+                                        <h1>Channel Islands, Mini Eco Hybrid</h1>
+                                        <div class="col-1">
+                                          <img src="images/board_placehold_modal.png" id="img1" alt="" /></a>
+                                        </div>
+
+                                        <div class="col-2">
+                                          <div class="description"></div>
+                                          <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <!-- 2nd Modal in Timeline -->
+                                    <div class="item">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+
+                                      <div class="row">
+                                        <div class="col-1">
+                                          <h1>Channel Islands, Mini Eco Hybrid</h1>
+                                          <img src="images/board_placehold_modal.png" id="img2" alt="" /></a>
+                                        </div>
+
+                                        <div class="col-2">
+                                          <div class="description"></div>
+                                          <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <!-- 3rd Modal in Timeline -->
+                                    <div class="item">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+
+                                      <div class="row">
+                                        <div class="col-1">
+                                          <h1>Channel Islands, Mini Eco Hybrid</h1>
+                                          <img src="images/board_placehold_modal.png" id="img2" alt="" /></a>
+                                        </div>
+
+                                        <div class="col-2">
+                                          <div class="description"></div>
+                                          <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- Controls -->
+                                  <a href="#MyCarousel" class="left carousel-control timeline" data-slide="prev"><span class="glyphicon left"></span></a>
+                                  <a href="#MyCarousel" class="right carousel-control timeline" data-slide="next"><span class="glyphicon right"></a>
+
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+
+                      <!-- Footer Start -->
+                      <div class="section" id="section7">
+                        <div class="container-fluid">
+                          <!-- Row 1 -->
+                          <div class="top-1 row">
+                            <!-- Column 1 -->
+                            <div class="col-md-4">
+                              <h5>Vision</h5>
+                              <p class="footer-text">Nalu is a website for surfers and non-surfers alike who love the sport of surfing and the culture that surrounds it. This website provides an interactive way for you to learn more about how the sport of surfing has evolved over the years and
+                              how innovations in surf photography have influenced some of those changes.</p>
+
+                              <p class="footer-text">Thanks for visiting!</p>
+                            </div>
+                            <!-- Column 2 -->
+                            <div class="col-md-4">
+                              <h5>Contact Info</h5>
+                              <p class="footer-text">&copy; Steve Dillon 2017<br> Orange County, CA 92656
+                                <address>
+                                  <a href="mailto:stevedillon001@gmail.com">stevedillon001@gmail.com</a>
+                                </address>
+                                <a href="http://stevedillon.net/" target="_blank">SteveDillon.net
+                                </a>
+                              </p>
+                            </div>
+                            <!-- Column 3 -->
+                            <div class="col-md-4">
+                              <h5>Newsletter</h5>
+                              <form>
+                                <div class="form-group">
+                                  <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="Enter Your Email">
+                                  <br>
+                                  <input class="form-control" type="text" placeholder="Enter Your Name" id="text-input">
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+
+                          <!-- Row 2 -->
+                          <div class="top-2 row">
+                            <!-- Column 1 -->
+                            <div class="col-md-4">
+                              <h5>Get Connected</h5>
+                              <div class="flex-container">
+                                <div class="imGrid social">
+                                  <div class="flex-item social">
+                                    <a href="https://www.facebook.com/SteveDillonDesigns/" target="_blank"><img src="images/facebook.png" alt="facebook.png"></a>
+                                  </div>
+                                  <div class="flex-item social">
+                                    <a href="https://www.instagram.com/stevedillonphoto" target="_blank"><img src="images/instagram.png" alt="instagram.png"></a>
+                                  </div>
+                                  <div class="flex-item social">
+                                    <a href="https://www.linkedin.com/in/stevedillon1/" target="_blank"><img src="images/linkedin.png" alt="linkedin.png"></a>
+                                  </div>
+                                  <div class="flex-item social">
+                                    <a href="https://plus.google.com/u/0/111716399104478997939" target="_blank"><img src="images/google_plus.png" alt="google_plus.png"></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Column 2 -->
+                            <div class="col-md-4">
+                              <h5>Photostream</h5>
+                              <div class="flex-container">
+                                <div class="imGrid">
+                                  <div class="flex-item"><img src="images/party.png" alt="Grid Image"></div>
+                                  <div class="flex-item"><img src="images/grid1.jpg" alt="Grid Image"></div>
+                                  <div class="flex-item"><img src="images/trip.png" alt="Photo Credit: Cris Burkhard: http://www.chrisburkard.com/"></div>
+                                  <div class="flex-item"><img src="images/malibu.png" alt="Grid Image"></div>
+                                  <div class="flex-item"><img src="images/grid5.jpg" alt="Grid Image"></div>
+                                  <div class="flex-item"><img src="images/boards.png" alt="Grid Image"></div>
+                                  <div class="flex-item"><img src="images/barrel.png" alt="Grid Image"></div>
+                                  <div class="flex-item"><img src="images/bruce.png" alt="Grid Image"></div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Column 3 -->
+                            <div class="col-md-4">
+                              <h5>Sources</h5>
+                              <ul class="footer-list">
+                                <li>Museum of Surf.com</li>
+                                <li>Surfing Heritage.org</li>
+                                <li>Surfline.com</li>
+                                <li>The Surfers Journal.com</li>
+                                <li>Surfer Magazine.com</li>
+                                <li>Surfing Magazine.com</li>
+                                <li>Magicseaweed.com</li>
+                                <li>World Surf League</li>
+                                <li>Surf Science.com</li>
+                                <li>A-Frame Photo</li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
                       </div>
 
-                      <!-- 2nd Modal in Timeline -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
+                      <div class="container-fluid">
+                        <!-- Row 1 -->
+                        <div class="bottom row">
+                          <!-- Column 1 -->
+                          <div class="col-md-12">
+                            <h5><a href="index.html">© 2017 Nalu.com</a></h5>
 
-                        <div class="row">
-                          <div class="col-1">
-                            <h1>Service Infrastructure</h1>
-                            <img src="images/taihitian_surfers_joseph_banks_lg.jpg" id="img2" alt="" /></a>
-                          </div>
-
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- 3rd Modal in Timeline -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-
-                        <div class="row">
-                          <div class="col-1">
-                            <h1>Tom Blake and Sam Reid surf Malibu for the first time</h1>
-                            <img src="images/rawImage_pcr_fred_windisch.jpg" id="img2" alt="" /></a>
-                          </div>
-
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
+                            <ul class="nav footer navbar-nav">
+                              <!-- <li class="active"><a href="index.html">Home</a></li> -->
+                              <li><a href="timeline.html">Timeline</a></li>
+                              <li><a href="photo.html">Photo</a></li>
+                              <li><a href="equipment.html">Equipment</a></li>
+                              <li><a href="about.html">About</a></li>
+                              <li><a href="share.html">Share</a></li>
+                            </ul>
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <!-- Controls -->
-                    <a href="#MyCarousel" class="left carousel-control timeline" data-slide="prev"><span class="glyphicon left"></span></a>
-                    <a href="#MyCarousel" class="right carousel-control timeline" data-slide="next"><span class="glyphicon right"></a>
+                    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+                    <script>
+                      ! function(A, n, g, u, l, a, r) {
+                        A.GoogleAnalyticsObject = l, A[l] = A[l] || function() {
+                          (A[l].q = A[l].q || []).push(arguments)
+                        }, A[l].l = +new Date, a = n.createElement(g),
+                        r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+                      }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-                  </div>
-
-                </div>
-              </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-      <!-- Footer Start -->
-      <div class="section" id="section7">
-        <div class="container-fluid">
-          <!-- Row 1 -->
-          <div class="top-1 row">
-            <!-- Column 1 -->
-            <div class="col-md-4">
-              <h5>Vision</h5>
-              <p class="footer-text">Nalu is a website for surfers and non-surfers alike who love the sport of surfing and the culture that surrounds it. This website provides an interactive way for you to learn more about how the sport of surfing has evolved over the years and
-              how innovations in surf photography have influenced some of those changes.</p>
-
-              <p class="footer-text">Thanks for visiting!</p>
-            </div>
-            <!-- Column 2 -->
-            <div class="col-md-4">
-              <h5>Contact Info</h5>
-              <p class="footer-text">&copy; Steve Dillon 2017<br> Orange County, CA 92656
-                <address>
-                  <a href="mailto:stevedillon001@gmail.com">stevedillon001@gmail.com</a>
-                </address>
-                <a href="http://stevedillon.net/" target="_blank">SteveDillon.net
-                </a>
-              </p>
-            </div>
-            <!-- Column 3 -->
-            <div class="col-md-4">
-              <h5>Newsletter</h5>
-              <form>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="Enter Your Email">
-                  <br>
-                  <input class="form-control" type="text" placeholder="Enter Your Name" id="text-input">
-                </div>
-              </form>
-            </div>
-          </div>
-
-          <!-- Row 2 -->
-          <div class="top-2 row">
-            <!-- Column 1 -->
-            <div class="col-md-4">
-              <h5>Get Connected</h5>
-              <div class="flex-container">
-                <div class="imGrid social">
-                  <div class="flex-item social">
-                    <a href="https://www.facebook.com/SteveDillonDesigns/" target="_blank"><img src="images/facebook.png" alt="facebook.png"></a>
-                  </div>
-                  <div class="flex-item social">
-                    <a href="https://www.instagram.com/stevedillonphoto" target="_blank"><img src="images/instagram.png" alt="instagram.png"></a>
-                  </div>
-                  <div class="flex-item social">
-                    <a href="https://www.linkedin.com/in/stevedillon1/" target="_blank"><img src="images/linkedin.png" alt="linkedin.png"></a>
-                  </div>
-                  <div class="flex-item social">
-                    <a href="https://plus.google.com/u/0/111716399104478997939" target="_blank"><img src="images/google_plus.png" alt="google_plus.png"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Column 2 -->
-            <div class="col-md-4">
-              <h5>Photostream</h5>
-              <div class="flex-container">
-                <div class="imGrid">
-                  <div class="flex-item"><img src="images/party.png" alt="Grid Image"></div>
-                  <div class="flex-item"><img src="images/grid1.jpg" alt="Grid Image"></div>
-                  <div class="flex-item"><img src="images/trip.png" alt="Photo Credit: Cris Burkhard: http://www.chrisburkard.com/"></div>
-                  <div class="flex-item"><img src="images/malibu.png" alt="Grid Image"></div>
-                  <div class="flex-item"><img src="images/grid5.jpg" alt="Grid Image"></div>
-                  <div class="flex-item"><img src="images/boards.png" alt="Grid Image"></div>
-                  <div class="flex-item"><img src="images/barrel.png" alt="Grid Image"></div>
-                  <div class="flex-item"><img src="images/bruce.png" alt="Grid Image"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Column 3 -->
-            <div class="col-md-4">
-              <h5>Sources</h5>
-              <ul class="footer-list">
-                <li>Museum of Surf.com</li>
-                <li>Surfing Heritage.org</li>
-                <li>Surfline.com</li>
-                <li>The Surfers Journal.com</li>
-                <li>Surfer Magazine.com</li>
-                <li>Surfing Magazine.com</li>
-                <li>Magicseaweed.com</li>
-                <li>World Surf League</li>
-                <li>Surf Science.com</li>
-                <li>A-Frame Photo</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <!-- Row 1 -->
-        <div class="bottom row">
-          <!-- Column 1 -->
-          <div class="col-md-12">
-            <h5><a href="index.html">© 2017 Nalu.com</a></h5>
-
-            <ul class="nav footer navbar-nav">
-              <!-- <li class="active"><a href="index.html">Home</a></li> -->
-              <li><a ui-sref="timeline">Timeline</a></li>
-              <li><a ui-sref="photo">Photo</a></li>
-              <li><a ui-sref="about">About</a></li>
-              <li><a ui-sref="contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-    <script>
-      ! function(A, n, g, u, l, a, r) {
-        A.GoogleAnalyticsObject = l, A[l] = A[l] || function() {
-          (A[l].q = A[l].q || []).push(arguments)
-        }, A[l].l = +new Date, a = n.createElement(g),
-        r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
-      }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', 'UA-102205886-1');
-      ga('send', 'pageview');
-    </script>
+                      ga('create', 'UA-102205886-1');
+                      ga('send', 'pageview');
+                    </script>
 
     <!-- Hotspot JQuery Plugin 
       https://github.com/aniruddhanath/jquery-hotspot -->

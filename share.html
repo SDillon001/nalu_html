@@ -15,6 +15,7 @@
   <script src="scripts/bootstrap.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
   <script type="text/javascript" src="scripts/jquery.fullPage.min.js"></script>
+  <script src="scripts/main.js"></script>
 
   <!-- Start CSS -->
   <link rel="stylesheet" href="styles/bootstrap.css" />
@@ -50,14 +51,24 @@
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
             <ul class="nav navbar-nav">
               <!-- <li class="active"><a href="index.html">Home</a></li> -->
-              <li><a href="timeline.html">Timeline</a></li>
+              <li class="dropdown">
+                <a href="timeline.html" class="dropdown-toggle" data-toggle="dropdown">Timeline <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">1900's</a></li>
+                  <li><a href="#">1950's</a></li>
+                  <li><a href="#">1960's</a></li>
+                  <li><a href="#">1960's</a></li>
+                  <li><a href="#">1960's</a></li>
+                  <li><a href="#">1960's</a></li>
+                  <li><a href="#">1960's</a></li>
+                </ul>
+              </li>
               <li><a href="photo.html">Photo</a></li>
               <li><a href="equipment.html">Equipment</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Share</a></li>
+              <li><a href="share.html">Share</a></li>
             </ul>
           </div>
         </div>
@@ -187,10 +198,11 @@
 
             <ul class="nav footer navbar-nav">
               <!-- <li class="active"><a href="index.html">Home</a></li> -->
-              <li><a ui-sref="timeline">Timeline</a></li>
-              <li><a ui-sref="photo">Photo</a></li>
-              <li><a ui-sref="about">About</a></li>
-              <li><a ui-sref="contact">Contact</a></li>
+              <li><a href="timeline.html">Timeline</a></li>
+              <li><a href="photo.html">Photo</a></li>
+              <li><a href="equipment.html">Equipment</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="share.html">Share</a></li>
             </ul>
           </div>
         </div>

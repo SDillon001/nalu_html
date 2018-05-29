@@ -11,6 +11,12 @@
 
 /* Photo Grid Start */
 
+.board-group.clearfix {
+  float: left;
+  width: 33.3%;
+  cursor: pointer;
+}
+
 .main-content.eqiupment {
     padding-top: 8%;
 }
@@ -45,22 +51,3 @@ span.glyphicon.equipment.left {
     background: url(images/left_grey.png) no-repeat;
     cursor: pointer;
 }
-
-.popups {
-    display: none;
-    position: absolute;
-    top: 80px;
-    left: 60px;
-    background: #2eb6d1;
-    height: 100px;
-    width: 200px;
-    text-align: center;
-    z-index: 10000;
-}
-
-#img1,#img3{background:#b00;}
-#img2,#img4{background:#d00;}
-#div1{background:#077;left:0;}
-#div2{background:#0b0;left:40px;}
-#div3{background:#b0b;left:80px;}
-#div4{background:#555;left:120px;}
