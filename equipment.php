@@ -84,15 +84,18 @@ include("head.php");?>
           <h1>Choose a Board to View</h1>
         </div>
 
+      <div class="flexbox_container">
+        <h1><--Boards Should Show Here --></h1>
         <section id="board_table">
 
           <!--/* Javascript will publish our products here */-->
 
         </section>
-
+      </div>
+        <!-- Hide Working Boards Section
         <div class="boards">
 
-          <!-- Image Grid Row 1 -->
+          <!-- Image Grid Row 1
           <div class="photog-group clearfix">
             <figure class="cap-bot">
               <a href="#myModal" class="modalImg" data-toggle="modal">
@@ -123,7 +126,7 @@ include("head.php");?>
                   </figure>
                 </div>
 
-                <!-- Image Grid Row 2 -->
+                <!-- Image Grid Row 2 
                 <div class="photog-group clearfix">
                   <figure class="cap-bot">
                     <a href="#myModal" class="modalImg" data-toggle="modal">
@@ -154,7 +157,7 @@ include("head.php");?>
                         </figure>
                       </div>
 
-                      <!-- Image Grid Row 3 -->
+                      <!-- Image Grid Row 3 
                       <div class="photog-group clearfix">
                         <figure class="cap-bot">
                           <a href="#myModal" class="modalImg" data-toggle="modal">
@@ -275,9 +278,7 @@ include("head.php");?>
                         </section>
                       </div>
 
-<!--Included Header php file -->
-<?php include("footer-include.php");?>
-
-      </script>
-    </body>
-    </html>
+    <!--Included Header php file -->
+    <?php include("footer-include.php");?>
+  </body>
+</html>

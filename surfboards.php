@@ -6,15 +6,15 @@ include 'connection.php';
 $sql = "SELECT * FROM Surfboards ORDER BY id ASC";
 
 //Execute Query
-$result = mysql_query($sql, $conn);
+$result = mysqli_query($conn, $sql);
 
 //Did the query fail?
 if(!$result) die("Query has failed!");
 
 //Make result into PHP array
 $Surfboards = array();
-if(mysqlli_num_rows($result)){
-    while($Surfboard = mysql_fetch_assoc($result)){
+if(mysqli_num_rows($result)){
+    while($Surfboard = mysqli_fetch_assoc($result)){
         $Surfboards[] = array('Surfboard'=>$Surfboard);
     }
 }
@@ -24,5 +24,5 @@ header('Content-type: application/json');
 echo json_encode(array('Surfboards'=>$Surfboards));
 
 //Close connection
-mysql_close($conn);
+mysqli_close($conn);
 ?>
