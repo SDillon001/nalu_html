@@ -85,8 +85,8 @@ include("head.php");?>
         </div>
 
       <div class="flexbox_container">
-        <h1><--Boards Should Show Here --></h1>
         <section id="board_table">
+          <h1><--Boards Should Show Here --></h1>
 
           <!--/* Javascript will publish our products here */-->
 

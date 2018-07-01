@@ -9,10 +9,19 @@
  */
 
 //gets the JSON from our surfboards.php
+  // $.getJSON("surfboards.php", function (data) {
+  //     //loop through each surfboard in the JSON file and append a <div> with the surfboard information
+  //     $.each(data.Surfboards, function (row) {
+  //         $("#board_table").append(
+  //           '<div class="surfboard"><a href="equipment.php?id=' + data.Surfboards[row].Surfboard.id + '"><img src="images/' + data.Surfboards[row].Surfboard.imageName + '" alt="' + data.Surfboards[row].Surfboard.imageName + '"><p>' + data.Surfboards[row].Surfboard.name + '</p><p>$' + data.Surfboards[row].Surfboard.price + '</p></a></div>');
+  //     });
+  // });
+
   $.getJSON("surfboards.php", function (data) {
-      //loop through each surfboard in the JSON file and append a <div> with the surfboard information
-      $.each(data.Surfboards, function (row) {
-          $("#board_table").appendTo(
-            '<div class="surfboard"><a href="equipment.php?id=' + data.Surfboard[row].Surfboard.id + '"><img src="images/' + data.Surfboard[row].Surfboard.imageName + '" alt="' + data.Surfboard[row].Surfboard.imageName + '"><p>' + data.Surfboard[row].Surfboard.name + '</p><p>$' + data.Surfboard[row].Surfboard.price + '</p></a></div>');
-      });
+    // Solution from Evil_skunk @ Stackoverflow
+    $.each(data.Surfboards, function (row, element) {
+     $("#board_table").append(
+       '<div class="surfboard"><a href="equipment.php?id=' + element.Surfboard.id + '"><img src="images/' + element.Surfboard.imageName + '" alt="' + element.Surfboard.imageName + '"><p>' + element.Surfboard.name + '</p><p>$' + element.Surfboard.price + '</p></a></div>'
+       );
+   });
   });
