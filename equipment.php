@@ -2,11 +2,17 @@
 <html>
 
 <!--Included head.php file -->
-<?php include("head.php");?>
+<?php 
+
+//Create the connection and select database
+include 'connection.php';
+
+// Include head.php file
+include("head.php");?>
 <title><?php echo $title ?>Equipment</title>
 
 <body>
-<!--Included Header php file -->
+<!--Included header.php file -->
 <?php include("header-include_v2.php");?>
 
 <div class="container">
@@ -77,6 +83,12 @@
         <div class="equip-grid-head">
           <h1>Choose a Board to View</h1>
         </div>
+
+        <section id="board_table">
+
+          <!--/* Javascript will publish our products here */-->
+
+        </section>
 
         <div class="boards">
 

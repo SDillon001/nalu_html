@@ -15,7 +15,8 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
   <script src="scripts/jquery.fullPage.min.js"></script>
   <script src="scripts/modernizr.js"></script>
-  <!-- <script src="scripts/main.js"></script> -->
+  <script src="scripts/main.js"></script>
+  <script src="scripts/surfboards.js"></script>
 
   <!-- Start CSS -->
   <link rel="stylesheet" href="styles/bootstrap.css" />
