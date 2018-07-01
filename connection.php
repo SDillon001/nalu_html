@@ -13,7 +13,7 @@ if (!$conn) {
     exit;
 }
 
-echo "Success: A proper connection to mysqli was made! The my_db database is great." . PHP_EOL;
+echo "Success: A proper connection to mysqli was made! The nalu_live_thesis database is great." . PHP_EOL;
 
 echo "Host information: " . mysqli_get_host_info($conn) . PHP_EOL;
 
