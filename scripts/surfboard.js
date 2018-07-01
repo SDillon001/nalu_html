@@ -17,11 +17,11 @@
   //     });
   // });
 
-  $.getJSON("surfboards.php", function (data) {
-    // Solution from Evil_skunk @ Stackoverflow
-    $.each(data.Surfboards, function (row, element) {
-     $("#board_table").append(
-       '<div class="surfboard"><a href="equipment.php?id=' + element.Surfboard.id + '"><img src="images/' + element.Surfboard.imageName + '" alt="' + element.Surfboard.imageName + '"><p>' + element.Surfboard.name + '</p><p>$' + element.Surfboard.price + '</p></a></div>'
-       );
-   });
+$.getJSON("surfboards.php", function (data) {
+  // Solution from Evil_skunk @ Stackoverflow
+  $.each(data.Surfboards, function (row, element) {
+   $("#board_table").append(
+     '<div class="surfboard"><a href="equipment.php?id=' + element.Surfboard.id + '"><img src="images/' + element.Surfboard.imageName + '" alt="' + element.Surfboard.imageName + '"><p>' + element.Surfboard.name + '</p><p>$' + element.Surfboard.price + '</p></a></div>'
+     );
   });
+});
