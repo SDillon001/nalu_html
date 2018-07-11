@@ -13,15 +13,34 @@
       //loop through each surfboard in the JSON file and append a <div> with the surfboard information
       $.each(data.Surfboards, function (row) {
           $("#board_table").append(
-            '<div class="surfboard-grid"><div class="board_image"><a href="equipment.php?id=' 
+            '<div class="photog-group clearfix"><figure class="cap-bot"><a href="equipment.php?id=' 
             + data.Surfboards[row].Surfboard.id 
-            + '"><img src="images/'
+            + '"><a href="#myModal" class="modalImg" data-toggle="modal"><img class="photog-headshot" src="images/'
             + data.Surfboards[row].Surfboard.imageName + '" alt="'
             + data.Surfboards[row].Surfboard.imageName
             // Here is:
-            + '"></a><div class="caption"><p>Board Name: ' 
+            + '"></a><figcaption><p>Board Name: ' 
             + data.Surfboards[row].Surfboard.boardName 
-            + '</p><p>Year Shaped: ' 
-            + data.Surfboards[row].Surfboard.year + '</p></div></div>');
+            + '<br>Year Shaped: ' 
+            + data.Surfboards[row].Surfboard.year + '</p></figcaption><figure></div>');
+      });
+  });
+
+  //gets the JSON from our surfboards.php
+  $.getJSON("surfboards.php", function (data) {
+      //loop through each surfboard in the JSON file and append a <div> with the surfboard information
+      $.each(data.Surfboards, function (row) {
+          $("#modal").append(
+            '<div class="row"><h1></h1><a href="equipment.php?id=' 
+            + data.Surfboards[row].Surfboard.id
+            + data.Surfboards[row].Surfboard.boardName
+            + '"><a href="#myModal" class="modalImg" data-toggle="modal"><img class="photog-headshot" src="images/'
+            + data.Surfboards[row].Surfboard.imageName + '" alt="'
+            + data.Surfboards[row].Surfboard.imageName
+            // Here is:
+            + '"></a><p>Board Name: ' 
+            + data.Surfboards[row].Surfboard.boardName 
+            + '<br>Year Shaped: ' 
+            + data.Surfboards[row].Surfboard.year + '</p></div>');
       });
   });

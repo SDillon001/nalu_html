@@ -67,12 +67,6 @@ span.glyphicon.equipment.left {
   text-align: center;
 }
 
-#board_table img {
-  width: 100%;
-  box-shadow: 2px 2px 2px hsla(0, 0%, 23%, 0.81);
-  border-radius: 10px;
-}
-
 #board_table img:hover {
   opacity: 0.8;
   transition: opacity .15s ease-in-out;

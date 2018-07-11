@@ -10,8 +10,8 @@ include("head.php");
 <title><?php echo $title ?>Equipment</title>
 
 <body>
-<!--Included header.php file -->
-<?php include("header-include_v2.php");?>
+  <!--Included header.php file -->
+  <?php include("header-include_v2.php");?>
 
   <div class="container">
 
@@ -76,123 +76,106 @@ include("head.php");
           </a>
         </div>
 
-        <!-- Main Content -->
+        <!-- Surfboard Grid Start -->
         <div class="main-content equipment">
           <div class="equip-grid-head">
             <h1>Choose a Board to View</h1>
           </div>
 
-          <!-- Start Surfboard Grid -->
           <div class="flexbox_container">
             <section id="board_table">
-                <!--/* surfboards.js will publish surfboards from database here */-->
+              <!-- surfboards.js will publish surfboards from database here -->
             </section>
           </div>
 
+          <!-- Modal Code Start -->
+          <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" id="modal">
+                  
+                </div>
+
+                <!-- <div class="modal-body">
+                  <!-- Indicators
+                  <div class="carousel slide" data-interval="false" id="MyCarousel">
+
+                    <!-- Wrapper for slides
+                    <div class="carousel-inner timeline">
+
+                      <!-- 1st Modal in Timeline
+                      <div class="item active">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+
+                        <div class="row">
+                          <h1>Channel Islands, Mini Eco Hybrid</h1>
+                          <div class="col-1">
+                            <img src="images/board_placehold_modal.png" id="img1" alt="" /></a>
+                          </div>
+
+                          <div class="col-2">
+                            <div class="description"></div>
+                            <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
+                          </div>
+                        </div>
+                      </div> -->
+
+                      <!-- 2nd Modal in Timeline -->
+                      <div class="item">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+
+                        <div class="row">
+                          <div class="col-1">
+                            <h1>Channel Islands, Mini Eco Hybrid</h1>
+                            <img src="images/board_placehold_modal.png" id="img2" alt="" /></a>
+                          </div>
+
+                          <div class="col-2">
+                            <div class="description"></div>
+                            <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- 3rd Modal in Timeline -->
+                      <div class="item">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+
+                        <div class="row">
+                          <div class="col-1">
+                            <h1>Channel Islands, Mini Eco Hybrid</h1>
+                            <img src="images/board_placehold_modal.png" id="img2" alt="" /></a>
+                          </div>
+
+                          <div class="col-2">
+                            <div class="description"></div>
+                            <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a href="#MyCarousel" class="left carousel-control timeline" data-slide="prev"><span class="glyphicon left"></span></a>
+                    <a href="#MyCarousel" class="right carousel-control timeline" data-slide="next"><span class="glyphicon right"></a>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
 
-<!-- Hide Working Boards Section
-<div class="boards">
-
-Image Grid Row 1
-<div class="photog-group clearfix">
-<figure class="cap-bot">
-<a href="#myModal" class="modalImg" data-toggle="modal">
-<img class="photog-headshot" src="images/board_placehold.png" class="img-thumbnail"></a>
-<figcaption>
-Channel Islands, Mini Eco Hybrid
-</figcaption>
-</figure>
-</div> -->
-
-<!-- Modal Code Start -->
-<div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-
-      </div>
-
-      <div class="modal-body">
-        <!-- Indicators -->
-        <div class="carousel slide" data-interval="false" id="MyCarousel">
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner timeline">
-
-            <!-- 1st Modal in Timeline -->
-            <div class="item active">
-
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
-              <div class="row">
-                <h1>Channel Islands, Mini Eco Hybrid</h1>
-                <div class="col-1">
-                  <img src="images/board_placehold_modal.png" id="img1" alt="" /></a>
-                </div>
-
-                <div class="col-2">
-                  <div class="description"></div>
-                  <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- 2nd Modal in Timeline -->
-            <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
-              <div class="row">
-                <div class="col-1">
-                  <h1>Channel Islands, Mini Eco Hybrid</h1>
-                  <img src="images/board_placehold_modal.png" id="img2" alt="" /></a>
-                </div>
-
-                <div class="col-2">
-                  <div class="description"></div>
-                  <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- 3rd Modal in Timeline -->
-            <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
-              <div class="row">
-                <div class="col-1">
-                  <h1>Channel Islands, Mini Eco Hybrid</h1>
-                  <img src="images/board_placehold_modal.png" id="img2" alt="" /></a>
-                </div>
-
-                <div class="col-2">
-                  <div class="description"></div>
-                  <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Controls -->
-          <a href="#MyCarousel" class="left carousel-control timeline" data-slide="prev"><span class="glyphicon left"></span></a>
-          <a href="#MyCarousel" class="right carousel-control timeline" data-slide="next"><span class="glyphicon right"></a>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
-
-<!--Included Header php file -->
-<?php include("footer-include.php");?>
-</body>
-</html>
+        <!--Included Header php file -->
+        <?php include("footer-include.php");?>
+      </body>
+      </html>
