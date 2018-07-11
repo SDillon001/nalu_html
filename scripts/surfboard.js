@@ -30,11 +30,11 @@
   $.getJSON("surfboards.php", function (data) {
       //loop through each surfboard in the JSON file and append a <div> with the surfboard information
       $.each(data.Surfboards, function (row) {
-          $("#modal").append(
+          $("#row").append(
             '<div class="row"><h1></h1><a href="equipment.php?id=' 
             + data.Surfboards[row].Surfboard.id
             + data.Surfboards[row].Surfboard.boardName
-            + '"><a href="#myModal" class="modalImg" data-toggle="modal"><img class="photog-headshot" src="images/'
+            + '"<img src="images/board_placehold_modal.png" id="img1" alt="" /></a>'
             + data.Surfboards[row].Surfboard.imageName + '" alt="'
             + data.Surfboards[row].Surfboard.imageName
             // Here is:

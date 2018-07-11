@@ -69,7 +69,7 @@ $(function() {
 	$('.photog-group').on('click', '.cap-bot', function() {
 		$('#myModal').modal('show');
 		$('#MyCarousel').carousel($(this).index()); 
-	});	
+	});
 });
 
 // Timeline Modal
