@@ -110,7 +110,7 @@ include("head.php");
                           <span aria-hidden="true">&times;</span>
                         </button>
 
-                        <div class="row">
+                        <div class="row" id="modal-db">
                           
                         </div>
                       </div>
