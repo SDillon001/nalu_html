@@ -15,9 +15,13 @@
 
 /* Carousel Start */
 
+.carousel-wrapper {
+    height: 1100px;
+}
+
 div#photo-carousel {
     width: 80%;
-    height: 900px;
+    height: 100%;
     margin: 2% 0% 2% 15%;
 }
 

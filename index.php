@@ -10,6 +10,7 @@
 <!--Included Header php file -->
 <?php include("header-include.php");?>
 
+<div class="wrapper">
     <div class="container">
 
       <!-- Section 1 -->
@@ -157,5 +158,6 @@
       <?php include("footer-include.php");?>
 
     </body>
+  </div>
 
     </html>

@@ -10,13 +10,14 @@
 <?php include("header-include_v2.php");?>
 
       <!-- Start Updated Content -->
-      <div class="wrapper">
+      <div class="photo wrapper">
         <!-- Photo Page Title -->
         <div class="title-head box corner-shadow">
           <h1 id="photogs">Surf Photographers</h1>
         </div>
 
         <!-- Image Carousel -->
+        <div class="carousel-wrapper">
         <div id="photo-carousel" class="carousel slide" data-ride="carousel">
           <div class="photo carousel-inner">
             <div class="item photo active">
@@ -50,6 +51,7 @@
             <span class="glyphicon photo right"></span>
           </a>
         </div>
+      </div>
 
         <!-- Main Content -->
         <div class="main-content">

@@ -5,8 +5,19 @@
 
 /* 1. Global */
 
+
+/**, *:before, *:after {
+border: 1px solid red;
+}*/
+
 .wrapper {
-    margin: 2% 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.photo.wrapper {
+    margin: 5% 0%;
+    overflow: hidden;
 }
 
 body {
@@ -16,10 +27,13 @@ body {
 }
 
 .container {
-  overflow: hidden;
-  width: 100%;
-  margin: 0px !important;
-  padding: 0px !important;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.navbar-header {
+    width: 100%;
 }
 
 .header {
@@ -107,10 +121,6 @@ ul.nav.navbar-nav {
 
 .navbar.navbar-default {
     border: 0px !important;
-}
-
-.navbar-brand {
-    height: 40px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
@@ -702,6 +712,10 @@ ul.footer-list {
    color: #999999;
 }
 
+.col-md-12 a {
+    color: #999999 !important;
+}
+
 input#mc-embedded-subscribe {
     color: silver;
     background: #252323;
@@ -722,5 +736,5 @@ input, select, textarea{
 }
 
 .imGrid.social img {
-    width: 80%;
+    width: 65%;
 }
