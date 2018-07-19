@@ -614,10 +614,10 @@ div#section6 {
     background-color: #008CBA;
 }
 
-.flex-item h2 { 
-  position: absolute; 
-  top: 60px;
-  left: 105px; 
+.flex-item h2 {
+  position: absolute;
+  top: 22%;
+  left: 32%;
   width: 100%;
   color: #fff;
   opacity: 0;

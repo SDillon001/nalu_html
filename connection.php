@@ -12,9 +12,4 @@ if (!$conn) {
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
 }
-
-echo "Success: A proper connection to mysqli was made! The nalu_live_thesis database is great." . PHP_EOL;
-
-echo "Host information: " . mysqli_get_host_info($conn) . PHP_EOL;
-
 // ?>
