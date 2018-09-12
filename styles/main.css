@@ -5,24 +5,20 @@
 
 /* 1. Global */
 
-
-/**, *:before, *:after {
+/*
+*, *:before, *:after {
 border: 1px solid red;
-}*/
+}
+*/
 
 .wrapper {
     margin: 0%;
     overflow: hidden;
 }
 
-.photo.wrapper {
-    margin: 5% 0%;
-    overflow: hidden;
-}
-
 body {
   padding: 0;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.8);
   font-family: 'Raleway-Light', "Palatino Linotype", "Book Antiqua" !important;
 }
 
@@ -134,24 +130,18 @@ ul.nav.navbar-nav {
 }
 
 .navbar-default .navbar-nav > li > a {
-    font-size: 1.7rem;
-    color: white;
-    padding: 0px 25px;
-    height: 60px;
-    line-height: 20px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0px 25px;
+  height: 60px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-/*.navbar-collapse {
-    padding-right: 102px !important;
-}*/
-
 /* Drop Down Nav */
-
-
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: transparent;
@@ -197,14 +187,14 @@ ul.dropdown-menu {
   height: 100px;
   background-color: #2eb6d1;
   width: 90%;
-  margin: 0% 0% 2% 5%;
+  margin: 2% 0% 2% 5%;
 }
 
 .title-head h1 {
   margin: 0;
   color: #fff;
   text-align: center;
-  padding: 2%;
+  padding: 1.5%;
   font-size: 3em;
   text-transform: uppercase;
 }
@@ -281,7 +271,7 @@ a.btn.caption {
 }
 
 .item {
-    height: 1000px;
+    height: auto;
 }
 
 a.left.carousel-control, a.right.carousel-control {
@@ -302,19 +292,19 @@ a.left.carousel-control, a.right.carousel-control {
 }
 
 span.glyphicon.left {
-  left: 25px !important;
+  left: 2rem !important;
   border: none;
   width: 50px;
-  height: 101px;
+  height: 8rem;
   background: url(../images/left.png) no-repeat;
   cursor: pointer;
 }
 
 span.glyphicon.right {
-  right: 70px !important;
+  right: 6rem !important;
   border: none;
   width: 50px;
-  height: 101px;
+  height: 8rem;
   background: url(../images/right.png) no-repeat;
   cursor: pointer;
 }
@@ -323,21 +313,19 @@ span.glyphicon.right {
     background-image: none;
 }
 
+ /* |||| Section 2 |||| */
+
+#section2 {
+  padding-top: 1%;
+}
+
 #section2 h1{
  color: #333;
 }
 
- /* |||| Section 2 |||| */
-
- .section {
-    display: table;
-    table-layout: fixed;
-    /*width: 100%;*/
-}
-
- .section2_content  {
-  width: 83%;
-  margin: 3%;
+.section2_content  {
+  width: 100%;
+  padding: 1% 5% 2%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -356,10 +344,10 @@ span.glyphicon.right {
 }
 
 .section2_content h2 {
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-name: slidein;
-  -moz-animation-duration: 2s;
-  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
   -moz-animation-name: slidein;
   -webkit-animation-name: slidein;
 
@@ -408,6 +396,7 @@ hr {
 
 .spacer1 {
   width: 100%;
+  padding: 1.5%;
   background-color: #2eb6d1;
 }
 
@@ -423,6 +412,8 @@ hr {
   color: #fff;
   border: 1px solid;
   padding: 1.2%;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 .spacer1 h4 {
@@ -441,10 +432,17 @@ hr {
 
  /* |||| Section 3 |||| */
 
-.section3_content img {
-  width: 100%;
+div#section3 {
+    max-width: 100%;
+    min-height: 1200px;
+    margin-top: -1px;
+}
+
+div#section3 {
+  background: url(../images/bolster_pipe_masters_lineup.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
   opacity: .85;
-  margin-bottom: -5px;
 }
 
  /* |||| Section 4 |||| */
@@ -453,9 +451,13 @@ div#section4 {
     margin: 5% 0% 0%;
 }
 
- .section4_content {
-  width: 45%;
+.section4_content {
+  width: 30%;
   margin: auto;
+  box-shadow: 3px;
+  -webkit-box-shadow: 10px 10px 6px -6px #777;
+  -moz-box-shadow: 10px 10px 6px -6px #777;
+  box-shadow: 10px 10px 6px -6px #777;
 }
 
 h1#section0 {
@@ -489,26 +491,31 @@ h1#section0 {
   color: # 818282;
 }
 
-#column-text {
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
+article {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
   column-count: 2;
   -webkit-column-gap: 2em; /* Chrome, Safari, Opera */
   -moz-column-gap: 2em; /* Firefox */
   column-gap: 2em;
-  -webkit-column-rule-style: 1px solid; /* Chrome, Safari, Opera */
-  -moz-column-rule-style: 1px solid; /* Firefox */
-  column-rule-style: 1px solid;
+}
+
+article p {
+    font-size: 1.1em;
 }
 
  /* |||| Section 5 |||| */
 
+ div#section5 {
+    max-width: 100%;
+    min-height: 900px;
+}
+
 div#section5 {
-  height: 800px !important;
-  width: 100%;
-  background-image: url(../images/tahiti.jpg); /* Photo credit: Russel Ord - http://www.russellordphoto.com/ */
-  background-repeat: no-repeat;
+  background: url(../images/bolster_cloudbreak_underwater.jpg);
   background-size: cover;
+  background-repeat:no-repeat;
+  background-position: bottom;
 }
 
 .section5_content {
@@ -524,14 +531,20 @@ div#section5 {
 
 .section5_content h1 {
   text-align: center;
-  color: #003859;
+  color: #ffffff;
   margin: 1%;
   font-size: 3em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 button.btn.home {
     margin-left: 44%;
+}
+
+a.btn.caption.section5_button {
+  top: 0;
+  margin-left: 45%;
+  padding: .5% 2%;
 }
 
 .btn {
@@ -557,11 +570,12 @@ button.btn.home {
 div#section6 {
   height: 600px !important;
   width: 100%;
+  margin-bottom: 2%;
 }
 
 .section6_content {
   width: 83%;
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 1em;
   text-align: center;
   margin-left: auto;
@@ -610,19 +624,20 @@ div#section6 {
 }
 
 .flex-item.overlay:hover {
-    transition: 1s ease;
-    background-color: #008CBA;
+  transition: 1s ease;
+  background-color: #008CBA;
 }
 
 .flex-item h2 {
   position: absolute;
-  top: 22%;
-  left: 32%;
+  top: 35%;
+  left: 35%;
   width: 100%;
   color: #fff;
   opacity: 0;
   z-index: 1;
   font-size: 3em;
+  transform: translate(-1%, -25%);
 }
 
 .flex-item.overlay:hover h2 {
@@ -639,19 +654,39 @@ div#section6 {
     position: absolute;
 }
 
+a.home-lm-link {
+    text-decoration: underline !important;
+}
+
 /* Footer  */
 /* Global Layout */
 
 div#section7 {
-  height: 400px !important;
   width: 100%;
   background-color: #252323;
 }
 
+.container-fluid h5 {
+  font-size: 1.1em;
+  text-align: left;
+}
+
 p.footer-text {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #999999;
   margin-bottom: 0px !important;
+}
+
+.col-md-4.center p.footer-text {
+    text-align: center;
+}
+
+.col-md-4.center h5 {
+    text-align: center;
+}
+
+.col-md-4.center a {
+    font-size: 1.2em;
 }
 
 /* Row Layout */

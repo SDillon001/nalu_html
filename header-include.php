@@ -34,9 +34,9 @@
               <li><a href="timeline.php#2000's">1960's</a></li>
             </ul>
           </li>
-          <li><a href="photo.php">Photo</a></li>
+          <li><a href="photographers.php">Photographers</a></li>
           <li><a href="equipment.php">Equipment</a></li>
-          <li><a href="about.php">About</a></li>
+          <li><a href="people.php">People</a></li>
           <li><a href="share.php">Share</a></li>
         </ul>
       </div>

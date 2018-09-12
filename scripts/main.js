@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+$(document).ready(function($){
 	var timelineBlocks = $('.cd-timeline-block'),
 		offset = 0.8;
 
@@ -46,31 +46,37 @@ $( ".hamburger" ).show();
 
 });
 
-// Sticky Menu 2 Timeline.html
-$(function(){
-  $('#demo').on('hide.bs.collapse', function () {
-    $('#button').html('&#9776;');
-  })
-  $('#demo').on('show.bs.collapse', function () {
-    $('#button').html('&#735;');
-  })
-})
+// // Sticky Menu 2 Timeline.html
+// $(function(){
+//   $('#demo').on('hide.bs.collapse', function () {
+//     $('#button').html('&#9776;');
+//   })
+//   $('#demo').on('show.bs.collapse', function () {
+//     $('#button').html('&#735;');
+//   })
+// })
 
 // Photo Modal
 $(function() {
-	$('.photog-group').on('click', '.cap-bot', function() {
+	$('.photog-group').on('click', function(event) {
+    //Gets the Item that was clicked
+    var $this = $(event.currentTarget);
 		$('#myModal').modal('show');
-		$('#MyCarousel').carousel($(this).index()); 
+    //Use the slide number of the clicked Item to open the slide on the carousel
+    $('#MyCarousel').carousel($this.data('slide')); 
 	});	
 });
 
-// Equipment Modal
-$(function() {
-	$('.photog-group').on('click', '.cap-bot', function() {
-		$('#myModal').modal('show');
-		$('#MyCarousel').carousel($(this).index()); 
-	});
-});
+// // Equipment Modal
+// $(function() {
+// 	$('.photog-group').on('click', function(event) {
+//     //Gets the Item that was clicked
+//     var $this = $(event.currentTarget);
+// 		$('#myModal').modal('show');
+//     //Use the data slide number of the clicked image to open the corresponding slide in the modal, e.g. image 1 = modal 1
+//     $('#MyCarousel').carousel($this.data('slide')); 
+// 	});
+// });
 
 // Timeline Modal
 $(function() {
@@ -108,9 +114,9 @@ $(function() {
 
 $(function() {
   $('#container').hover(function(){
-    $("#photo-carousel").carousel('pause');
+    $(".photo.carousel-inner").carousel('pause');
   },
   function(){
-    $("#photo-carousel").carousel('cycle');
+    $(".photo.carousel-inner").carousel('cycle');
 });
   });

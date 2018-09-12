@@ -15,3 +15,163 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (min-width: 2556px) {
+
+  .carousel.slide.equipment {
+      width: 55%;
+  }
+
+  .carousel-wrapper {
+    width: 55%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
+}
+
+/* =======================================
+MOBILE LAYOUT
+======================================= */
+
+/* MOBILE GLOBAL */
+
+
+
+/* Smartphones (portrait) (max-device-width : 425px) ----------- */
+
+@media only screen and (max-device-width : 425px) {
+
+/* Navbar*/
+
+img.logo {
+    width: 50%;
+    margin: 2% 0% 0% 4%;
+    float: left;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 20px;
+    padding: 2% 2%;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-toggle {
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+/* Dropdown */
+
+ul.nav.navbar-nav {
+    float: none;
+    padding: 5% 0%;
+    margin: 0;
+    padding-right: 0px !important;
+}
+
+}
+
+/* Smartphones (portrait) (max-device-width : 375px) ----------- */
+
+@media only screen and (max-device-width : 375px) {
+
+
+
+/* Smartphones (portrait) (max-device-width : 320px) ----------- */
+
+@media only screen and (max-device-width : 320px) {
+
+img.logo {
+    width: 50%;
+    margin: auto;
+    margin-left: 4%;
+    float: left;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.navbar-toggle {
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+/* Smartphones (landscape) (max-device-width : 767px) ----------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+}
+
+/* TABLETS */
+
+/* Tablet (portrait) (max-device-width : 767px) ----------- */
+
+@media only screen and (max-width: 767px) {
+
+
+
+}
+
+/* iPads Portrait Only */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+/* Styles here */
+
+}
+
+/* iPads Landscape Only ----------- */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+/* Styles here */
+
+}
+
+/* General Media Queries ----------- */
+
+@media only screen and (min-width: 1240px) {
+
+
+
+}
+
+/* General Media Queries ----------- */
+
+@media only screen and (max-width: 1440px) {
+
+
+
+}
+
+@media only screen and (min-device-width : 1680px) {
+
+/* Styles here */
+
+}
+
+/* General Media Queries ----------- */
+
+@media only screen and (min-device-width : 1900px) {
+
+/* Styles here */
+
+}

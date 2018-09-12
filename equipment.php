@@ -1,9 +1,14 @@
-<!doctype html>
+<?php  
+ include("connection.php"); 
+ $query = "SELECT * FROM Surfboards";  
+ $result = mysqli_query($conn, $query);  
+?> 
+
+<!DOCTYPE html> 
 <html>
 
-<!--Include connection.php and head.php file -->
+<!--Include and head.php file -->
 <?php 
-include 'connection.php';
 include("head.php");
 ?>
 
@@ -15,16 +20,54 @@ include("head.php");
 
   <div class="container">
 
-    <!-- Start Content -->
-
-    <div class="wrapper">
-      <!-- Photo Page Title -->
+    <!-- Photo Page Title 
       <div class="title-head box corner-shadow">
         <h1>Surfing Equipment</h1>
       </div>
+    -->
 
+    <!-- Section 1 -->
+      <div id="main-carousel" class="carousel slide" data-ride="carousel" data-interval="35000">
+        <div class="carousel-inner">
+          <div class="videoWrapper item active" id="video">
+            <video id="video" muted autoplay="autoplay" preload="auto">
+                <source src="images/equipment/board_animation.mp4"></source>
+            </video>
+            <div class="carousel-caption">
+              <!-- <h1 class="caption-title">A <span style="font-family: 'Raleway-SemiBold'; color: #FCEFC5;">SURFING</span><span> COLLECTIVE<span class='spacer'></span><br /><h6 class="caption-sub-title">Explore the History of Surfing</h6></span><span class='spacer'></span><br /><a class="btn caption" href="timeline.php">LEARN MORE</a></h1> -->
+            </div>
+          </div>
+          <!-- carousel image 2 -->
+          <div class="item">
+            <a href="#"><img src="images/equipment/banners/142_tom_blake_hollow_surfboard_2.jpg" alt="duke_waikiki_1930"/></a>
+          </div>
+          <!-- carousel image 3 -->
+          <div class="item">
+            <a href="#"><img src="images/equipment/banners/142_tom_blake_hollow_surfboard_2.jpg" alt="duke_waikiki_1930"/></a>
+          </div>
+          <!-- carousel image 4 -->
+          <div class="item">
+            <a href="#"><img src="images/equipment/banners/145_tom_blake_la_ladder_co.jpg" alt="145_tom_blake_la_ladder_co.jpg" /></a>
+          </div>
+          <!-- carousel image 5 -->
+          <div class="item">
+            <a href="#"><img src="images/equipment/banners/146_tom_blake_paddleboard_1.jpg" alt="145_tom_blake_la_ladder_co.jpg" /></a>
+          </div> 
+        </div>
+
+        <a class="left carousel-control" data-target="#main-carousel" data-slide="prev">
+          <span class="glyphicon left"></span>
+        </a>
+        <a class="right carousel-control" data-target="#main-carousel" data-slide="next">
+          <span class="glyphicon right"></span>
+        </a>
+      </div>
+
+    <!-- Start Content -->
+
+    <div class="photo wrapper">
       <!-- Image Carousel -->
-      <div id="photo-carousel" class="carousel slide equipment" data-ride="carousel">
+      <div id="photo-carousel" class="carousel slide equipment" data-ride="carousel" data-interval="900000">
         <div class="photo carousel-inner">
           <div class="item photo active">
             <div class="item container equipment" id="hotspot_image">
@@ -76,96 +119,57 @@ include("head.php");
           </a>
         </div>
 
-        <!-- Surfboard Grid Start -->
+        <!-- Test Modal with Surfboard Rows -->
+        <div class="table-responsive">  
+          <table class="table table-bordered">  
+            <tr>  
+              <th width="70%">Surfboard Name</th>  
+              <th width="30%">View</th>  
+            </tr>  
+            <?php  
+            while($row = mysqli_fetch_array($result))  
+            {  
+              ?>  
+              <tr>  
+                <td><?php echo $row["boardName"]; ?></td>  
+                <td><input type="button" name="view" value="view" id="<?php echo $row["id"]; ?>" class="btn btn-info btn-xs view_data" /></td>  
+              </tr>  
+              <?php  
+            }  
+            ?>  
+          </table>  
+        </div> 
+
+        <!-- Surfboard Image Grid Start -->
         <div class="main-content equipment">
           <div class="equip-grid-head">
             <h1>Choose a Board to View</h1>
           </div>
 
           <div class="flexbox_container">
-            <section id="board_table">
+            <section class="view_data" id="board_table">
               <!-- surfboards.js will publish surfboards from database here -->
             </section>
           </div>
 
-          <!-- Modal Code Start -->
-          <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header" id="modal">
-                  
-                </div>
-
-                <div class="modal-body">
-                  <!-- Indicators -->
-                  <div class="carousel slide" data-interval="false" id="MyCarousel">
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner timeline">
-
-                      <!-- 1st Modal in Timeline -->
-                      <div class="item active">
-
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <!-- Ajax Database Modal Start -->
+          <div id="dataModal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">  
+            <div class="modal-dialog">  
+              <div class="modal-content">  
+                <div class="modal-header" id="modal">  
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
-                        </button>
-
-                        <div class="row" id="modal-db">
-                          
-                        </div>
-                      </div>
-
-                      <!-- 2nd Modal in Timeline -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-
-                        <div class="row">
-                          <div class="col-1">
-                            <h1>Channel Islands, Mini Eco Hybrid</h1>
-                            <img src="images/board_placehold_modal.png" id="img2" alt="" /></a>
-                          </div>
-
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- 3rd Modal in Timeline -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-
-                        <div class="row">
-                          <div class="col-1">
-                            <h1>Channel Islands, Mini Eco Hybrid</h1>
-                            <img src="images/board_placehold_modal.png" id="img2" alt="" /></a>
-                          </div>
-
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Controls -->
-                    <a href="#MyCarousel" class="left carousel-control timeline" data-slide="prev"><span class="glyphicon left"></span></a>
-                    <a href="#MyCarousel" class="right carousel-control timeline" data-slide="next"><span class="glyphicon right"></a>
-
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
+                  </button> 
+                  <h4 class="modal-title">Surfboard Details</h4>  
+                </div>  
+                <div class="modal-body" id="surfboard_detail">  
+                </div>  
+                <div class="modal-footer">  
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+                </div>  
+              </div>  
+            </div>  
+          </div> 
 
         <!--Included Header php file -->
         <?php include("footer-include.php");?>

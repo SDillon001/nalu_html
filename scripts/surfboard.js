@@ -15,10 +15,9 @@
           $("#board_table").append(
             '<div class="photog-group clearfix"><figure class="cap-bot"><a href="equipment.php?id=' 
             + data.Surfboards[row].Surfboard.id 
-            + '"><a href="#myModal" class="modalImg" data-toggle="modal"><img class="photog-headshot" src="images/'
+            + '"><a href="#dataModal" ><img class="photog-headshot" src="images/'
             + data.Surfboards[row].Surfboard.imageName + '" alt="'
             + data.Surfboards[row].Surfboard.imageName
-            // Here is:
             + '"></a><figcaption><p>Board Name: ' 
             + data.Surfboards[row].Surfboard.boardName 
             + '<br>Year Shaped: ' 
@@ -26,20 +25,19 @@
       });
   });
 
-  //gets the JSON from our surfboards.php
-  $.getJSON("surfboards.php", function (data) {
-      //loop through each surfboard in the JSON file and append a <div> with the surfboard information
-      $.each(data.Surfboards, function (row) {
-          $("#modal-db").append(
-            '<div class="row"><a href="equipment.php?id=' 
-            + data.Surfboards[row].Surfboard.id
-            + '<img src="images/'
-            + data.Surfboards[row].Surfboard.imageName + '" alt="'
-            + data.Surfboards[row].Surfboard.imageName
-            // Here is:
-            + '"></a><p>Board Name: ' 
-            + data.Surfboards[row].Surfboard.boardName 
-            + '<br>Year Shaped: ' 
-            + data.Surfboards[row].Surfboard.year + '</p></div>');
-      });
-  });
+// Function that responds to 'View' button onclick on equipment.php and inserts information from database into modal id="dataModal" 
+$(document).ready(function(){  
+  $('.view_data').click(function(){  
+       var surfboard_id = $(this).attr("id");  
+       $.ajax({  
+            url:"../select.php",  
+            method:"post",  
+            data:{surfboard_id:surfboard_id},  
+            success:function(data){  
+                 $('#surfboard_detail').html(data);  
+                 $('#dataModal').modal("show");
+                 console.log(data);
+            }  
+       });  
+  });  
+});

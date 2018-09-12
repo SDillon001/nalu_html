@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <!--Included head.php file -->
@@ -65,7 +65,6 @@
 
      <section id="cd-timeline" class="cd-container">
       <!-- 1900's Time Period Start -->
-
        <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-movie">
             <span class="title"><strong>1900's</strong></span>
@@ -105,7 +104,6 @@
         <!-- 1900's Time Period End -->
 
         <!-- 1950's Time Period Start -->
-
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-movie">
             <span class="title"><strong>1950's</strong></span>
@@ -143,8 +141,8 @@
         </div> <!-- cd-timeline-block -->
 
         <!-- 1950's Time Period End -->
-        <!-- 1960's Time Period Start -->
 
+        <!-- 1960's Time Period Start -->
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
             <span class="title"><strong>1960's</strong></span>
@@ -182,8 +180,8 @@
         </div> <!-- cd-timeline-block -->
 
         <!-- 1960's Time Period End -->
-        <!-- 1970's Time Period Start -->
 
+        <!-- 1970's Time Period Start -->
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-location">
             <span class="title"><strong>1970's</strong></span>
@@ -221,8 +219,8 @@
         </div> <!-- cd-timeline-block -->
 
         <!-- 1970's Time Period End -->
-        <!-- 1980's Time Period Start -->
 
+        <!-- 1980's Time Period Start -->
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-location">
             <span class="title"><strong>1980's</strong></span>
@@ -260,8 +258,8 @@
         </div> <!-- cd-timeline-block -->
 
         <!-- 1980's Time Period End -->
-        <!-- 1990's Time Period Start -->
 
+        <!-- 1990's Time Period Start -->
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-location">
             <span class="title"><strong>1990's</strong></span>
@@ -299,8 +297,8 @@
         </div> <!-- cd-timeline-block -->
 
         <!-- 1990's Time Period End -->
-        <!-- 2000's Time Period Start -->
 
+        <!-- 2000's Time Period Start -->
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-location">
             <span class="title"><strong>2000's</strong></span>

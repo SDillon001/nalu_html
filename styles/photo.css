@@ -13,25 +13,101 @@
   color: #fff;
 }
 
+.title-head.box {
+    animation-duration: 1.4s;
+    animation-name: slidein;
+    -moz-animation-duration: 1.4s;
+    -webkit-animation-duration: 1.4s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+}
+
+h1#photogs {
+    animation-duration: 1.8s;
+    animation-name: slidein;
+    -moz-animation-duration: 1.8s;
+    -webkit-animation-duration: 1.8s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+}
+
+/*h1.local-photogs {
+    animation-duration: 1.4s;
+    animation-name: slidein;
+    -moz-animation-duration: 1.4s;
+    -webkit-animation-duration: 1.4s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+}
+
+h2.local-photogs {
+    animation-duration: 1.8s;
+    animation-name: slidein;
+    -moz-animation-duration: 1.8s;
+    -webkit-animation-duration: 1.8s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+}*/
+
+
+
+@keyframes slideRight {
+    0% {
+      transform: translateX(-150%);
+    }
+    50% {
+      transform: translateX(8%);
+    }
+    65% {
+      transform: translateX(-4%);
+    }
+    80% {
+      transform: translateX(4%);
+    }
+    95% {
+      transform: translateX(-2%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+}
+@-webkit-keyframes slideRight {
+    0% {
+      -webkit-transform: translateX(-150%);
+    }
+    50% {
+      -webkit-transform: translateX(8%);
+    }
+    65% {
+      -webkit-transform: translateX(-4%);
+    }
+    80% {
+      -webkit-transform: translateX(4%);
+    }
+    95% {
+      -webkit-transform: translateX(-2%);
+    }
+    100% {
+      -webkit-transform: translateX(0%);
+    }
+}
+
 /* Carousel Start */
 
 .carousel-wrapper {
-    height: 1100px;
-}
-
-div#photo-carousel {
-    width: 80%;
-    margin: 2% 0% 2% 15%;
-}
-
-.item.photo.container {
-    width: 80%;
-    height: 100%;
-    margin-left: 5% !important;
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
 }
 
 .item.photo {
   height: auto;
+}
+
+.photo.sub-item h3 {
+    font-weight: 600;
 }
 
 a.left.photo.carousel-control, a.right.photo.carousel-control {
@@ -41,7 +117,7 @@ a.left.photo.carousel-control, a.right.photo.carousel-control {
     -ms-user-select: none;
     position: absolute;
     z-index: 4;
-    top: 35%;
+    top: 30%;
     cursor: pointer;
     width: 0;
     height: 0;
@@ -51,21 +127,21 @@ a.left.photo.carousel-control, a.right.photo.carousel-control {
 }
 
 span.glyphicon.photo.right {
-    right: 225px !important;
-    border: none;
-    width: 50px;
-    height: 101px;
-    background: url(images/right.png) no-repeat;
-    cursor: pointer;
+  right: 10rem !important;
+  border: none;
+  width: 50px;
+  height: 10rem;
+  background: url(images/right.png) no-repeat;
+  cursor: pointer;
 }
 
 span.glyphicon.photo.left {
-    left: 75px !important;
-    border: none;
-    width: 50px;
-    height: 101px;
-    background: url(images/left.png) no-repeat;
-    cursor: pointer;
+  left: 5rem !important;
+  border: none;
+  width: 50px;
+  height: 10rem;
+  background: url(images/left.png) no-repeat;
+  cursor: pointer;
 }
 
 #col {
@@ -114,17 +190,21 @@ figcaption {
 }
 
 figcaption { 
-  position: absolute; 
+  position: absolute;
+  width: auto; 
   background: rgba(0,0,0,0.75); 
   color: white; 
   padding: 10px 20px; 
-
   opacity: 0;
   bottom: 0; 
   left: -30%;
   -webkit-transition: all 0.6s ease;
   -moz-transition:    all 0.6s ease;
   -o-transition:      all 0.6s ease;
+}
+
+figcaption p {
+    margin-bottom: 0px !important;
 }
 
 figure:hover figcaption {
@@ -145,12 +225,13 @@ figure:hover figcaption {
   text-align: center;
   font-size: 14px;
   line-height: 24px;
-  /* Only Fx 4 supporting transitions on psuedo elements so far... */
+  /* Only Fx 4 supporting transitions on psuedo elements so far...
   -webkit-transition: all 0.6s ease;
   -moz-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
   opacity: 0.75;  
 }
+
 figure:hover:before {
   opacity: 0;
 }*/

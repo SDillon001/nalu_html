@@ -3,16 +3,16 @@
           <!-- Row 1 -->
           <div class="top-1 row">
             <!-- Column 1 -->
-            <div class="col-md-4">
+            <div class="col-md-4 left">
               <h5>Vision</h5>
-              <p class="footer-text">Nalu is a website for surfers and non-surfers alike who love the sport of surfing and the culture that surrounds it. This website provides an interactive way for you to learn more about how the sport of surfing has evolved over the years and
+              <p class="footer-text left">Nalu.live is a website for surfers and non-surfers alike who love the sport of surfing and the culture that surrounds it. This website provides an interactive way for you to learn more about how the sport of surfing has evolved over the years and
               how innovations in surf photography have influenced some of those changes.</p>
 
               <p class="footer-text">Thanks for visiting!</p>
             </div>
             <!-- Column 2 -->
-            <div class="col-md-4">
-              <h5>Contact Info</h5>
+            <div class="col-md-4 center">
+              <h5>Contact</h5>
               <p class="footer-text">&copy; Steve Dillon 2017<br> Orange County, CA 92656
                 <address>
                   <a href="mailto:stevedillon001@gmail.com">stevedillon001@gmail.com</a>
@@ -22,7 +22,7 @@
               </p>
             </div>
             <!-- Column 3 -->
-            <div class="col-md-4">
+            <div class="col-md-4 right">
               <h5>Newsletter</h5>
 
               <!--Start mc_embed_signup-->
@@ -68,13 +68,13 @@
                 <h5>Instagram</h5>
                 <div class="flex-container">
                   <div class="imGrid">
-                    <div class="flex-item"><img src="images/party.png" alt="Grid Image"></div>
-                    <div class="flex-item"><img src="images/grid1.jpg" alt="Grid Image"></div>
-                    <div class="flex-item"><img src="images/trip.png" alt="Photo Credit: Cris Burkhard: http://www.chrisburkard.com/"></div>
-                    <div class="flex-item"><img src="images/malibu.png" alt="Grid Image"></div>
-                    <div class="flex-item"><img src="images/grid5.jpg" alt="Grid Image"></div>
-                    <div class="flex-item"><img src="images/boards.png" alt="Grid Image"></div>
-                    <div class="flex-item"><img src="images/barrel.png" alt="Grid Image"></div>
+                    <div class="flex-item"><img src="images/1900s_gurrey_surf_riders.jpg" alt="1900s Image Link"></div>
+                    <div class="flex-item"><img src="images/1958_huntington_pier.jpg" alt="1950s Image Link"></div>
+                    <div class="flex-item"><img src="images/1966_corky_carroll_surf_stoner.jpg" alt="1966_corky_carroll_surf - Ron Stoner"></div>
+                    <div class="flex-item"><img src="images/1970s_bolster_bertleman_moonlight.jpg" alt="1970s Image Link"></div>
+                    <div class="flex-item"><img src="images/bolster_85_richie_collins.jpg" alt="1980s Image Link"></div>
+                    <div class="flex-item"><img src="images/1990s_bolster_carroll.jpg" alt="1990s Image Link"></div>
+                    <div class="flex-item"><img src="images/2000_bolster_manoa_tahiti.jpg" alt="2000s Image Link"></div>
                     <div class="flex-item"><img src="images/bruce.png" alt="Grid Image"></div>
                   </div>
                 </div>
@@ -104,19 +104,26 @@
           <div class="bottom row">
             <!-- Column 1 -->
             <div class="col-md-12">
-              <h5><a href="index.php">© 2017 Nalu.com</a></h5>
+              <h5><a href="index.php">© 2018 Nalu.com</a></h5>
 
               <ul class="nav footer navbar-nav">
                 <!-- <li class="active"><a href="index.php">Home</a></li> -->
                 <li><a href="timeline.php">Timeline</a></li>
-                <li><a href="photo.php">Photo</a></li>
+                <li><a href="photographers.php">Photographers</a></li>
                 <li><a href="equipment.php">Equipment</a></li>
-                <li><a href="about.php">About</a></li>
+                <li><a href="people.php">People</a></li>
                 <li><a href="share.php">Share</a></li>
               </ul>
             </div>
           </div>
         </div>
+
+      <!-- ScrollMagic Scripts -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+      <script src="scripts/scrollmagic_main.js"></script>
 
       <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
       <script>
@@ -146,3 +153,4 @@
         });
 
         $('map').imageMapResize();
+      </script>

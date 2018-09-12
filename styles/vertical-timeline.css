@@ -388,6 +388,7 @@ Main components
 }
 
 .cd-timeline-content {
+  cursor: pointer;
   position: relative;
   margin-left: 60px;
   background: #efefef;
