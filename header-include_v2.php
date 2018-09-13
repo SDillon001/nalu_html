@@ -23,7 +23,7 @@
         <ul class="nav navbar-nav">
           <!-- <li class="active"><a href="index.php">Home</a></li> -->
           <li class="dropdown">
-            <a data-target="http://nalu.live/timeline.php" href="http://nalu.live/timeline.php" class="dropdown-toggle" data-toggle="dropdown">Timeline <b class="caret"></b></a>
+            <a data-target="#theDropdown" href="/timeline.php" class="dropdown-toggle" data-toggle="dropdown">Timeline <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="timeline.php">1900's</a></li>
               <li><a href="timeline.php#1950's">1950's</a></li>

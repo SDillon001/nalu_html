@@ -146,8 +146,9 @@
         <!-- <img src="images/bolster_pipe_masters_lineup.jpg" alt="bolster_pipe_masters_lineup"> -->
         <div class="bcg"></div>
         <div class="content-wrapper">
-          <h1>Section With Parallax Effect</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed.</p>
+          <h3>TOP HEADER</h3>
+          <h1>CENTER HEADER CONTENT TITLE</h1>
+          <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
         </div>
       </div>
 

@@ -58,7 +58,7 @@ $( ".hamburger" ).show();
 
 // Photo Modal
 $(function() {
-	$('.photog-group').on('click', function(event) {
+	$('.photog-group:not(.custom-modal)').on('click', function(event) {
     //Gets the Item that was clicked
     var $this = $(event.currentTarget);
 		$('#myModal').modal('show');
@@ -90,7 +90,6 @@ $(function() {
 });
 
 // Dropdown Nav - referenced this codepen: https://codepen.io/bsngr/pen/frDqh?editors=1010
-
 $(function() {
   $('ul.nav li.dropdown').hover(function() {
     $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
@@ -98,7 +97,6 @@ $(function() {
     $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
   });
 });
-
 
 // Pause home carousel on hover
 $(function() {

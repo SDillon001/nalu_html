@@ -119,7 +119,7 @@ include("head.php");
           </a>
         </div>
 
-        <!-- Test Modal with Surfboard Rows -->
+        <!-- Test Modal with Surfboard Rows
         <div class="table-responsive">  
           <table class="table table-bordered">  
             <tr>  
@@ -138,8 +138,7 @@ include("head.php");
             }  
             ?>  
           </table>  
-        </div> 
-
+        </div> -->
         <!-- Surfboard Image Grid Start -->
         <div class="main-content equipment">
           <div class="equip-grid-head">
@@ -153,7 +152,7 @@ include("head.php");
           </div>
 
           <!-- Ajax Database Modal Start -->
-          <div id="dataModal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">  
+          <div id="surfboardModal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">  
             <div class="modal-dialog">  
               <div class="modal-content">  
                 <div class="modal-header" id="modal">  
@@ -162,7 +161,9 @@ include("head.php");
                   </button> 
                   <h4 class="modal-title">Surfboard Details</h4>  
                 </div>  
-                <div class="modal-body" id="surfboard_detail">  
+                <div class="modal-body" id="surfboard_detail">
+                 <div class="modal-description"></div>
+                 <img class="modal-image" />  
                 </div>  
                 <div class="modal-footer">  
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  

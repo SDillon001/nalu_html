@@ -27,7 +27,6 @@
   <link rel="stylesheet" href="styles/modal.css">
   <link rel="stylesheet" href="styles/equipment.css">
   <link rel="stylesheet" href="styles/media-queries.css">
-  <link rel="stylesheet" href="styles/jquery.fullPage.css" />
   <link rel="stylesheet" href="styles/jquery.hotspot.css">
 
   <!-- ScrollMagic CSS -->
@@ -36,7 +35,6 @@
 
   <!-- Start Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="scripts/bootstrap.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="scripts/modernizr.js"></script>  

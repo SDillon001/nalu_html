@@ -8,36 +8,41 @@
  * "id" - This is the individual property we want to access. You'll see this in the JSON file, but it also matches the name of the column in your database.
  */
 
-//gets the JSON from our surfboards.php
-  $.getJSON("surfboards.php", function (data) {
-      //loop through each surfboard in the JSON file and append a <div> with the surfboard information
-      $.each(data.Surfboards, function (row) {
-          $("#board_table").append(
-            '<div class="photog-group clearfix"><figure class="cap-bot"><a href="equipment.php?id=' 
-            + data.Surfboards[row].Surfboard.id 
-            + '"><a href="#dataModal" ><img class="photog-headshot" src="images/'
-            + data.Surfboards[row].Surfboard.imageName + '" alt="'
-            + data.Surfboards[row].Surfboard.imageName
-            + '"></a><figcaption><p>Board Name: ' 
-            + data.Surfboards[row].Surfboard.boardName 
-            + '<br>Year Shaped: ' 
-            + data.Surfboards[row].Surfboard.year + '</p></figcaption><figure></div>');
-      });
+// Function that responds to 'View' button onclick on equipment.php and inserts information from database into modal id="dataModal" 
+$(document).ready(function(){
+  $('#surfboardModal').on('show.bs.modal', function (event) {
+    var board = $(event.relatedTarget).closest(".photog-group");
+    // If necessary, you could initiate an AJAX request here ask another [*.php] like /board-info.php?id=1 and return this data
+
+    //Here I get all the data from the .photog-group that was clicked
+    var title = board.data('title'); //Get the 'data-title' attribute
+    var imageSrc = board.data('image'); //Get the 'data-image' attribute
+    var description = board.data('description'); //Get the 'data-description' attribute
+    //var something = board.data('something') //Get the 'data-something' attribute
+
+    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+    var modal = $(this);
+    modal.find('.modal-title').text(title);
+    modal.find('.modal-body .modal-description').text(description);
+    modal.find('.modal-body .modal-image').attr("src", imageSrc);
   });
 
-// Function that responds to 'View' button onclick on equipment.php and inserts information from database into modal id="dataModal" 
-$(document).ready(function(){  
-  $('.view_data').click(function(){  
-       var surfboard_id = $(this).attr("id");  
-       $.ajax({  
-            url:"../select.php",  
-            method:"post",  
-            data:{surfboard_id:surfboard_id},  
-            success:function(data){  
-                 $('#surfboard_detail').html(data);  
-                 $('#dataModal').modal("show");
-                 console.log(data);
-            }  
-       });  
-  });  
+  //// From Dylan W. on Discord - Replace in the surfboard.js
+  $.getJSON("surfboards.php", function (data) {
+    //loop through each surfboard in the JSON file and append a <div> with the surfboard information
+    $.each(data.Surfboards, function (row) {
+        $("#board_table").append(
+          '<div class="photog-group custom-modal clearfix" data-title="'+ data.Surfboards[row].Surfboard.boardName +'" data-image="images/'
+          + data.Surfboards[row].Surfboard.imageName +'" data-description="'+
+          data.Surfboards[row].Surfboard.caDescription +'"><figure class="cap-bot"><a href="equipment.php?id=' 
+          + data.Surfboards[row].Surfboard.id 
+          + '"><a data-target="#surfboardModal" data-toggle="modal"><img class="photog-headshot" src="images/'
+          + data.Surfboards[row].Surfboard.imageName + '" alt="'
+          + data.Surfboards[row].Surfboard.imageName
+          + '"></a><figcaption><p>Board Name: ' 
+          + data.Surfboards[row].Surfboard.boardName 
+          + '<br>Year Shaped: ' 
+          + data.Surfboards[row].Surfboard.year + '</p></figcaption><figure></div>');
+    });
+  });
 });
