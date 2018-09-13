@@ -119,26 +119,6 @@ include("head.php");
           </a>
         </div>
 
-        <!-- Test Modal with Surfboard Rows
-        <div class="table-responsive">  
-          <table class="table table-bordered">  
-            <tr>  
-              <th width="70%">Surfboard Name</th>  
-              <th width="30%">View</th>  
-            </tr>  
-            <?php  
-            while($row = mysqli_fetch_array($result))  
-            {  
-              ?>  
-              <tr>  
-                <td><?php echo $row["boardName"]; ?></td>  
-                <td><input type="button" name="view" value="view" id="<?php echo $row["id"]; ?>" class="btn btn-info btn-xs view_data" /></td>  
-              </tr>  
-              <?php  
-            }  
-            ?>  
-          </table>  
-        </div> -->
         <!-- Surfboard Image Grid Start -->
         <div class="main-content equipment">
           <div class="equip-grid-head">
@@ -159,11 +139,11 @@ include("head.php");
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                   </button> 
-                  <h4 class="modal-title">Surfboard Details</h4>  
+                  <h1 class="modal-title"></h1>
                 </div>  
                 <div class="modal-body" id="surfboard_detail">
+                 <img class="modal-image" />
                  <div class="modal-description"></div>
-                 <img class="modal-image" />  
                 </div>  
                 <div class="modal-footer">  
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  

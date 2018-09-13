@@ -16,8 +16,18 @@
 
 .modal-header {
   color: #003859;
-  padding: 0px !important;
+  margin: 2% 0%;
   border-bottom: 0px !important;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.modal-description {
+    font-size: 1.2em;
+    color: #003859;
+    margin-top: 2%;
 }
 
 .modal-body h1 {
@@ -39,4 +49,3 @@ a.right.carousel-control.timeline {
   font-size: 58px;
   line-height: 0;
 }
-

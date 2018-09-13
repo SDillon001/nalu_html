@@ -176,9 +176,6 @@
         <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
             <div class="modal-dialog">
               <div class="modal-content">
-                <div class="modal-header">
-                </div>
-
                 <div class="modal-body">
                   <!-- Indicators -->
                   <div class="carousel slide" data-interval="false" id="MyCarousel">
@@ -193,7 +190,7 @@
                         </button>
 
                         <div class="row">
-                          <h1><span style="font-weight: 600">Photographer:</span> Benjamin Ginsberg</h1>
+                          <h1 class="modal-title">Photographer:</span> Benjamin Ginsberg</h1>
                           <div class="col-1">
                             <img src="images/photo/ben_ginsberg.jpg" id="img1" alt="ben ginsberg profile" />
                           </div>
