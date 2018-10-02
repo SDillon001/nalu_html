@@ -57,6 +57,8 @@ $(document).ready(function(){
 
 });
 
+// Photo Test JS Starts Here
+
 $(function () { // wait for document ready
 	// init
 	var controller = new ScrollMagic.Controller();
@@ -71,10 +73,10 @@ $(function () { // wait for document ready
 	new ScrollMagic.Scene({
 			triggerElement: "#pinContainer",
 			triggerHook: 0,
-			duration: "350%"
+			duration: "100%"
 		})
 	.setPin("#pinContainer")
 	.setTween(wipeAnimation)
-	// .addIndicators() add indicators (requires plugin)
+	.addIndicators() // add indicators (requires plugin)
 	.addTo(controller);
 });
