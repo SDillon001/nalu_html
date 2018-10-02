@@ -20,22 +20,6 @@ $(document).ready(function(){
 	// .setPin('#intro', {pushFollowers: false})
 	// .addTo(controller);
 
-	// parallax scene
-
-	var parallaxTl = new TimelineMax();
-	parallaxTl
-		.from('.content-wrapper', 0.4, {autoAlpha: 0, ease:Power0.easeNone}, 0.4)
-		.from('.bcg', 2, {y: '-50%', ease:Power0.easeNone}, 0)
-		;
-
-	var slideParallaxScene = new ScrollMagic.Scene({
-		triggerElement: '.section.bcg-parallax',
-		triggerHook: 1,
-		duration: '100%'
-	})
-	.setTween(parallaxTl)
-	.addTo(controller);
-
 	// loop through each .project element
 	$('.section').each(function(){
 
@@ -55,4 +39,42 @@ $(document).ready(function(){
 
 	});
 
+	// parallax scene
+
+	var parallaxTl = new TimelineMax();
+	parallaxTl
+		.from('.content-wrapper', 0.4, {autoAlpha: 0, ease:Power0.easeNone}, 0.6)
+		.from('.bcg', 1, {y: '-50%', ease:Power0.easeNone}, 0)
+		;
+
+	var slideParallaxScene = new ScrollMagic.Scene({
+		triggerElement: '.section.bcg-parallax',
+		triggerHook: 1,
+		duration: '100%'
+	})
+	.setTween(parallaxTl)
+	.addTo(controller);
+
+});
+
+$(function () { // wait for document ready
+	// init
+	var controller = new ScrollMagic.Controller();
+
+	// define movement of panels
+	var wipeAnimation = new TimelineMax()
+		.fromTo("section.panel.turqoise", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone})  // in from left
+		.fromTo("section.panel.green",    1, {y: "100%"}, {y: "0%", ease: Linear.easeNone})  // in from right
+		.fromTo("section.panel.bordeaux", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}); // in from top
+
+	// create scene to pin and link animation
+	new ScrollMagic.Scene({
+			triggerElement: "#pinContainer",
+			triggerHook: 0,
+			duration: "350%"
+		})
+	.setPin("#pinContainer")
+	.setTween(wipeAnimation)
+	// .addIndicators() add indicators (requires plugin)
+	.addTo(controller);
 });

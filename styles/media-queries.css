@@ -14,6 +14,7 @@
   .header {
     margin-bottom: 30px;
   }
+
 }
 
 @media screen and (min-width: 2556px) {
@@ -79,11 +80,21 @@ ul.nav.navbar-nav {
     padding-right: 0px !important;
 }
 
+.section.bcg-parallax {
+    padding: 22% 0% !important;
+}
+
+.bcg {
+    height: 126% !important;
+}
+
 }
 
 /* Smartphones (portrait) (max-device-width : 375px) ----------- */
 
 @media only screen and (max-device-width : 375px) {
+
+}
 
 
 
@@ -91,24 +102,25 @@ ul.nav.navbar-nav {
 
 @media only screen and (max-device-width : 320px) {
 
-img.logo {
-    width: 50%;
-    margin: auto;
-    margin-left: 4%;
-    float: left;
-    padding-left: 0px;
-    padding-top: 0px;
+  img.logo {
+      width: 50%;
+      margin: auto;
+      margin-left: 4%;
+      float: left;
+      padding-left: 0px;
+      padding-top: 0px;
+  }
+
+  .navbar-toggle {
+      float: right;
+      margin-top: 0px;
+      margin-right: 0px;
+  }
 }
 
-.navbar-toggle {
-    float: right;
-    margin-top: 0px;
-    margin-right: 0px;
-}
+/* Smartphones (landscape) (max-device-width : 667px) ----------- */
 
-/* Smartphones (landscape) (max-device-width : 767px) ----------- */
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 667px) {
 
 
 
@@ -118,9 +130,19 @@ img.logo {
 
 /* Tablet (portrait) (max-device-width : 767px) ----------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-device-width: 767px) {
 
+figcaption {
+    display: none !important;
+}
 
+.section.bcg-parallax {
+    padding: 22% 0%;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
 
 }
 

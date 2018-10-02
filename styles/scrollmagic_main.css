@@ -66,8 +66,18 @@ div#section3 {
     transform: translateY(0px) !important;
 }
 
+.bcg {
+    background: url('../images/bolster_pipe_masters_lineup.jpg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    top: 0;
+    z-index: 1;
+}
+
 .section.bcg-parallax {
-    padding: 30% 0%;
+    padding: 20% 0%;
     color: #fff;
     background-color: #000;
     position: relative;
@@ -86,6 +96,44 @@ div#section3 {
 
 .content-wrapper p {
     text-align: center;
+}
+
+.content-wrapper h2 {
+    color: #fff;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+/* Main Carousel Inner Content Box */
+
+.content-wrapper2 {
+    width: 90%;
+    padding: 5%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    background-color: hsla(0, 0%, 2%, 0.3);
+    z-index: 2;
+}
+
+.content-wrapper2 p {
+    text-align: center;
+}
+
+.content-wrapper2 h2 {
+    color: #fff;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 2em;
+    margin: 1.5% 0%;
+}
+
+.content-wrapper2 a.btn.caption.section5_button {
+    text-transform: uppercase;
+    padding: 2% 5%;
+    font-size: 1.4em;
 }
 
 /* =Footer

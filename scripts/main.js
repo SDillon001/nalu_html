@@ -118,3 +118,14 @@ $(function() {
     $(".photo.carousel-inner").carousel('cycle');
 });
   });
+
+// Link Timeline in main nav
+$(function() {
+  $('.dropdown-toggle').click(function(){
+    window.location = 'timeline.php';
+  });
+});
+
+
+
+

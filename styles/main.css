@@ -5,11 +5,15 @@
 
 /* 1. Global */
 
-/*
-*, *:before, *:after {
+
+/**, *:before, *:after {
 border: 1px solid red;
 }
 */
+
+a, a:hover, a:active, a:visited {
+  cursor: pointer !important;
+}
 
 .wrapper {
     margin: 0%;
@@ -97,7 +101,7 @@ a:hover, a:focus {
 }
 
 img.logo {
-  width: 25%;
+  width: 22%;
   margin: 0% 10% auto;
   float: left;
   padding-left: 25px;
@@ -109,10 +113,11 @@ img.logo {
 }
 
 ul.nav.navbar-nav {
+  font-size: 1.2em;
   float: right;
   padding: 0;
   margin: 0;
-  padding-right: 102px !important;
+  padding-right: 5% !important;
 }
 
 .navbar.navbar-default {
@@ -130,7 +135,6 @@ ul.nav.navbar-nav {
 }
 
 .navbar-default .navbar-nav > li > a {
-  font-size: 1.2rem;
   color: white;
   padding: 0px 25px;
   height: 60px;
@@ -243,15 +247,12 @@ ul.dropdown-menu {
 .carousel-caption {
     right: 20% !important;
     left: 20% !important;
-    top: 15% !important;
+    top: 25% !important;
 }
 
 .carousel-caption h1 {
   font-size: 3.5em;
-}
-
-.carousel-caption h1 {
-    margin: 13% 0%;
+  margin: 1.5% 0%;
 }
 
 h1.caption-title {
@@ -264,10 +265,6 @@ h6.caption-sub-title {
     font-size: .7em;
     color: #2eb6d1;
     margin-top: 2%;
-}
-
-a.btn.caption {
-    top: -45px;
 }
 
 .item {
@@ -307,6 +304,18 @@ span.glyphicon.right {
   height: 8rem;
   background: url(../images/right.png) no-repeat;
   cursor: pointer;
+}
+
+.carousel-control {
+  color: #e8e8e8 !important;
+}
+
+span.glyphicon.glyphicon-chevron-left {
+    margin-left: 0px !important;
+}
+
+span.glyphicon.glyphicon-chevron-right {
+    margin-right: 0px !important;
 }
 
 .carousel-control.right, .carousel-control.left {
@@ -432,18 +441,18 @@ hr {
 
  /* |||| Section 3 |||| */
 
-div#section3 {
+/*div#section3 {
     max-width: 100%;
     min-height: 1200px;
     margin-top: -1px;
-}
+}*/
 
-div#section3 {
+/*div#section3 {
   background: url(../images/bolster_pipe_masters_lineup.jpg);
   background-size: cover;
   background-repeat:no-repeat;
   opacity: .85;
-}
+}*/
 
  /* |||| Section 4 |||| */
 
@@ -501,14 +510,19 @@ article {
 }
 
 article p {
-    font-size: 1.1em;
+  font-size: 1.1em;
+  margin-top: 0px;
+}
+
+.read-more-link {
+    text-align: left;
 }
 
  /* |||| Section 5 |||| */
 
  div#section5 {
-    max-width: 100%;
-    min-height: 900px;
+  max-width: 100%;
+  min-height: 900px;
 }
 
 div#section5 {
@@ -537,13 +551,22 @@ div#section5 {
   font-weight: 500;
 }
 
+.section5_content h2 {
+    color: #fff;
+    text-align: center;
+}
+
 button.btn.home {
     margin-left: 44%;
 }
 
 a.btn.caption.section5_button {
   top: 0;
-  padding: .5% 2%;
+  padding: 1% 2%;
+}
+
+a#sec5-but {
+    padding: .8% 1.5%;
 }
 
 .btn {
@@ -569,7 +592,7 @@ a.btn.caption.section5_button {
 div#section6 {
   height: 600px !important;
   width: 100%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .section6_content {
@@ -610,11 +633,6 @@ div#section6 {
   margin-bottom: 1%;
 }
 
-.flex-item2 p {
-  line-height: 1.5em;
-  font-size: .9em;
-}
-
 .flex-item {
   position: relative;
   width: 25%;
@@ -629,8 +647,8 @@ div#section6 {
 
 .flex-item h2 {
   position: absolute;
-  top: 35%;
-  left: 35%;
+  top: 30%;
+  left: 38%;
   width: 100%;
   color: #fff;
   opacity: 0;
@@ -671,12 +689,15 @@ div#section7 {
 }
 
 p.footer-text {
-  font-size: 1rem;
   color: #999999;
   margin-bottom: 0px !important;
 }
 
-.col-md-4.center p.footer-text {
+p.footer-text.left {
+    text-align: left;
+}
+
+.col-md-4.center, p.footer-text {
     text-align: center;
 }
 
@@ -706,9 +727,11 @@ p.footer-text {
 }
 
 .col-md-12 h5 {
-  margin-top: 1.5%;
   float: left;
   text-transform: uppercase;
+  margin: auto;
+  line-height: 50px;
+  vertical-align: middle;
 }
 
 /* Bottom Nav Layout */
@@ -741,9 +764,10 @@ address {
 }
 
 ul.footer-list {
-   list-style: none;
-   padding: 10px;
-   color: #999999;
+  text-align: left;
+  list-style: none;
+  padding: 10px;
+  color: #999999;
 }
 
 .col-md-12 a {
@@ -762,7 +786,7 @@ input, select, textarea{
 
 /* Get Connected */
 .flex-item.social {
-    width: 20%;
+    width: 15%;
 }
 
 .imGrid.social {
@@ -770,5 +794,5 @@ input, select, textarea{
 }
 
 .imGrid.social img {
-    width: 65%;
+    width: 55%;
 }

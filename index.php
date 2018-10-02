@@ -11,7 +11,7 @@
 <?php include("header-include.php");?>
 
 <div class="wrapper">
-    <div class="container">
+    <div id="main" class="container">
 
       <!-- Section 1 -->
     <div id="intro">
@@ -20,8 +20,13 @@
           <div class="item active">
             <a href="#"><img src="images/banners/sized/122_blake_1930.jpg" alt="122_blake_1930" /></a>
             <div class="carousel-caption">
-              <h1 class="caption-title">A <span style="font-family: 'Raleway-SemiBold'; color: #FCEFC5;">SURFING</span><span> COLLECTIVE<br /><h6 class="caption-sub-title">Explore the History of Surfing</h6></span><a class="btn caption" href="timeline.php">LEARN MORE</a></h1>
-            </div>
+              <div class="section content-wrapper2">
+                <h1>The History of Surfing</h1>
+                <h2>A Collective</h2>
+                <a class="btn caption section5_button" href="timeline.php">Explore the History</a>
+              </div>
+            </div> 
+
           </div>
           <!-- carousel image 1 -->
           <div class="item">
@@ -108,7 +113,7 @@
               </a>
             </div>
             <div class="flex-item overlay">
-              <a href="timeline.php#1970's"><img src="images/1970s_bolster_bertleman_moonlight.jpg" alt="1970s Image Link">
+              <a href="timeline.php#1970's"><img src="images/lopez_pipe_71_divine.jpg" alt="1970s Image Link">
                 <h2>1970's&nbsp;<hr class="flex-hr"></h2>
               </a>
             </div>
@@ -143,12 +148,12 @@
 
       <!-- Section 3  -->
       <div class="section bcg-parallax" id="section3">
-        <!-- <img src="images/bolster_pipe_masters_lineup.jpg" alt="bolster_pipe_masters_lineup"> -->
         <div class="bcg"></div>
         <div class="content-wrapper">
-          <h3>TOP HEADER</h3>
-          <h1>CENTER HEADER CONTENT TITLE</h1>
-          <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
+          <h3>Warren Bolster</h3>
+          <h1>SURFING PIPELINE IN THE 70's</h1>
+          <h2>What it takes to surf and shoot the North Shore of Oahu</h2>
+          <a class="btn caption section5_button" href="timeline.php/#1970's">LEARN MORE</a>
         </div>
       </div>
 
@@ -180,9 +185,10 @@
       <!-- Section 5  -->
       <div class="section fp-auto-height" id="section5">
         <div class="section5_content">
-          <h3>TOP HEADER</h3>
-          <h1>CENTER HEADER CONTENT TITLE<br>CONTENT TITLE</h1>
-          <a class="btn caption section5_button" href="timeline.php">LEARN MORE</a>
+          <h2>Beneath the Chaos</h2>
+          <h1>UNDERWATER SURF PHOTOGRAPHY</h1>
+          <h1>Art | Passion</h1>
+          <a class="btn caption section5_button" id="sec5-but" href="timeline.php">LEARN MORE</a>
         </div>
       </div>
 
@@ -190,10 +196,9 @@
       <div class="section fp-auto-height" id="section6">
         <h3 id="section0"></h3>
         <div class="section6_content">
-          <h4>TOP HEADER CONTENT</h4>
-          <h2>CENTER HEADER CONTENT</h2>
+          <h2>Tradition | Culture | Stoke</h2>
+          <h1>EXPLORE THE SPORT OF SURFING</h1>
           <hr>
-          <p class="s3_text">Nalu is a website for surfers and non-surfers alike who love the sport of surfing and the culture that surrounds it. This website provides an interactive way for you to learn more about how the sport of surfing has evolved over the years and how innovations in surf photography have influenced some of those changes. Nalu is an educational site with a documentary feel – communicating content through beautiful photography, infographics, and videos to provide a fun, informative, and interactive experience.</p>
         </div>
 
         <div class="flex-container2">

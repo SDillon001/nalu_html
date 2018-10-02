@@ -1,4 +1,5 @@
-<div class="section" id="section7">
+<div class="footer-wrapper">
+<div class="footer" id="section7">
         <div class="container-fluid">
           <!-- Row 1 -->
           <div class="top-1 row">
@@ -8,7 +9,7 @@
               <p class="footer-text left">Nalu.live is a website for surfers and non-surfers alike who love the sport of surfing and the culture that surrounds it. This website provides an interactive way for you to learn more about how the sport of surfing has evolved over the years and
               how innovations in surf photography have influenced some of those changes.</p>
 
-              <p class="footer-text">Thanks for visiting!</p>
+              <p class="footer-text left">Thanks for visiting!</p>
             </div>
             <!-- Column 2 -->
             <div class="col-md-4 center">
@@ -71,7 +72,7 @@
                     <div class="flex-item"><img src="images/1900s_gurrey_surf_riders.jpg" alt="1900s Image Link"></div>
                     <div class="flex-item"><img src="images/1958_huntington_pier.jpg" alt="1950s Image Link"></div>
                     <div class="flex-item"><img src="images/1966_corky_carroll_surf_stoner.jpg" alt="1966_corky_carroll_surf - Ron Stoner"></div>
-                    <div class="flex-item"><img src="images/1970s_bolster_bertleman_moonlight.jpg" alt="1970s Image Link"></div>
+                    <div class="flex-item"><img src="images/lopez_pipe_71_divine.jpg" alt="1970s Image Link"></div>
                     <div class="flex-item"><img src="images/bolster_85_richie_collins.jpg" alt="1980s Image Link"></div>
                     <div class="flex-item"><img src="images/1990s_bolster_carroll.jpg" alt="1990s Image Link"></div>
                     <div class="flex-item"><img src="images/2000_bolster_manoa_tahiti.jpg" alt="2000s Image Link"></div>
@@ -84,15 +85,9 @@
                 <h5>Contributors List</h5>
                 <ul class="footer-list">
                   <li><a href="http://shacc.org/" target="_blank">Surfing Heritage and Culture Center</a></li>
-                  <li>Museum of Surf.com</li>
-                  <li>Surfline.com</li>
-                  <li>The Surfers Journal.com</li>
-                  <li>Surfer Magazine.com</li>
-                  <li>Surfing Magazine.com</li>
-                  <li>Magicseaweed.com</li>
-                  <li>World Surf League</li>
-                  <li>Surf Science.com</li>
-                  <li>A-Frame Photo</li>
+                  <li><a href="https://jeffdivinesurf.com/">Jeff Divine</a></li>
+                  <li><a href="https://driftwoodfoto.com/">Ben Ginsberg - Driftwood Photography Studios</a></li>
+                  <li><a href="http://www.stanmoniz.com/">Stan Moniz</a></li>
                 </ul>
               </div>
             </div>
@@ -154,3 +149,4 @@
 
         $('map').imageMapResize();
       </script>
+</div>

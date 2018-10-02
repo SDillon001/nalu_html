@@ -266,11 +266,15 @@ Main components
 
 .title {
   text-align: center;
-  text-transform: uppercase;
-  font-size: 14px;
+  /*text-transform: uppercase;*/
+  font-size: 12px;
   display: block;
   color: #fff;
-  margin-top: 18px;
+  margin-top: 22px;
+}
+
+span.title.pre-1900s {
+    margin-top: 11px;
 }
 
 .cd-timeline-img {
@@ -431,7 +435,7 @@ Main components
 
 .cd-timeline-content .cd-read-more {
   float: right;
-  padding: .8em 1em;
+  padding: .5em .8em;
   background: #2eb6d1;
   color: white;
   border-radius: 0.25em;
@@ -473,7 +477,7 @@ Main components
 
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .cd-timeline-content p {
     font-size: 16px;
@@ -482,7 +486,7 @@ Main components
   .cd-timeline-content .cd-read-more,
   .cd-timeline-content .cd-date {
     font-size: 14px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
   }
 }
@@ -520,7 +524,7 @@ Main components
     position: absolute;
     width: 30%;
     left: 122%;
-    top: 14px;
+    top: 5px;
     font-size: 16px;
     font-size: 1.2rem;
   }

@@ -27,7 +27,8 @@
   <link rel="stylesheet" href="styles/modal.css">
   <link rel="stylesheet" href="styles/equipment.css">
   <link rel="stylesheet" href="styles/media-queries.css">
-  <link rel="stylesheet" href="styles/jquery.hotspot.css">
+  <!-- <link rel="stylesheet" href="styles/jquery.hotspot.css"> -->
+  <link rel="stylesheet" href="styles/animated-slides.css">
 
   <!-- ScrollMagic CSS -->
   <link rel="stylesheet" href="styles/normalize.min.css">

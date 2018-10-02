@@ -23,19 +23,22 @@
         <ul class="nav navbar-nav">
           <!-- <li class="active"><a href="index.php">Home</a></li> -->
           <li class="dropdown">
-            <a data-target="#theDropdown" class="dropdown-toggle" data-toggle="dropdown"
-            >Timeline <b class="caret"></b></a>
+            <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/timeline.php">Timeline <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="timeline.php">1900's</a></li>
               <li><a href="timeline.php#1950's">1950's</a></li>
               <li><a href="timeline.php#1960's">1960's</a></li>
-              <li><a href="timeline.php#1970's">1960's</a></li>
-              <li><a href="timeline.php#1980's">1960's</a></li>
-              <li><a href="timeline.php#1990's">1960's</a></li>
-              <li><a href="timeline.php#2000's">1960's</a></li>
+              <li><a href="timeline.php#1970's">1970's</a></li>
+              <li><a href="timeline.php#1980's">1980's</a></li>
+              <li><a href="timeline.php#1990's">1990's</a></li>
+              <li><a href="timeline.php#2000's">2000's</a></li>
             </ul>
           </li>
-          <li><a href="photographers.php">Photographers</a></li>
+          <li class="dropdown">
+            <a <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/photographers.php">Photographers <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="photo_test.php">Photo_Test</a></li>
+            </ul>
           <li><a href="equipment.php">Equipment</a></li>
           <li><a href="people.php">People</a></li>
           <li><a href="share.php">Share</a></li>

@@ -1,0 +1,136 @@
+
+body, html {
+  height: 100%
+}
+
+#content-wrapper, #example-wrapper {
+    height: 100%;
+}
+
+#example-wrapper .scrollContent {
+    height: 100%;
+}
+
+section#titlechart {
+  text-align: center;
+  position: relative;
+  height: 100%;
+  min-height: 500px;
+  min-width: 100%;
+  height: 100vh;
+}
+
+section#titlechart #description {
+  top: 50%;
+  left: 76.5%;
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: -150px auto auto -300px;
+}
+
+.desc-inner {
+  padding: 5%;
+  background: hsla(0, 0%, 39%, 0.5);
+  color: #fff;
+}
+
+#example-wrapper .scrollContent div {
+    font-size: 13px;
+}
+
+.demo#section-wipes {
+  height: 100%;
+  width: 100%;
+  background-image: none;
+}
+
+.demo#section-wipes .panel {
+  background-image: url("../img/example_bg_spacer_v.gif");
+}
+
+.demo#section-wipes #pinContainer .turqoise, .demo#section-wipes #pinContainer .green {
+  background-image: url("../img/example_bg_spacer_h.gif");
+}
+
+#pinContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.panel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.demo#section-wipes .panel > b {
+  font-size: 15px;
+  color: white;
+  position: relative;
+  display: block;
+  height: 0;
+  overflow: visible;
+  top: 50%;
+}
+
+.panel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.blue {
+    background-color: #fff;
+}
+
+.left-side.one {
+  background: url(../images/photo/tom_blake_feature.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+div#one-description {
+    top: 50%;
+    left: 76.5%;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: -150px auto auto -300px;
+}
+
+.green {
+    background-color: #fff;
+}
+
+.left-side.two {
+  background: url(../images/photo/doc_ball_w_camera.jpg) no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+div#two-description {
+    top: 50%;
+    left: 76.5%;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: -150px auto auto -300px;
+}
+
+
+.turqoise {
+    background-color: #fff;
+}
+
+.bordeaux {
+    background-color: #fff;
+}
+
+.footer.slides {
+    padding: 205.3% 0%;
+}
