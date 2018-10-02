@@ -76,7 +76,7 @@
     </div>
   </div>
 
-  <!--Included Header php file -->
+  <!--Included Footer php file -->
   <?php include("footer-include.php");?>
   
   <!-- ScrollMagic Scripts -->
