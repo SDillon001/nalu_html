@@ -30,7 +30,7 @@
           <div class="right-side one" id="one-description">
             <div class="desc-inner">
               <h3>Tom Blake</h3>
-            Blake was born (1902) in Milwaukee, Wisconsin, the son of a club steward and former bar owner. His mother died of tuberculosis when Blake was an infant, and his father left him to be raised by a series of Milwaukee-based relatives. Isolated as a child, Blake grew up to become a quiet and detached adult. At age nine or 10, he saw a newsreel featuring a short clip of surfing in Hawaii; at 18, as a high school dropout living in Detroit, Michigan, he met Hawaiian surfer and Olympic gold medal swimmer Duke Kahanamoku in a movie theater lobby. Blake moved to Los Angeles the following year where he began swimming competitively, and was soon one of the nation's best all-arounders, winning a 10-mile AAU race in 1922, and later defeating Kahanamoku himself in a 220-yard sprint.</p>
+            <p>Blake was born (1902) in Milwaukee, Wisconsin, the son of a club steward and former bar owner. His mother died of tuberculosis when Blake was an infant, and his father left him to be raised by a series of Milwaukee-based relatives. Isolated as a child, Blake grew up to become a quiet and detached adult. At age nine or 10, he saw a newsreel featuring a short clip of surfing in Hawaii; at 18, as a high school dropout living in Detroit, Michigan, he met Hawaiian surfer and Olympic gold medal swimmer Duke Kahanamoku in a movie theater lobby. Blake moved to Los Angeles the following year where he began swimming competitively, and was soon one of the nation's best all-arounders, winning a 10-mile AAU race in 1922, and later defeating Kahanamoku himself in a 220-yard sprint.</p>
           </div>
         </div>
       </section>
@@ -58,6 +58,7 @@
           <h1 class="local-photogs">Local Surf Photographers</h1>
           <h2 class="local-photogs">~ click below for more info ~</h2>
         </div>
+      </div>
       </section>
 
       <div class="photogs">
@@ -65,7 +66,7 @@
         <!-- Image Grid Row 1 -->
         <div class="photog-group clearfix" data-slide="0">
           <figure class="cap-bot">
-            <img class="photog-headshot" src="images/photo/ben_ginsberg.jpg" alt="ben ginsberg profile"></a>
+            <img class="photog-headshot" src="images/photo/ben_ginsberg.jpg" alt="ben ginsberg profile">
             <figcaption>
               Ben Ginsberg, Huntington Beach, CA
             </figcaption>
@@ -74,7 +75,7 @@
 
         <div class="photog-group clearfix" data-slide="1">
           <figure class="cap-bot">
-            <img class="photog-headshot" src="images/photo/stan-moniz_profile_sized.jpg"></a>
+            <img class="photog-headshot" src="images/photo/stan-moniz_profile_sized.jpg">
             <figcaption>
               Stan Moniz, Southern California, CA
             </figcaption>
@@ -83,7 +84,7 @@
 
         <div class="photog-group clearfix" data-slide="2">
           <figure class="cap-bot">
-            <img class="photog-headshot" src="images/photo/jeff_divine_74_sunset_beach_profile_sized.jpg"></a>
+            <img class="photog-headshot" src="images/photo/jeff_divine_74_sunset_beach_profile_sized.jpg">
             <figcaption>
               Jeff Divine, La Jolla, CA
             </figcaption>
@@ -93,7 +94,7 @@
         <!-- Image Grid Row 2 -->
         <div class="photog-group clearfix" data-slide="3">
           <figure class="cap-bot">
-            <img class="photog-headshot" src="images/camera.png"></a>
+            <img class="photog-headshot" src="images/camera.png">
             <figcaption>
               Bruce Brown, Malibu, CA
             </figcaption>
@@ -102,7 +103,7 @@
 
         <div class="photog-group clearfix" data-slide="4">
           <figure class="cap-bot">
-            <img class="photog-headshot" src="images/camera.png"></a>
+            <img class="photog-headshot" src="images/camera.png">
             <figcaption>
               Bruce Brown, Malibu, CA
             </figcaption>
@@ -111,7 +112,7 @@
 
         <div class="photog-group clearfix" data-slide="5">
           <figure class="cap-bot">
-            <img class="photog-headshot" src="images/camera.png"></a>
+            <img class="photog-headshot" src="images/camera.png">
             <figcaption>
               Bruce Brown, Malibu, CA
             </figcaption>
@@ -121,7 +122,7 @@
         <!-- Image Grid Row 3 -->
         <div class="photog-group clearfix" data-slide="6">
           <figure class="cap-bot">
-            <img class="photog-headshot" src="images/camera.png"></a>
+            <img class="photog-headshot" src="images/camera.png">
             <figcaption>
               Bruce Brown, Malibu, CA
             </figcaption>
@@ -130,7 +131,7 @@
 
         <div class="photog-group clearfix" data-slide="7">
           <figure class="cap-bot">
-            <img class="photog-headshot" src="images/camera.png"></a>
+            <img class="photog-headshot" src="images/camera.png">
             <figcaption>
               Bruce Brown, Malibu, CA
             </figcaption>
@@ -139,7 +140,7 @@
 
         <div class="photog-group clearfix" data-slide="8">
           <figure class="cap-bot">
-            <img class="photog-headshot" src="images/camera.png"></a>
+            <img class="photog-headshot" src="images/camera.png">
             <figcaption>
               Bruce Brown, Malibu, CA
             </figcaption>
@@ -148,7 +149,6 @@
 
       </div>
     </div>
-  </div> 
 
   <!-- Modal Code Start -->
   <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
@@ -168,7 +168,7 @@
                 </button>
 
                 <div class="row">
-                  <h1 class="modal-title">Photographer:</span> Benjamin Ginsberg</h1>
+                  <h1 class="modal-title">Photographer: Benjamin Ginsberg</h1>
                   <div class="col-1">
                     <img src="images/photo/ben_ginsberg.jpg" id="img1" alt="ben ginsberg profile" />
                   </div>
@@ -348,10 +348,10 @@
           </div>
         </div>
 
-        <section class="end">
-        <!--Included Header php file -->
-        <?php include("footer-include.php");?>
-        </section>
+      <section class="end">
+      <!--Included Header php file -->
+      <?php include("footer-include.php");?>
+      </section>
 
         <!-- ScrollMagic Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
