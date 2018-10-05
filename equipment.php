@@ -131,7 +131,7 @@ include("head.php");
             </section>
           </div>
 
-          <!-- Ajax Database Modal Start -->
+          <!-- Modal Start -->
           <div id="surfboardModal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">  
             <div class="modal-dialog">  
               <div class="modal-content">  

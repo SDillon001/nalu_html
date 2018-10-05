@@ -1,3 +1,5 @@
+// Home Page Start
+
 $(document).ready(function(){
 
 	// Init ScrollMagic
@@ -40,7 +42,6 @@ $(document).ready(function(){
 	});
 
 	// parallax scene
-
 	var parallaxTl = new TimelineMax();
 	parallaxTl
 		.from('.content-wrapper', 0.4, {autoAlpha: 0, ease:Power0.easeNone}, 0.6)
@@ -54,20 +55,20 @@ $(document).ready(function(){
 	})
 	.setTween(parallaxTl)
 	.addTo(controller);
-
 });
 
-// Photo Test JS Starts Here
+// Home Page End
 
+// Photo Test JS Starts Here
 $(function () { // wait for document ready
 	// init
 	var controller = new ScrollMagic.Controller();
 
 	// define movement of panels
 	var wipeAnimation = new TimelineMax()
-		.fromTo("section.panel.turqoise", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone})  // in from left
-		.fromTo("section.panel.green",    1, {y: "100%"}, {y: "0%", ease: Linear.easeNone})  // in from right
-		.fromTo("section.panel.bordeaux", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}); // in from top
+		.fromTo("section.panel.turqoise", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone})  // up from bottom
+		.fromTo("section.panel.green",    1, {y: "100%"}, {y: "0%", ease: Linear.easeNone})  // up from bottom
+		.fromTo("section.panel.bordeaux", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}); // up from bottom
 
 	// create scene to pin and link animation
 	new ScrollMagic.Scene({
@@ -77,6 +78,6 @@ $(function () { // wait for document ready
 		})
 	.setPin("#pinContainer")
 	.setTween(wipeAnimation)
-	.addIndicators() // add indicators (requires plugin)
+	// .addIndicators()
 	.addTo(controller);
 });

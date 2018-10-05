@@ -74,12 +74,6 @@ section#titlechart #description {
   top: 50%;
 }
 
-.panel {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
 .blue {
     background-color: #fff;
 }
@@ -92,6 +86,13 @@ section#titlechart #description {
   float: left;
 }
 
+.left-side.two {
+  background: url(../images/photo/doc_ball_w_camera.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
 div#one-description {
     top: 50%;
     left: 76.5%;
@@ -99,18 +100,6 @@ div#one-description {
     width: 600px;
     height: 300px;
     margin: -150px auto auto -300px;
-}
-
-.green {
-    background-color: #fff;
-}
-
-.left-side.two {
-  background: url(../images/photo/doc_ball_w_camera.jpg) no-repeat;
-  background-size: contain;
-  width: 50%;
-  height: 100%;
-  float: left;
 }
 
 div#two-description {
@@ -122,15 +111,9 @@ div#two-description {
     margin: -150px auto auto -300px;
 }
 
-
-.turqoise {
-    background-color: #fff;
-}
-
-.bordeaux {
-    background-color: #fff;
-}
-
-.footer.slides {
-    padding: 205.3% 0%;
+section.end {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 469.5%;
 }

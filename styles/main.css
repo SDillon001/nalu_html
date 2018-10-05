@@ -11,6 +11,10 @@ border: 1px solid red;
 }
 */
 
+html, body {
+  height: 100%;
+}
+
 a, a:hover, a:active, a:visited {
   cursor: pointer !important;
 }
@@ -280,7 +284,7 @@ a.left.carousel-control, a.right.carousel-control {
   z-index: 4;
   top: 50%;
   cursor: pointer;
-  width: 0;
+  /*width: 0;*/
   height: 0;
   margin-top: -38px;
   -webkit-transform: translate3d(0,0,0);

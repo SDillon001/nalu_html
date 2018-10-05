@@ -36,6 +36,8 @@
                 </div>
               </div>
             </section>
+            </section>
+            
             <section class="panel turqoise">
               <b>TWO</b>
               <div class="left-side two" id="slide2-image">
