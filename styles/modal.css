@@ -1,22 +1,12 @@
-/* Modals */
-
-.carousel-inner.timeline {
-    padding: 2%;
+/**, *:before, *:after {
+border: 1px solid red;
 }
+*/
 
 /* Larger Modal */
 
 div#myModal {
     z-index: 10001;
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  /*overflow: hidden;*/
 }
 
 .modal-content {
@@ -25,7 +15,7 @@ div#myModal {
   right: 0;
   bottom: 0;
   left: 0;
-/*  border: 2px solid #3c7dcf;*/
+  border: 2px solid #3c7dcf;
   border-radius: 0;
   box-shadow: none;
   border: 0px !important;
@@ -69,19 +59,35 @@ div#myModal {
 }
 
 .modal .col-1 {
-    width: 50%;
+    width: 33%;
     float: left;
     padding: 2%;
 }
 
 .modal .col-2 {
-    margin-top: 10%;
-    padding: 2% 15% 5% 5%;
+    padding: 2%;
+}
+
+/* Image Grid Start */
+
+.p-img-wrapper {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-grid {
+    width: 30%;
+    float: left;
+    margin: 0% 0% 2% 2%;
+}
+
+.p-img-group img {
+    margin-top: 0% !important;
 }
 
 .modal-body img {
     width: 100%;
-    margin-top: 10%;
 }
 
 .modal-description {
@@ -90,11 +96,35 @@ div#myModal {
     margin-top: 2%;
 }
 
+.col-1 .description {
+    font-size: 1.2em;
+    color: #003859;
+    margin-top: 2%;
+}
+
+.carousel-indicators {
+    left: 11% !important;
+    width: 10% !important;
+    margin-left: 0% !important;
+}
+
+.carousel-indicators li {
+    background-color: #0A3859;
+    background-color: #0A3859;
+    border: 0px solid #0A3859;
+}
+
+.carousel-indicators .active {
+    background-color: #00C1D9 !important;
+}
+
+/* Image Grid End */
+
 .modal-body h1 {
   color: #003859;
   width: 100%;
   font-weight: 300;
-  padding-left: 10%;
+  padding-left: 2%;
 }
 
 .modal-footer {
@@ -120,5 +150,4 @@ a.right.carousel-control.timeline {
 
 .close {
   font-size: 58px;
-  line-height: 0;
 }

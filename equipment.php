@@ -132,8 +132,8 @@ include("head.php");
           </div>
 
           <!-- Modal Start -->
-          <div id="surfboardModal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">  
-            <div class="modal-dialog">  
+          <div class="modal fade" id="surfboardModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
+            <div class="modal-dialog equipment">  
               <div class="modal-content">  
                 <div class="modal-header" id="modal">  
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">

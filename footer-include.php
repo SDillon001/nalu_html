@@ -132,21 +132,4 @@
         ga('create', 'UA-102205886-1');
         ga('send', 'pageview');
       </script>
-
-      <!-- Hotspot JQuery Plugin 
-      https://github.com/aniruddhanath/jquery-hotspot -->
-      <script type="text/javascript" src="scripts/jquery.hotspot.js"></script>
-      <script type="text/javascript" src="scripts/imageMapResizer.min.js"></script>
-
-      <script type="text/javascript">
-        $("#hotspot_image").hotspot({
-          data: [
-          { "x":178, "y":80, "Title":"The Nose","Message":"Most high performance boards, like thrusters, have a pointed nose. The pointed shape adds more rail curve to the plan shape when compared to a round nose longboard. " },
-          { "x":90, "y":270, "Title":"Surfboard Stringer","Message":"The stringer is the thin strip of wood that traditionally runs down the middle of the surfboard. The wood is typically made of balsa and the thickness increases the strength and rigidity of the board. Some boards have multiple stringers for added stiffness." }
-          ],
-          interactivity: "click",
-        });
-
-        $('map').imageMapResize();
-      </script>
 </div>

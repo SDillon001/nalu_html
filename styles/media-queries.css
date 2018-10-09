@@ -88,11 +88,20 @@ ul.nav.navbar-nav {
     height: 126% !important;
 }
 
+/* Photographers Page */
+
+
+
 }
 
 /* Smartphones (portrait) (max-device-width : 375px) ----------- */
 
 @media only screen and (max-device-width : 375px) {
+
+  section.end {
+    position: absolute;
+    top: 409.2% !important;
+}
 
 }
 
