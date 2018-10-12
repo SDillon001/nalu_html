@@ -285,7 +285,7 @@ a.left.carousel-control, a.right.carousel-control {
   -ms-user-select: none;
   position: absolute;
   z-index: 4;
-  top: 50%;
+  top: 40%;
   cursor: pointer;
   /*width: 0;*/
   height: 0;
@@ -305,7 +305,7 @@ span.glyphicon.left {
 }
 
 span.glyphicon.right {
-  right: 6rem !important;
+  right: 2rem !important;
   border: none;
   width: 50px;
   height: 8rem;
@@ -327,6 +327,47 @@ span.glyphicon.glyphicon-chevron-right {
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
+}
+
+/* Down Arrow */
+
+.arrow {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  z-index: 4;
+  top: 70%;
+  left: 48.3%;
+}
+
+span.glyphicon.down {
+  border: none;
+  width: 75px;
+  height: 8rem;
+  background: url(../images/down.png) no-repeat;
+  cursor: pointer;
+}
+
+.bounce {
+  -moz-animation: bounce 2.25s infinite;
+  -webkit-animation: bounce 2..25s infinite;
+  animation: bounce 2.25s infinite;
+}
+
+a.fa.fa-angle-down.fa-2x {
+    color: #fff;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY-50);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
 }
 
  /* |||| Section 2 |||| */
@@ -644,7 +685,6 @@ div#section6 {
   position: relative;
   width: 25%;
   float: left;
-  margin-bottom: -5px;
 }
 
 .flex-item.overlay:hover {
