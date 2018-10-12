@@ -35,10 +35,10 @@
             </ul>
           </li>
           <li class="dropdown">
-            <a <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/photographers.php">Photographers <b class="caret"></b></a>
-            <ul class="dropdown-menu">
+            <a <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/photographers.php">Photographers <!-- <b class="caret"></b> --></a>
+            <!-- <ul class="dropdown-menu">
               <li><a href="photo_test_v2.php">Photo_Test_v2</a></li>
-            </ul>
+            </ul> -->
           <li><a href="equipment.php">Equipment</a></li>
           <li><a href="people.php">People</a></li>
           <li><a href="share.php">Share</a></li>

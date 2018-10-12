@@ -6,277 +6,440 @@
 <title><?php echo $title ?>Photo</title>
 
 <body>
-<!--Included Header php file -->
-<?php include("header-include_v2.php");?>
+  <!--Included Header php file -->
+  <?php include("header-include_v2.php");?>
 
-      <!-- Start Updated Content -->
-      <div class="photo wrapper">
-        <!-- Photo Page Title -->
-        <div class="title-head box corner-shadow">
-          <h1 id="photogs">Surf Photographers</h1>
+  <section class="box" id="titlechart">
+    <div class="item photo container">
+      <a href="#"><img class="item-image" src="images/photo/bruce_brown_feature.jpg" alt="bruce_brown" /></a>
+    </div>
+    <div id="description">
+      <div class="desc-inner">
+        <h3>Bruce Brown</h3>
+        <p>Oscar-nominated surf moviemaker from Southern California; producer of 1966's The Endless Summer, the sport's best and best-known movie. Brown was born (1937) in San Francisco, California, spent his first nine years in Oakland, then moved with his family to Long Beach, in southwest Los Angeles County, where he began surfing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="box demo" id="section-wipes">       
+    <div class="left-side one" id="slide1-image">
+    </div>
+    <div class="right-side one" id="one-description">
+      <div class="desc-inner">
+        <h3>Tom Blake</h3>
+        <p>Blake was born (1902) in Milwaukee, Wisconsin, the son of a club steward and former bar owner. His mother died of tuberculosis when Blake was an infant, and his father left him to be raised by a series of Milwaukee-based relatives. Isolated as a child, Blake grew up to become a quiet and detached adult. At age nine or 10, he saw a newsreel featuring a short clip of surfing in Hawaii; at 18, as a high school dropout living in Detroit, Michigan, he met Hawaiian surfer and Olympic gold medal swimmer Duke Kahanamoku in a movie theater lobby. Blake moved to Los Angeles the following year where he began swimming competitively, and was soon one of the nation's best all-arounders, winning a 10-mile AAU race in 1922, and later defeating Kahanamoku himself in a 220-yard sprint.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="box demo last-slide" id="section-wipes">       
+    <div class="left-side two" id="slide2-image">
+    </div>
+    <div class="right-side two" id="two-description">
+      <div class="desc-inner">
+       <h3>Doc Ball</h3>
+       <p>Prototype surf photographer and surf club organizer from Los Angeles, California; founder of the Palos Verdes Surf Club in 1935; author of the seminal 1946-published California Surfriders. While Ball and Wisconsin-born Tom Blake are both credited as the forebears of surf photography, it was Ball who had the greater influence on the next generation of photographers, including fellow California surf world icons Leroy Grannis and Don James. "The quality of his shots was superb," James later said of Ball's work. "I always wanted to try and get photos as good as Doc's, and I never quite made it."</p>
+     </div>
+   </div>
+ </section>
+
+ <section class="box demo"> 
+
+ </section>
+
+ <section class="box demo">       
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="photo-grid-head">
+      <h1 class="local-photogs">Local Surf Photographers</h1>
+      <h2 class="local-photogs">~ click below for more info ~</h2>
+    </div>
+  </div>
+</section> <!-- scrollContent ends Here -->
+
+<div class="photogs">
+  <!-- Image Grid Row 1 -->
+  <div class="photog-group clearfix" data-slide="0">
+    <div class="content">
+      <div class="content-overlay"></div>
+      <img class="photog-headshot" src="images/photo/jeff_divine_74_sunset_beach_profile_sized.jpg" />
+      <div class="content-details fadeIn-bottom">
+        <h1 class="content-title">Jeff Divine</h1>
+        <hr>
+        <p class="content-text">La Jolla, CA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="photog-group clearfix" data-slide="1">
+    <div class="content">
+      <div class="content-overlay"></div>
+      <img class="photog-headshot" src="images/photo/ben_ginsberg.jpg" alt="ben ginsberg profile" />
+      <div class="content-details fadeIn-bottom">
+        <h1 class="content-title">Ben Ginsberg</h1>
+        <hr>
+        <p class="content-text">Huntington Beach, CA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="photog-group clearfix" data-slide="2">
+    <div class="content">
+      <div class="content-overlay"></div>
+      <img class="photog-headshot" src="images/photo/trevor_murphy.jpg" />
+      <div class="content-details fadeIn-bottom">
+        <h1 class="content-title">Trevor Murphy</h1>
+        <hr>
+        <p class="content-text">Cape Cod, MA</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Grid Row 2 -->
+  <div class="photog-group clearfix" data-slide="3">
+    <div class="content">
+      <div class="content-overlay"></div>
+      <img class="photog-headshot" src="images/photo/diane_edmonds.jpg" />
+      <div class="content-details fadeIn-bottom">
+        <h1 class="content-title">Diane Edmonds</h1>
+        <hr>
+        <p class="content-text">Huntington Beach, CA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="photog-group clearfix" data-slide="4">
+    <div class="content">
+      <div class="content-overlay"></div>
+      <img class="photog-headshot" src="images/photo/justin_jung.jpg" />
+      <div class="content-details fadeIn-bottom">
+        <h1 class="content-title">Justin Jung</h1>
+        <hr>
+        <p class="content-text">Orange County, CA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="photog-group clearfix" data-slide="5">
+    <div class="content">
+      <div class="content-overlay"></div>
+      <img class="photog-headshot" src="images/photo/maria_fernanda_photo-logan-jacobs.jpg" />
+      <div class="content-details fadeIn-bottom">
+        <h1 class="content-title">Maria Fernanda</h1>
+        <hr>
+        <p class="content-text">Mexico City, MX</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Grid Row 3 -->
+  <div class="photog-group clearfix" data-slide="6">
+    <div class="content">
+      <div class="content-overlay"></div>
+      <img class="photog-headshot" src="images/photo/stan-moniz_profile_sized.jpg" />
+      <div class="content-details fadeIn-bottom">
+        <h1 class="content-title">Stan Moniz</h1>
+        <hr>
+        <p class="content-text">Orange County, CA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="photog-group clearfix" data-slide="7">
+    <div class="content">
+      <div class="content-overlay"></div>
+      <img class="photog-headshot" src="images/photo/joe_oconnor.jpg" />
+      <div class="content-details fadeIn-bottom">
+        <h1 class="content-title">Joe O'Connor</h1>
+        <hr>
+        <p class="content-text">Long Beach, NY</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="photog-group clearfix" data-slide="8">
+    <div class="content">
+      <div class="content-overlay"></div>
+      <img class="photog-headshot" src="images/photo/adam_king.jpg" />
+      <div class="content-details fadeIn-bottom">
+        <h1 class="content-title">Adam King</h1>
+        <hr>
+        <p class="content-text">Jacksonville, FL</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="interviews">
+
+    <div class="int-title">
+      <h2>Check out these</h2>
+      <h1>PHOTOGRAPHER INTERVIEWS</h1>
+      <hr>
+    </div>
+
+    <div class="flex-container2">
+      <div class="imGrid2">
+        <div class="flex-item2"><a href="https://www.youtube.com/watch?v=p7BeQmRpqRM" target="_blank"><img src="images/photo/a_life_surfing_the_photography_of_jeff_divine.jpg" alt=""></a>
+          <h3><span style="font-weight: 600">Jeff Divine:</span> "A Life Surfing"</h3>
+          <p>Jeff Divine is one of the most highly regarded surf photographers, and his work spans over 5 decades of surf culture. In this video, Jeff presents a slideshow of his work and discusses the culture, clothing, changes, people, waves, places, and general vibe of the sport.</p>
+          <a href="https://www.youtube.com/watch?v=p7BeQmRpqRM" class="home-lm-link">Watch on Youtube</a>
         </div>
 
-        <!-- Image Carousel -->
-        <div class="carousel-wrapper">
-        <div id="photo-carousel" class="carousel slide" data-ride="carousel" data-interval="900000">
-          <div class="photo carousel-inner">
-            <div class="item photo active">
-              <div class="item photo container">
-                <a href="#"><img class="item-image" src="images/photo/bruce_brown_feature.jpg" alt="bruce_brown" /></a>
-              </div>
-              <div class="photo sub-item">
-                <h3>Bruce Brown</h3>
+        <div class="flex-item2"><a href="https://www.youtube.com/watch?v=f55Vp7t0BTo" target="_blank"><img src="images/photo/the_wedge_and_surf_photographer_ben_ginsberg.jpg" alt=""></a>
+          <h3><span style="font-weight: 600">Benjamin Ginsberg:</span> "Exposure"</h3>
+          <p>An original Surf Channel production, “EXPOSURE” is an ongoing series featuring the world’s most talented surf photographers. Episode 5 features Red Bull Illume finalist, Ben Ginsberg. </p>
 
-              <article>
-                <p>Oscar-nominated surf moviemaker from Southern California; producer of 1966's The Endless Summer, the sport's best and best-known movie. Brown was born (1937) in San Francisco, California, spent his first nine years in Oakland, then moved with his family to Long Beach, in southwest Los Angeles County, where he began surfing.</p>
+          <a href="http://www.thesurfchannel.com/news/20150202/video-exposure-surf-photographer-ben-ginsberg/" class="home-lm-link">Watch on TheSurfChannel.com</a>
+        </div>
 
-                <p>Brown himself made his first surf movie, an 8-millimeter short, while stationed on a navy submarine in Honolulu in 1955; two years later, back in California, surfboard-maker Dale Velzy bought Brown a new 16-millimeter movie camera and paid his way to Hawaii to shoot Slippery When Wet, Brown's first feature-length surf film. Slippery was easygoing, colorful, neatly edited, and scored by West Coast jazz favorite Bud Shank—but the movie was in large part defined by Brown's smooth and casual narration. Brown, Browne, Greg Noll, and John Severson were the only surf filmmakers at the time.</p>
-
-                <p>Brown's fifth movie, Waterlogged, was a rush-job compilation film that gave Brown something to put on the market in 1963. That year he set out with California surfers Mike Hynson and Robert August to film The Endless Summer, a semidocumentary on "the search for the perfect wave." The $50,000 film debuted in the summer of 1964 and was shown in the same manner as Brown's previous films, on the beach-city circuit, with Brown himself driving from auditorium to auditorium to do live-narration screenings. He added a recorded narration in 1965 and showed the movie in Wichita, Kansas, where for two weeks it outsold My Fair Lady.</p>
-
-                <p>In 1992 he came out of retirement to begin work on Endless Summer II. Unlike the original, the sequel was backed by a studio (New Line), and had a Hollywood budget ($3.5 million) as well as a film crew. But the new movie, while beautifully photographed, didn't have the magic of the original. "Brown isn't as well-versed as he once was," Surfer magazine wrote in its review, "and his narration, so effortless and warm in the late '50s and early '60s, now sounds a little forced." Brown had in a way become the victim of his own success; virtually every post-1964 surf movie had borrowed from Endless Summer, and the genre itself seemed to be played out. Brown, meanwhile, claimed his experience with New Line had been awful, and that his moviemaking days were through.</p>
-
-                <p>Brown was the top vote-getter in the Motion Picture/Photography category of the 1966 International Surfing Magazine's Hall of Fame Awards; in 1994 he received the Waterman Achievement Award from the Surf Industry Manufacturers Association. In 1997 he was presented with a lifetime achievement award at the Surfer Magazine Video Awards banquet, and was profiled in 50 Years of Surfing on Film, a 1997 cable TV series produced by Opper Films and The Surfer's Journal. Two years later, Surfer named Brown the sport's fifth most influential surfer of all time. He was inducted into the Surfer's Hall of Fame in Huntington Beach in 2009.</p>
-                <div class="read-more-link">
-                  <a href="https://eos.surf/entries/brown-bruce" class="home-lm-link">- Warshaw, Encyclopedia of Surfing</a>
-                </div>
-              </article>
-              </div>
-            </div>
-            <div class="item photo">
-              <div class="item photo container">
-                <a href="#"><img class="item-image" src="images/photo/tom_blake_feature.jpg" alt="tom_blake_feature" /></a>
-              </div>
-              <div class="photo sub-item">
-                <h3>Tom Blake</h3>
-
-                <article>
-                <p>Blake was born (1902) in Milwaukee, Wisconsin, the son of a club steward and former bar owner. His mother died of tuberculosis when Blake was an infant, and his father left him to be raised by a series of Milwaukee-based relatives. Isolated as a child, Blake grew up to become a quiet and detached adult. At age nine or 10, he saw a newsreel featuring a short clip of surfing in Hawaii; at 18, as a high school dropout living in Detroit, Michigan, he met Hawaiian surfer and Olympic gold medal swimmer Duke Kahanamoku in a movie theater lobby. Blake moved to Los Angeles the following year where he began swimming competitively, and was soon one of the nation's best all-arounders, winning a 10-mile AAU race in 1922, and later defeating Kahanamoku himself in a 220-yard sprint.</p>
-
-                <p>Blake also helped develop surf photography and journalism. A few months after buying a Graflex camera from Duke Kahanamoku in 1929, he crafted a first-of-its-kind camera housing for use in the surf, and in 1931 one of his from-the-water Waikiki surf photos was published as a full-page image in the Los Angeles Times. In 1935, National Geographic published "Waves and Thrills at Waikiki," an eight-page portfolio of Blake's surfing photography; his Hawaiian Surfboard, the first book on surfing, was also published that year, with sections on history, board construction, competition, and wave-riding tips. Blake also wrote a soft-cover Manual of Surfboard Technique (1935), as well as DIY board making articles for Popular Mechanics (1936) and Popular Science (1939). Blake himself, as handsome as he was innovative, was often written about and photographed for newspaper and magazine articles.</p>
-
-                <p>Blake continued to work as a lifeguard into his early 60s, mainly in Florida; in 1967 he returned to his childhood home in Wisconsin, where he wrote "Voice of the Wave," a religious-themed essay on surfing, published in a 1969 issue of Surfing magazine and later reworked into "Voice of the Atom." The essential Blake philosophy, one that he carved into stone in Wisconsin, came to be: Nature = God. Blake, a vegetarian from early adulthood, died in 1994 at age 92. He was married once, for less than a month, in 1925, and had no children.</p>
-
-                <p>Blake was inducted into International Surfing Magazine's Hall of Fame in 1967, to the International Swimming Hall of Fame in 1992, and to the Huntington Beach Surfing Walk of Fame in 1994. Tom Blake: Surfing 1922–1932, a book of photographs of and by Blake, was published in 1999. Tom Blake: The Uncommon Journey of a Pioneer Waterman, a richly detailed biography by Gary Lynch and Malcolm Gault-Williams, was published in 2001. Portions of a 1990 videotaped interview with Blake were used in Great Waves, an cable TV documentary series produced by Opper Films. Some of the luster came off the Blake legend when H2O magazine in 2001 reported that he "favored certain now-scientifically discredited and controversial beliefs regarding race and ethnicity."</p>
-                <div class="read-more-link">
-                  <a href="https://eos.surf/entries/blake-tom" class="home-lm-link">- Warshaw, Encyclopedia of Surfing</a>
-                </div>
-              </article>
-              </div>
-            </div>
-          </div>
-
-          <a class="left photo carousel-control" data-target="#photo-carousel" data-slide="prev">
-            <span class="glyphicon photo left"></span>
-          </a>
-          <a class="right photo carousel-control" data-target="#photo-carousel" data-slide="next">
-            <span class="glyphicon photo right"></span>
-          </a>
+        <div class="flex-item2"><a href="https://edelkrone.com/blogs/featured-videomakers/stan-moniz" target="_blank"><img src="images/photo/edelkrone_stan_moniz_interview_thumb.jpg" alt=""></a>
+          <h3><span style="font-weight: 600">Stan Moniz:</span> "Edelkrone Featured Videomakers"</h3>
+          <p>Action & adventure photographer/filmmaker Stan Moniz was a water baby at birth, raised in the quite surf town of  Waialua, Hawaii. In 2010, he reacquainted himself with his love for the ocean, adventure and capturing the beauty of the world we live in.</p>
+          <a href="https://vimeo.com/191102691" class="home-lm-link">Watch on Vimeo</a>
         </div>
       </div>
+    </div>
 
-        <!-- Main Content -->
-        <div class="main-content">
-          <div class="photo-grid-head">
-            <h1 class="local-photogs">Local Surf Photographers</h1>
-            <h2 class="local-photogs">~ click below for more info ~</h2>
-          </div>
+    <section class="end">
+      <!--Included Header php file -->
+      <?php include("footer-include.php");?>
+    </section>
 
-          <div class="photogs">
+  </div>
 
-            <!-- Image Grid Row 1 -->
-            <div class="photog-group clearfix" data-slide="0">
-              <figure class="cap-bot">
-                  <img class="photog-headshot" src="images/photo/ben_ginsberg.jpg" alt="ben ginsberg profile"></a>
-                <figcaption>
-                  Ben Ginsberg, Huntington Beach, CA
-                </figcaption>
-              </figure>
-            </div>
 
-            <div class="photog-group clearfix" data-slide="1">
-              <figure class="cap-bot">
-                  <img class="photog-headshot" src="images/photo/stan-moniz_profile_sized.jpg"></a>
-                <figcaption>
-                  Stan Moniz, Southern California, CA
-                </figcaption>
-              </figure>
-            </div>
+</div> <!-- End Photogs -->
+</div> <!-- Div after Photogs -->
 
-            <div class="photog-group clearfix" data-slide="2">
-              <figure class="cap-bot">
-                  <img class="photog-headshot" src="images/photo/jeff_divine_74_sunset_beach_profile_sized.jpg"></a>
-                <figcaption>
-                  Jeff Divine, La Jolla, CA
-                </figcaption>
-              </figure>
-            </div>
+<!-- Modal Code Start -->
+<div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
 
-            <!-- Image Grid Row 2 -->
-            <div class="photog-group clearfix" data-slide="3">
-              <figure class="cap-bot">
-                  <img class="photog-headshot" src="images/camera.png"></a>
-                <figcaption>
-                  Bruce Brown, Malibu, CA
-                </figcaption>
-              </figure>
-            </div>
+        <!-- Carousel -->
+        <div class="carousel slide" data-interval="false" id="MyCarousel" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#MyCarousel" data-slide-to="1"></li>
+            <li data-target="#MyCarousel" data-slide-to="2"></li>
+            <li data-target="#MyCarousel" data-slide-to="3"></li>
+            <li data-target="#MyCarousel" data-slide-to="4"></li>
+            <li data-target="#MyCarousel" data-slide-to="5"></li>
+            <li data-target="#MyCarousel" data-slide-to="6"></li>
+            <li data-target="#MyCarousel" data-slide-to="7"></li>
+            <li data-target="#MyCarousel" data-slide-to="8"></li>
+          </ol>
 
-            <div class="photog-group clearfix" data-slide="4">
-              <figure class="cap-bot">
-                  <img class="photog-headshot" src="images/camera.png"></a>
-                <figcaption>
-                  Bruce Brown, Malibu, CA
-                </figcaption>
-              </figure>
-            </div>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
 
-            <div class="photog-group clearfix" data-slide="5">
-              <figure class="cap-bot">
-                  <img class="photog-headshot" src="images/camera.png"></a>
-                <figcaption>
-                  Bruce Brown, Malibu, CA
-                </figcaption>
-              </figure>
-            </div>
+            <!-- 1st Modal in Photo Grid -->
+            <div class="item active">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
 
-            <!-- Image Grid Row 3 -->
-            <div class="photog-group clearfix" data-slide="6">
-              <figure class="cap-bot">
-                  <img class="photog-headshot" src="images/camera.png"></a>
-                <figcaption>
-                  Bruce Brown, Malibu, CA
-                </figcaption>
-              </figure>
-            </div>
+              <div class="row">
+                <h1><span style="font-weight: 600">Photographer:</span> Jeff Divine</h1>
+                <div class="col-1">
+                  <div class="p-img-wrapper">
+                    <img class="p-img-profile" src="images/photo/jeff_divine_74_sunset_beach_profile_sized.jpg" id="img1" alt="" />
+                  </div>
+                  <div class="description">
+                    <p>Durable, good-natured surf photographer and photo editor from San Clemente, California; a steady surf world presence since the early 1970s, and long regarded as one of the genre's most versatile and dependable talents. Divine was born (1950) in San Diego, raised in the wealthy beach town of La Jolla, started surfing in 1964 and bought his first camera the following year; he soon began selling prints to his high school surfing friends for a dollar apiece.&nbsp;
+                      <a href="https://jeffdivinesurf.com" target="_blank"><br><br>Website - Jeff Divine</a></p>
+                    </div>
+                  </div>
 
-            <div class="photog-group clearfix" data-slide="7">
-              <figure class="cap-bot">
-                  <img class="photog-headshot" src="images/camera.png"></a>
-                <figcaption>
-                  Bruce Brown, Malibu, CA
-                </figcaption>
-              </figure>
-            </div>
+                  <div class="col-2">
 
-            <div class="photog-group clearfix" data-slide="8">
-              <figure class="cap-bot">
-                  <img class="photog-headshot" src="images/camera.png"></a>
-                <figcaption>
-                  Bruce Brown, Malibu, CA
-                </figcaption>
-              </figure>
-            </div>
+                    <div class="p-img-group">
+                      <div class="p-grid img1">
+                        <img src="images/photo/divine/lopez_soul.jpg">
+                      </div>
 
-          </div>
-        </div>
-      </div> 
+                      <div class="p-grid img2">
+                        <img src="images/photo/divine/under_surfer_fiji.jpg">
+                      </div>
 
-      <!-- Modal Code Start -->
-        <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-body">
-                  <!-- Indicators -->
-                  <div class="carousel slide" data-interval="false" id="MyCarousel">
+                      <div class="p-grid img3">
+                        <img src="images/photo/divine/rory_pipe_line.jpg">
+                      </div>
 
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner timeline">
+                      <div class="p-grid img4">
+                        <img src="images/photo/divine/70s_buttons_v_land_carve.jpg">
+                      </div>
 
-                      <!-- 1st Modal in Photo Grid -->
-                      <div class="item active">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                        <div class="row">
-                          <h1 class="modal-title">Photographer:</span> Benjamin Ginsberg</h1>
-                          <div class="col-1">
-                            <img src="images/photo/ben_ginsberg.jpg" id="img1" alt="ben ginsberg profile" />
-                          </div>
+              <!-- 2nd Modal in Photo Grid -->
+              <div class="item">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
 
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>Ben grew up between the southern Connecticut shore and the mountains of Vermont. Ben started his photography career in Boston and worked throughout the New England region as a photographer, urban planner, and freestyle ski coach. He founded Driftwood Photography Studios in 2005. Ben was a <a href="http://www.redbullillume.com/people/photographers/bio/benjamin-ginsberg.html" target="_blank">Top 50 Finalist in the 2013 Red Bull illume Image Quest.</a>&nbsp;
-                            <a href="https://driftwoodfoto.com/" target="_blank"><br><br>Website - Driftwood Photography Studios</a></p>
-                          </div>
+                <div class="row">
+                  <h1 class="modal-title">Photographer: Benjamin Ginsberg</h1>
+                  <div class="col-1">
+                    <div class="p-img-wrapper">
+                      <img class="p-img-profile" src="images/photo/ben_ginsberg.jpg" id="img2" alt="ben ginsberg profile" />
+                    </div>
+                    <div class="description">
+                      <p>Ben grew up between the southern Connecticut shore and the mountains of Vermont. Ben started his photography career in Boston and worked throughout the New England region as a photographer, urban planner, and freestyle ski coach. He founded Driftwood Photography Studios in 2005. Ben was a <a href="http://www.redbullillume.com/people/photographers/bio/benjamin-ginsberg.html" target="_blank">Top 50 Finalist in the 2013 Red Bull illume Image Quest.</a>&nbsp;
+                        <a href="https://driftwoodfoto.com/" target="_blank"><br><br>Website - Driftwood Photography Studios</a></p>
+                      </div>
+
+                    </div>
+
+                    <div class="col-2">
+                      <div class="p-img-group">
+                        <div class="p-grid img1">
+                          <img src="images/photo/ginsberg/ben-ginsberg-red_bull_bobby_okvist.jpg">
+                        </div>
+
+                        <div class="p-grid img2">
+                          <img src="images/photo/ginsberg/ben-ginsberg-puerto-escondido.jpg">
+                        </div>
+
+                        <div class="p-grid img3">
+                          <img src="images/photo/ginsberg/ben-ginsberg-the-wedge.jpg">
+                        </div>
+
+                        <div class="p-grid img4">
+                          <img src="images/photo/ginsberg/ben-ginsberg-mavericks.jpg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3rd Modal in Photo Grid -->
+                <div class="item">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
+                  <div class="row">
+                    <h1><span style="font-weight: 600">Photographer:</span> Trevor Murphy</h1>
+                    <div class="col-1">
+                      <div class="p-img-wrapper">
+                        <img class="p-img-profile" src="images/photo/trevor_murphy.jpg" id="img3" alt="" />
+                      </div>
+                      <div class="description">
+                        <p>Trevor Murphy was born and raised on Cape Cod, Massachusetts. Growing up on and around the ocean embedded a great love for the sea and a strong fondness of the natural world. Trevor's photos have appeared in and graced the covers of many magazines and editorials world wide. Trevor has won numerous international photography competitions with his unique and dramatic feel to his work. He has only been shooting photographs professionally for five years and is always looking for new and exciting ways to capture his perspective on life.&nbsp;
+                          <a href="https://www.trevormurphyphotography.com/" target="_blank"><br><br>Website - Trevor Murphy</a></p>
                         </div>
                       </div>
 
-                      <!-- 2nd Modal in Photo Grid -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-
-                        <div class="row">
-                          <h1><span style="font-weight: 600">Photographer:</span> Stan Moniz</h1>
-                          <div class="col-1">
-                            <img src="images/photo/stan-moniz_profile_sized.jpg" id="img2" alt="" />
+                      <div class="col-2">
+                        <div class="p-img-group">
+                          <div class="p-grid img1">
+                            <img src="images/photo/murphy/trevor-murphy_jean_da_silva_desert_point.jpg">
                           </div>
 
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>Action & adventure  photographer /  film maker Stan Moniz was a water baby at birth, raised in the quite surf town of  Waialua, Hawaii. He became a professional body boarder at the age of 18 and remains an avid surfer today. His passion for music brought him to Southern California in 2000 and after a very successful career in a professional touring band, he ultimately set his sights on his other great passion: photography.&nbsp;
-                            <a href="http://www.stanmoniz.com" target="_blank"><br><br>Website - Stan Moniz</a></p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- 3rd Modal in Photo Grid -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-
-                        <div class="row">
-                          <h1><span style="font-weight: 600">Photographer:</span> Jeff Divine</h1>
-                          <div class="col-1">
-                            <img src="images/photo/jeff_divine_74_sunset_beach_profile_sized.jpg" id="img3" alt="" />
+                          <div class="p-grid img2">
+                            <img src="images/photo/murphy/trevor-murphy_cape_cod_lines.jpg">
                           </div>
 
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>Durable, good-natured surf photographer and photo editor from San Clemente, California; a steady surf world presence since the early 1970s, and long regarded as one of the genre's most versatile and dependable talents. Divine was born (1950) in San Diego, raised in the wealthy beach town of La Jolla, started surfing in 1964 and bought his first camera the following year; he soon began selling prints to his high school surfing friends for a dollar apiece.&nbsp;
-                            <a href="https://jeffdivinesurf.com" target="_blank"><br><br>Website - Jeff Divine</a></p>
+                          <div class="p-grid img3">
+                            <img src="images/photo/murphy/trevor-murphy_impact_on_the_reef.jpg">
+                          </div>
+
+                          <div class="p-grid img4">
+                            <img src="images/photo/murphy/trevor-murphy_playa_negra.jpg">
                           </div>
                         </div>
                       </div>
+                    </div>
+                  </div>
 
-                      <!-- 4th Modal in Photo Grid -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
+                  <!-- 4th Modal in Photo Grid -->
+                  <div class="item">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
 
-                        <div class="row">
-                          <div class="col-1">
-                            <h1>4th Modal in Photo Grid</h1>
-                            <img src="images/camera.png" id="img4" alt="" />
+                    <div class="row">
+                      <h1><span style="font-weight: 600">Photographer:</span> Diane Edmonds</h1>
+                      <div class="col-1">
+                        <div class="p-img-wrapper">
+                          <img class="p-img-profile" src="images/photo/diane_edmonds.jpg" id="img4" alt="" />
+                        </div>
+                        <div class="description">
+                          <p>My mom was a War Bride but she grew up in Australia and was a Bondi beach girl.  She always took us to the beach when we were kids and she was the only mom I knew that actually went in the ocean!  She body surfed well into her mid 60’s until she broke her arm colliding with a boogie boarder while body surfing.
+                            &nbsp;
+                            <a href="https://www.yourwavepics.com/" target="_blank"><br><br>Website - Diane Edmonds</a></p>
                           </div>
+                        </div>
 
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
+                        <div class="col-2">
+                          <div class="p-img-group">
+                            <div class="p-grid img1">
+                              <img src="images/photo/camera.jpg">
+                            </div>
+
+                            <div class="p-grid img2">
+                              <img src="images/photo/camera.jpg">
+                            </div>
+
+                            <div class="p-grid img3">
+                              <img src="images/photo/camera.jpg">
+                            </div>
+
+                            <div class="p-grid img4">
+                              <img src="images/photo/camera.jpg">
+                            </div>
                           </div>
                         </div>
                       </div>
+                    </div>
 
-                      <!-- 5th Modal in Photo Grid -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
+                    <!-- 5th Modal in Photo Grid -->
+                    <div class="item">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
 
-                        <div class="row">
-                          <div class="col-1">
-                            <h1>5th Modal in Photo Grid</h1>
-                            <img src="images/camera.png" id="img5" alt="" />
+                      <div class="row">
+                        <h1><span style="font-weight: 600">Photographer:</span> Justin Jung</h1>
+                        <div class="col-1">
+                          <div class="p-img-wrapper">
+                            <img class="p-img-profile" src="images/photo/justin_jung.jpg" id="img5" alt="" />
+                          </div>
+                          <div class="description">
+                            <p>Justin Jung is a self taught photographer and cinematographer based in Southern California, although his work takes him all over the globe. For the past three years he has been following his dreams, traveling around the world, capturing breathtaking video along the way.</p>
+
+                            <p>Justin often features subjects such as action sports, landscapes, documentaries and the ocean. In working to achieve his goals, he has obtained an established position with Rip Curl as a videographer as well as continuing to work with numerous other companies.</p>
+
+                            <p>His work has been featured in National Geographic, Surfing Magazine, Departure Magazine, and many others. Justin continues to set the bar higher for himself, striving for larger goals in all aspects of his work.
+                              &nbsp;
+                              <a href="http://jungphoto.com/" target="_blank"><br><br>Website - Justin Jung</a></p>
+                            </div>
                           </div>
 
                           <div class="col-2">
-                            <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
+                            <div class="p-img-group">
+                              <div class="p-grid img1">
+                                <img src="images/photo/camera.jpg">
+                              </div>
+
+                              <div class="p-grid img2">
+                                <img src="images/photo/camera.jpg">
+                              </div>
+
+                              <div class="p-grid img3">
+                                <img src="images/photo/camera.jpg">
+                              </div>
+
+                              <div class="p-grid img4">
+                                <img src="images/photo/camera.jpg">
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -288,90 +451,186 @@
                         </button>
 
                         <div class="row">
+                          <h1><span style="font-weight: 600">Photographer:</span> Maria Fernanda</h1>
                           <div class="col-1">
-                            <h1>6th Modal in Photo Grid</h1>
-                            <img src="images/camera.png" id="img6" alt="" />
-                          </div>
+                            <div class="p-img-wrapper">
+                              <img class="p-img-profile" src="images/photo/maria_fernanda_photo-logan-jacobs.jpg" id="img6" alt="" />
+                            </div>
+                            <div class="description">
+                              <p>Born and raised in Mexico City (one of the largest cities in the world) Maria holds a Bachelor’s degree in Business Administration in Tourism and Hospitality Management.  Since she was a young girl she has had a passion for being in water.  While in high school, she was a swimmer for the regional team.  Whenever she had any spare time, she would escape to the beach and enjoy surfing.  Her other passion for photography started when she finished high school, taking many beautiful pictures around her hometown of Mexico City.  After graduating from college, she traveled to Hawaii where she combined her love of surfing with her passion for photography and began shooting pictures of surfers in the water.&nbsp;
+                                <a href="http://www.mariafernandaphoto.com/" target="_blank"><br><br>Website - Maria Fernanda</a></p>
+                              </div>
+                            </div>
 
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
+                            <div class="col-2">
+                              <div class="p-img-group">
+                                <div class="p-grid img1">
+                                  <img src="images/photo/camera.jpg">
+                                </div>
+
+                                <div class="p-grid img2">
+                                  <img src="images/photo/camera.jpg">
+                                </div>
+
+                                <div class="p-grid img3">
+                                  <img src="images/photo/camera.jpg">
+                                </div>
+
+                                <div class="p-grid img4">
+                                  <img src="images/photo/camera.jpg">
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
 
-                      <!-- 7th Modal in Photo Grid -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
+                        <!-- 7th Modal in Photo Grid -->
+                        <div class="item">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
 
-                        <div class="row">
-                          <div class="col-1">
-                            <h1>7th Modal in Photo Grid</h1>
-                            <img src="images/camera.png" id="img7" alt="" />
+                          <div class="row">
+                            <h1><span style="font-weight: 600">Photographer:</span> Stan Moniz</h1>
+                            <div class="col-1">
+                              <div class="p-img-wrapper">
+                                <img class="p-img-profile" src="images/photo/stan-moniz_profile_sized.jpg" id="img7" alt="" />
+                              </div>
+                              <div class="description">
+                                <p>Action & adventure  photographer /  film maker Stan Moniz was a water baby at birth, raised in the quite surf town of  Waialua, Hawaii. He became a professional body boarder at the age of 18 and remains an avid surfer today. His passion for music brought him to Southern California in 2000 and after a very successful career in a professional touring band, he ultimately set his sights on his other great passion: photography.&nbsp;
+                                  <a href="http://www.stanmoniz.com" target="_blank"><br><br>Website - Stan Moniz</a></p>
+                                </div>
+                              </div>
+
+                              <div class="col-2">
+                                <div class="p-img-group">
+                                  <div class="p-grid img1">
+                                    <img src="images/photo/moniz/the_wedge-stan-moniz-photography.jpg">
+                                  </div>
+
+                                  <div class="p-grid img2">
+                                    <img src="images/photo/moniz/rays-of-hope-stan-moniz-photography copy.jpg">
+                                  </div>
+
+                                  <div class="p-grid img3">
+                                    <img src="images/photo/moniz/rainbow_lip-stan-moniz-photography.jpeg">
+                                  </div>
+
+                                  <div class="p-grid img4">
+                                    <img src="images/photo/moniz/breaking-light-stan-moniz-photography.jpg">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
 
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
+                          <!-- 8th Modal in Photo Grid -->
+                          <div class="item">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                            <div class="row">
+                              <h1><span style="font-weight: 600">Photographer:</span> Joseph O'Connor</h1>
+                              <div class="col-1">
+                                <div class="p-img-wrapper">
+                                  <img class="p-img-profile" src="images/photo/joe_oconnor.jpg" id="img8" alt="" />
+                                </div>
+                                <div class="description">
+                                  <p>Joseph O'Connor is a hyper-talented NY-based photographer with a knack for capturing the natural beauty ingrained into the south shore of Long Island.</p>
+
+                                  <p>Born and raised in Long Beach, NY, he naturally developed a strong connection with the ocean, one that most people know pairs ever so eloquently with a passion for photography. His journey in photography began when his dad began teaching him how use a Pentax Super Program 35mm film camera during his high school years. Joseph's father loved capturing film photos of lighthouses and small coastal towns in the northeast, especially Maine.  It was these early forays into photographic expression that inspired a lot of what Joe enjoys shooting today.</p>
+
+                                  <p>Joseph would go on to develop a lot of skills in the water while working as a full time City of Long Beach Lifeguard for 6 years. He continues to serve the City of Long Beach as a part-time weekend lifeguard.  In the future, he's planning on shooting a lot more water based surf and fine art photography.</p>
+
+                                  <p>Currently, Joseph creates high quality images using Nikon and Aquatech Imaging Solutions equipment. He's best known for photos of the Long Beach Boardwalk and Long Island surf-Lineups.  He has been published in online galleries by the leading surf media outlets such as Surfing Magazine, Eastern Surf Magazine, Whalebone, Surfline, and Magic Seaweed.</p>
+
+                                  <p>You can follow Joseph O'Connor on <a href="https://www.instagram.com/joeoc_photo/" target="_blank">Instagram here</a> and of course visit his <a href="http://www.boardwalkcanvas.com/shop/?category=Joseph+O%27Connor" target="_blank">Boardwalk Canvas store here!</a></p>
+                                </div>
+                              </div>
+
+                              <div class="col-2">
+                                <div class="p-img-group">
+                                  <div class="p-grid img1">
+                                    <img src="images/photo/camera.jpg">
+                                  </div>
+
+                                  <div class="p-grid img2">
+                                    <img src="images/photo/camera.jpg">
+                                  </div>
+
+                                  <div class="p-grid img3">
+                                    <img src="images/photo/camera.jpg">
+                                  </div>
+
+                                  <div class="p-grid img4">
+                                    <img src="images/photo/camera.jpg">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
+
+                          <!-- 9th Modal in Photo Grid -->
+                          <div class="item">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                            <div class="row">
+                              <h1><span style="font-weight: 600">Photographer:</span> Adam King</h1>
+                              <div class="col-1">
+                                <div class="p-img-wrapper">
+                                  <img class="p-img-profile" src="images/photo/adam_king.jpg" id="img9" alt="" />
+                                </div>
+                                <div class="description">
+                                  <p>How did you get started with photography? I’d credit my father’s influence, and his love of photography when I was young. My own dedication really started as me and my wife began to travel, and then with the arrival of my first child. I just wanted to capture everything.&nbsp;
+                                    <a href="https://www.adamking.photo/" target="_blank"><br><br>Website - Adam King</a></p>
+                                    <p><a href="https://www.surfline.com/surf-news/local-pro-adam-king/26308" target="_blank">Surfline Interview - Adam King</a></p>
+                                  </div>
+                                </div>
+
+                                <div class="col-2">
+                                  <div class="p-img-group">
+                                    <div class="p-grid img1">
+                                      <img src="images/photo/king/adam_king_kim_crawford_scott_road.jpg">
+                                    </div>
+
+                                    <div class="p-grid img2">
+                                      <img src="images/photo/king/adam_king_loggerhead_classic_day_2.jpg">
+                                    </div>
+
+                                    <div class="p-grid img3">
+                                      <img src="images/photo/king/adam_king_hugeunot_park.jpg">
+                                    </div>
+
+                                    <div class="p-grid img4">
+                                      <img src="images/photo/king/adam_king_fernandina_jose_swell.jpg">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Controls -->
+                        <!-- <a href="#MyCarousel" class="left carousel-control photo" data-slide="prev"><span class="glyphicon left"></span></a>
+                          <a href="#MyCarousel" class="right carousel-control photo" data-slide="next"><span class="glyphicon right"></span></a> -->
+
                         </div>
-                      </div>
 
-                      <!-- 8th Modal in Photo Grid -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-
-                        <div class="row">
-                          <div class="col-1">
-                            <h1>8th Modal in Photo Grid</h1>
-                            <img src="images/camera.png" id="img8" alt="" />
-                          </div>
-
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- 9th Modal in Photo Grid -->
-                      <div class="item">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-
-                        <div class="row">
-                          <div class="col-1">
-                            <h1>9th Modal in Photo Grid</h1>
-                            <img src="images/camera.png" id="img9" alt="" />
-                          </div>
-
-                          <div class="col-2">
-                            <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
-                          </div>
-                        </div>
                       </div>
                     </div>
-
-                    <!-- Controls -->
-                    <a href="#MyCarousel" class="left carousel-control timeline" data-slide="prev"><span class="glyphicon left"></span></a>
-                    <a href="#MyCarousel" class="right carousel-control timeline" data-slide="next"><span class="glyphicon right"></a>
-
                   </div>
-
                 </div>
-              </div>
-          </div>
-        </div>
-    </div>
 
-  <!--Included Header php file -->
-  <?php include("footer-include.php");?>
-  </body>
+                <!-- ScrollMagic Scripts -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+                <script src="scripts/scrollmagic_v2.js"></script>
 
-</html>
+              </body>
+
+              </html>

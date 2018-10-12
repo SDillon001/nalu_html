@@ -1,7 +1,7 @@
 <?php  
- include("connection.php"); 
- $query = "SELECT * FROM Surfboards";  
- $result = mysqli_query($conn, $query);  
+include("connection.php"); 
+$query = "SELECT * FROM Surfboards";  
+$result = mysqli_query($conn, $query);  
 ?> 
 
 <!DOCTYPE html> 
@@ -27,41 +27,41 @@ include("head.php");
     -->
 
     <!-- Section 1 -->
-      <div id="main-carousel" class="carousel slide" data-ride="carousel" data-interval="35000">
-        <div class="carousel-inner">
-          <div class="videoWrapper item active" id="video">
-            <video id="video" muted autoplay="autoplay" preload="auto">
-                <source src="images/equipment/board_animation.mp4"></source>
-            </video>
-            <div class="carousel-caption">
-              <!-- <h1 class="caption-title">A <span style="font-family: 'Raleway-SemiBold'; color: #FCEFC5;">SURFING</span><span> COLLECTIVE<span class='spacer'></span><br /><h6 class="caption-sub-title">Explore the History of Surfing</h6></span><span class='spacer'></span><br /><a class="btn caption" href="timeline.php">LEARN MORE</a></h1> -->
-            </div>
+    <div id="main-carousel" class="carousel slide" data-ride="carousel" data-interval="35000">
+      <div class="carousel-inner">
+        <div class="videoWrapper item active" id="video">
+          <video id="video" muted autoplay="autoplay" preload="auto">
+            <source src="images/equipment/board_animation.mp4"></source>
+          </video>
+          <div class="carousel-caption">
+            <!-- <h1 class="caption-title">A <span style="font-family: 'Raleway-SemiBold'; color: #FCEFC5;">SURFING</span><span> COLLECTIVE<span class='spacer'></span><br /><h6 class="caption-sub-title">Explore the History of Surfing</h6></span><span class='spacer'></span><br /><a class="btn caption" href="timeline.php">LEARN MORE</a></h1> -->
           </div>
-          <!-- carousel image 2 -->
-          <div class="item">
-            <a href="#"><img src="images/equipment/banners/142_tom_blake_hollow_surfboard_2.jpg" alt="duke_waikiki_1930"/></a>
-          </div>
-          <!-- carousel image 3 -->
-          <div class="item">
-            <a href="#"><img src="images/equipment/banners/142_tom_blake_hollow_surfboard_2.jpg" alt="duke_waikiki_1930"/></a>
-          </div>
-          <!-- carousel image 4 -->
-          <div class="item">
-            <a href="#"><img src="images/equipment/banners/145_tom_blake_la_ladder_co.jpg" alt="145_tom_blake_la_ladder_co.jpg" /></a>
-          </div>
-          <!-- carousel image 5 -->
-          <div class="item">
-            <a href="#"><img src="images/equipment/banners/146_tom_blake_paddleboard_1.jpg" alt="145_tom_blake_la_ladder_co.jpg" /></a>
-          </div> 
         </div>
-
-        <a class="left carousel-control" data-target="#main-carousel" data-slide="prev">
-          <span class="glyphicon left"></span>
-        </a>
-        <a class="right carousel-control" data-target="#main-carousel" data-slide="next">
-          <span class="glyphicon right"></span>
-        </a>
+        <!-- carousel image 2 -->
+        <div class="item">
+          <a href="#"><img src="images/equipment/banners/142_tom_blake_hollow_surfboard_2.jpg" alt="duke_waikiki_1930"/></a>
+        </div>
+        <!-- carousel image 3 -->
+        <div class="item">
+          <a href="#"><img src="images/equipment/banners/142_tom_blake_hollow_surfboard_2.jpg" alt="duke_waikiki_1930"/></a>
+        </div>
+        <!-- carousel image 4 -->
+        <div class="item">
+          <a href="#"><img src="images/equipment/banners/145_tom_blake_la_ladder_co.jpg" alt="145_tom_blake_la_ladder_co.jpg" /></a>
+        </div>
+        <!-- carousel image 5 -->
+        <div class="item">
+          <a href="#"><img src="images/equipment/banners/146_tom_blake_paddleboard_1.jpg" alt="145_tom_blake_la_ladder_co.jpg" /></a>
+        </div> 
       </div>
+
+      <a class="left carousel-control" data-target="#main-carousel" data-slide="prev">
+        <span class="glyphicon left"></span>
+      </a>
+      <a class="right carousel-control" data-target="#main-carousel" data-slide="next">
+        <span class="glyphicon right"></span>
+      </a>
+    </div>
 
     <!-- Start Content -->
 
@@ -132,25 +132,33 @@ include("head.php");
           </div>
 
           <!-- Modal Start -->
-          <div class="modal fade" id="surfboardModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
+          <div class="modal fade" id="surfboardModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false" tabindex="-1">
             <div class="modal-dialog equipment">  
-              <div class="modal-content">  
+              <div class="modal-content equipment">   
+                <!-- Modal Header -->
                 <div class="modal-header" id="modal">  
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true">&times;</span>
                   </button> 
                   <h1 class="modal-title"></h1>
-                </div>  
-                <div class="modal-body" id="surfboard_detail">
-                 <img class="modal-image" />
-                 <div class="modal-description"></div>
-                </div>  
-                <div class="modal-footer">  
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
-                </div>  
+                </div>
+                <div class="modal-body equipment">
+                  <!-- Modal Image -->
+                  <div class="modal-col one">
+                   <img class="modal-image equipment" />
+                 </div>
+                 <!-- Modal Description -->
+                 <div class="modal-col two">
+                   <div class="modal-description"></div>
+                 </div>
+               </div>
+               <!-- Modal Footer -->
+               <div class="modal-footer">  
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
               </div>  
             </div>  
-          </div> 
+          </div>  
+        </div> 
 
         <!--Included Header php file -->
         <?php include("footer-include.php");?>

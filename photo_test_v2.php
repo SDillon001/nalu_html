@@ -151,7 +151,7 @@
     </div>
 
     <!-- Modal Code Start -->
-    <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
+    <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-body">

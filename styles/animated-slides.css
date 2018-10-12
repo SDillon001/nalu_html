@@ -111,7 +111,21 @@ div#two-description {
     margin: -150px auto auto -300px;
 }
 
+/* Interview Section */
+
+.photog-group.clearfix.interviews {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    padding: 2% 0%;
+    border-top: 1px solid #dcdcdc;
+}
+
+.int-title h2 {
+    text-align: center;
+}
+
 section.end {
     position: absolute;
-    top: 469.5%;
 }

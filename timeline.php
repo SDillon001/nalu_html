@@ -125,7 +125,7 @@
         </div> <!-- cd-timeline-block -->
         <!-- 1900s Third Entry End -->
 
-        <!-- 1950's Time Period Start -->
+        <!-- 1930's Time Period Start -->
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-movie">
             <span class="title"><strong>1930's</strong></span>
@@ -138,54 +138,52 @@
               <img src="images/1900s/1930s_blake_first_waterproof_camera.jpg">
             </div>
 
-            <p>In 1929, Tom Blake built the first waterproof camera housing used exclusively for surf photography.</p>
+            <p>In 1929, Tom Blake built the first waterproof camera housing used exclusively for surf photography. Most previous surfing photos had been taken from canoes or boats but Blake produced images from the unique perspective of a surfboard. </p>
             <span class="cd-read-more" data-slide="3">Read more</span>
             <span class="cd-date left">1929</span>
           </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
 
-        <!-- 1950's Time Period End -->
-
-        <!-- 1960's Time Period Start -->
+        <!-- 1930's Second Entry Start -->
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
-            <span class="title"><strong>1960's</strong></span>
+            <span class="title"><strong>1930's</strong></span>
           </div> <!-- cd-timeline-img -->
 
           <div class="cd-timeline-content left">
-            <h2>Jack London visits Hawaii</h2>
+            <h2>Palos Verdes Surf Club</h2>
             <div class="flex-item1"  data-slide="4">
               <!-- Image to Trigger Modal -->
-              <img src="images/boards_v2.png">
+              <img src="images/1900s/1930s_palos_verdes_cove.jpg">
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>The Surf Club movement. Surf club membership wasn’t mandatory for California surfers, but by the late 1930s you could have driven a Packard Super 8 from San Diego to Santa Cruz and had a hard time loading it up with nonaffiliated surfers.</p>
               <span class="cd-read-more" data-slide="4">Read more</span>
-            <span class="cd-date right" id="1960's">Jan 24</span>
+            <span class="cd-date right">1935</span>
           </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
 
+        <!-- 1940's First Entry Start -->
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture">
-            <span class="title"><strong>1960's</strong></span>
+            <span class="title"><strong>1940's</strong></span>
           </div> <!-- cd-timeline-img -->
 
           <div class="cd-timeline-content right">
-            <h2>Jack London visits Hawaii</h2>
+            <h2>Hobie vs. Velzy</h2>
             <div class="flex-item1" data-slide="5">
               <!-- Image to Trigger Modal -->
-              <img src="images/boards_v2.png">
+              <img src="images/1940s/hobie_vs_velzy.jpg">
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>A sufboard building rivalry.</p>
               <span class="cd-read-more" data-slide="5">Read more</span>
-            <span class="cd-date left">Jan 24</span>
+            <span class="cd-date left">1949</span>
           </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
+        <!-- 1940's First Entry End -->
 
-        <!-- 1960's Time Period End -->
-
-        <!-- 1970's Time Period Start -->
+        <!-- 1940's Second Entry Start -->
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-location">
             <span class="title"><strong>1970's</strong></span>
@@ -341,9 +339,9 @@
 
         <!-- 2000's Time Period End -->
 
-        <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false">
+        <div class="modal fade  " id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false" tabindex="-1">
             <div class="modal-dialog">
-              <div class="modal-content">
+              <div class="modal-content timeline">
                 <!-- <div class="modal-header">
 
                 </div> -->
@@ -436,7 +434,7 @@
 
                           <div class="col-2">
                             <div class="description"></div>
-                            <p>n 1929, Tom Blake built the first waterproof camera housing used exclusively for surf photography. Most previous surfing photos had been taken from canoes or boats but Blake produced images from the unique perspective of a surfboard. Many of his early images were published internationally. He used his own photographs to illustrate his first book. National Geographic magazine was so taken by his work they featured a number of his images in an article published in 1935.</p>
+                            <p>In 1929, Tom Blake built the first waterproof camera housing used exclusively for surf photography. Most previous surfing photos had been taken from canoes or boats but Blake produced images from the unique perspective of a surfboard. Many of his early images were published internationally. He used his own photographs to illustrate his first book. National Geographic magazine was so taken by his work they featured a number of his images in an article published in 1935.</p>
 
                             <p>"I bought a 4x5 graflex camera from Duke Kahanamoku in 1929," as Blake recalls the event. "I built a big wooden box about two feet high around it and placed the controls on the outside. The idea was to shoot surfing photos from my board. It was crude and clumsy. The lens would fog up so I placed a wiper on the inside of the box's lens. I managed to get some pretty good shots and everybody wanted their photo taken. It really took off when I sent the L.A.Times some images. In January of 1931, they ran a full page spread in their Sunday photogravure section. It was called "Riders Of The Sunset Seas." This image got Doc Ball and Dr. Don James so excited they both eventually became well known surf photographers."</p>
                             <p class="timeline-credit"><a href="http://www.hawaiihistory.org/index.cfm?fuseaction=ig.page&PageID=449" target="_blank">Source: HawaiiHistory.org</a></p>
@@ -452,19 +450,20 @@
 
                         <div class="row">
                           <div class="col-1">
-                            <h1>Gidget the All-Powerful</h1>
-                            <img src="images/rawImage_pcr_fred_windisch.jpg" id="img2" alt="" /></a>
+                            <h1>Palos Verdes Surf Club</h1>
+                            <img src="images/1900s/1930s_palos_verdes_cove.jpg" id="img2" alt="" /></a>
                           </div>
 
                           <div class="col-2">
                             <div class="description"></div>
-                            <p>Around 1957, 15-year-old Kathy Kohner learned to surf by trading peanut butter sandwiches for the use of whatever board was lying around Tubesteak Tracy's palm-frond Malibu beach shack. By the end of summer she had her own board and had developed into a competent surfer.</p>
+                            <p>Surf club membership wasn’t mandatory for California surfers, but by the late 1930s you could have driven a Packard Super 8 from San Diego to Santa Cruz and had a hard time loading it up with nonaffiliated surfers. Unlike the surf-based organizations in Hawaii and Australia, these new clubs were focused on surfing, and a bit of paddling, and nothing else. California’s best-known and best-organized group was the Palos Verdes Surf Club, founded in 1935 by a surfing dentist named John “Doc” Ball. Headquartered south of Los Angeles in Gardena, where Ball had a dental practice, the PVSC took its name from the nearby Palos Verdes Peninsula, home to a quietly wealthy Mediterranean-themed bedroom community, as well as the Cove, a beautiful cliff-lined bay sometimes referred to as “Little Waikiki.” Just under thirty surfers took the club oath and became PVSC members during the 1930s. A dozen other similar clubs were formed up and down the coast, every one filled with young gung-ho middle-class surfers, roughly half of them college students.</p>
 
-                            <p>Back home, she talked incessantly about her surfing experiences, and at one point told her father that she was going to write a book about it. Frederick Kohner smiled, heard a little bell go off in his head, and offered to write it for her.</p>
+                            <p>The surf club movement said a lot about how the sport was developing in America. Surfers now had the numbers and confidence to join together in organizations having little or nothing to do with extraneous things like lifeguarding or canoeing. Wave-riding was enough. At the same time, clubs like the PVSC helped validate an experience that was still new and a little strange; all of the established rituals of club life allowed the sport to be talked about and presented in terms familiar to everyone, surfers and nonsurfers alike.</p>
 
-                            <p>Gidget is a work of fiction, but just barely. G. P. Putman’s Sons published Gidget, the Little Girl with Big Ideas—the subtitle was dropped for later editions—in mid-fall 1957. It earned reasonably good notices (the Times called it “touching and entertaining”), made the West Coast best-seller lists (outperforming Jack Kerouac’s On the Road, which came out a few weeks earlier), and eventually sold more than a half million copies.</p>
+                            <blockquote>Six months after one of Palos Verdes Surf Club's top riders dropped out of college to spend more time on the beach, he was called to clubhouse floor and told to return to class or face expulsion. There was the occasional clubhouse booze-up, but PVSC members mostly all walked the line.</blockquote>
 
-                            <p>And so it was that a gushing Malibu-obsessed tomboy escorted surfing to its permanent seat at the banquet table of American pop culture.</p>
+                            <p>With clubs on the rise, surfing took another inevitable step toward organized competition, which meant rules and standings, winners and losers, trophies and championships—the staff of life to sportsmen of all kind. Also, there was a flattery inherent in the rise of club-sponsored events, contests, and newsletters, in that they all promised to put the surfer at the center of the action. In a social and cultural sense, this was essential to the development of the sport. But it didn’t reflect the surfer’s experience in the water, which constantly veered into the wild, to places that had nothing to do with any regulated or organized form of sport.</p>
+                            <p class="timeline-credit"><a href="https://eos.surf/history/" target="_blank">Source: Warshaw, Matt. The History of Surfing</a></p>
                           </div>
                         </div>
                       </div>
@@ -477,13 +476,19 @@
 
                         <div class="row">
                           <div class="col-1">
-                            <h1>Modal #6 - Tom Blake and Sam Reid surf Malibu for the first time</h1>
-                            <img src="images/rawImage_pcr_fred_windisch.jpg" id="img2" alt="" /></a>
+                            <h1>Hobie vs Velzy</h1>
+                            <img src="images/1940s/hobie_vs_velzy.jpg" id="img2" alt="" /></a>
                           </div>
 
                           <div class="col-2">
                             <div class="description"></div>
-                            <p>In the bricks 3rd reef burner oil rip the pit fair-good point break sand bottom. Elevator drop heavy slice healthy float tomb-stoning kelp slash quiver sand bottom A frames wonky.</p>
+                            <p>A rudimentary form of surfboard retailing began in 1949, when longtime Southern California surfer and boardmaker Dale Velzy opened a tiny factory-storefront in Manhattan Beach. His operation took off five years later, when he opened a bigger shop in Venice Beach, with fellow shaper Hap Jacobs, and they introduced the wildly popular Velzy-Jacobs “pig” model.</p>
+
+                            <p>Velzy soon had competition from a 21-year-old boardmaker from Laguna Beach named Hobie Alter, who was as sober and organized as Velzy was flamboyant and impulsive. Alter built 80 boards during his first three years as a shaper—nothing close to Velzy’s numbers, but more by far than any other Orange County boardmaker. Not only were the boards well-crafted—even at this early stage, before Alter had come up with a decal, before he even signed his work—they were reasonably priced ($45) and always delivered on time, unlike the typical Velzy-Jacobs job.</p>
+
+                            <p>In 1954 Alter bought a weedy vacant lot in an unincorporated Dana Point/Pacific Coast Highway “retail district” that featured just two other stores. Alter then built an L-shaped building, with a small but bright glass-fronted retail space and a windowless cement-walled factory attached to the back. Fifteen hundred Hobie boards [were] sold altogether between 1954 and early 1958, at a time when the total number of surfers in California wasn’t much above five thousand.</p>
+
+                            <p>Velzy swooped down from Los Angeles in 1955 to open a new outlet in San Clemente, on Pacific Coast Highway, just five miles south of Hobie’s shop, for the express purpose of siphoning off potential customers driving up from San Diego. And thus began the start of the first great American boardmaker’s rivalry. Customers lined up behind one man or the other, Hobie or Velzy, giving their allegiance not just to a brand but a form of surfing leadership.</p>
                           </div>
                         </div>
                       </div>

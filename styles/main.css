@@ -1,15 +1,18 @@
-    /* Table of Contents */
+/* Brand Colors 
 
-    /* 1. Global */
-    /* 2. Home Page */
+Primary Blue: #0a3859 
+Secondary Blue: #00c1d9
+Accent Color: #FFBC00
+Site Grey: #6B6D76;
+Ice White: #f4fafe;
+*/
 
 /* 1. Global */
 
-
 /**, *:before, *:after {
 border: 1px solid red;
-}
-*/
+}*/
+
 
 html, body {
   height: 100%;
@@ -768,9 +771,11 @@ address {
 }
 
 ul.footer-list {
+  float: left;
   text-align: left;
   list-style: none;
-  padding: 10px;
+  padding: 0% 1%;
+  margin: 0px;
   color: #999999;
 }
 

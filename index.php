@@ -209,7 +209,7 @@
               <a href="/timeline.php" class="home-lm-link">Learn More</a>
             </div>
 
-            <div class="flex-item2"><a href="/photo.php"><img src="images/bolster_tavarua_empty_perfect.jpg" alt="bolster_tavarua_empty_perfect"></a>
+            <div class="flex-item2"><a href="/photographers.php"><img src="images/bolster_tavarua_empty_perfect.jpg" alt="bolster_tavarua_empty_perfect"></a>
               <h3>Photo</h3>
               <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
               <a href="/photo.php" class="home-lm-link">Learn More</a>
