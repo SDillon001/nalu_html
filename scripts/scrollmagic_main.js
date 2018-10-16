@@ -67,7 +67,7 @@ $(function () { // wait for document ready
 	// define movement of panels
 	var wipeAnimation = new TimelineMax()
 		.fromTo("section.panel.turqoise", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone})  // up from bottom
-		.fromTo("section.panel.green",    1, {y: "100%"}, {y: "0%", ease: Linear.easeNone})  // up from bottom
+		.fromTo("section.panel.green",    1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone})  // up from bottom
 		.fromTo("section.panel.bordeaux", 1, {y: "100%"}, {y: "0%", ease: Linear.easeNone}); // up from bottom
 
 	// create scene to pin and link animation

@@ -101,6 +101,7 @@
           </div>
         </div>
       </div>
+
     </div>
 
     <div class="container-fluid">
@@ -120,6 +121,10 @@
           </ul>
         </div>
       </div>
+
+      <!-- Back to top Arrow from https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ -->
+      <a id="back2Top" title="Back to top" href="#"><span class="glyphicon up"></span></a>
+      
     </div>
 
     <!-- ScrollMagic Scripts -->

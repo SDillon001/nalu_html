@@ -21,7 +21,6 @@
 
       <div class="collapse navbar-collapse" id="js-navbar-collapse">
         <ul class="nav navbar-nav">
-          <!-- <li class="active"><a href="index.php">Home</a></li> -->
           <li class="dropdown">
             <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/timeline.php">Timeline <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -34,11 +33,7 @@
               <li><a href="timeline.php#2000's">2000's</a></li>
             </ul>
           </li>
-          <li class="dropdown">
-            <a <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/photographers.php">Photographers <!-- <b class="caret"></b> --></a>
-            <!-- <ul class="dropdown-menu">
-              <li><a href="photo_test_v2.php">Photo_Test_v2</a></li>
-            </ul> -->
+          <li><a href="/photographers.php">Photographers</a>
           <li><a href="equipment.php">Equipment</a></li>
           <li><a href="people.php">People</a></li>
           <li><a href="share.php">Share</a></li>

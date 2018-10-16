@@ -32,16 +32,17 @@ $(document).ready(function(){
     //loop through each surfboard in the JSON file and append a <div> with the surfboard information
     $.each(data.Surfboards, function (row) {
         $("#board_table").append(
-          '<div class="photog-group custom-modal clearfix" data-title="'+ data.Surfboards[row].Surfboard.boardName +'" data-image="images/'
+          '<div class="equip-content">' + '<div class="photog-group custom-modal clearfix" data-title="'+ data.Surfboards[row].Surfboard.boardName +'" data-image="images/'
           + data.Surfboards[row].Surfboard.imageName +'" data-description="'+
-          data.Surfboards[row].Surfboard.caDescription +'"><figure class="cap-bot"><a href="equipment.php?id=' 
+          data.Surfboards[row].Surfboard.caDescription +'"><figure><a href="equipment.php?id=' 
           + data.Surfboards[row].Surfboard.id 
-          + '"><a data-target="#surfboardModal" data-toggle="modal"><img class="photog-headshot" src="images/'
+          + '"><a data-target="#surfboardModal" data-toggle="modal"><div class="equip-content-overlay"></div><img class="photog-headshot" src="images/'
           + data.Surfboards[row].Surfboard.imageName + '" alt="'
           + data.Surfboards[row].Surfboard.imageName
-          + '"></a><figcaption><p>Board Name: ' 
-          + data.Surfboards[row].Surfboard.boardName 
-          + '<br>Year Shaped: ' 
+          + '"></a><figcaption class="fadeIn-bottom"><h1>' 
+          + data.Surfboards[row].Surfboard.boardName + '</h1>'
+          + '<hr>'
+          + '<p>Year Shaped: ' 
           + data.Surfboards[row].Surfboard.year + '</p></figcaption><figure></div>');
     });
   });

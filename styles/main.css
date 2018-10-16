@@ -286,6 +286,7 @@ a.left.carousel-control, a.right.carousel-control {
   position: absolute;
   z-index: 4;
   top: 40%;
+  opacity: 0.2;
   cursor: pointer;
   /*width: 0;*/
   height: 0;
@@ -317,6 +318,10 @@ span.glyphicon.right {
   color: #e8e8e8 !important;
 }
 
+.carousel-control:hover {
+  opacity: 1 !important;
+}
+
 span.glyphicon.glyphicon-chevron-left {
     margin-left: 0px !important;
 }
@@ -337,15 +342,20 @@ span.glyphicon.glyphicon-chevron-right {
   position: absolute;
   z-index: 4;
   top: 70%;
-  left: 48.3%;
+  left: 48.6%;
 }
 
 span.glyphicon.down {
   border: none;
-  width: 75px;
+  width: 50px;
   height: 8rem;
   background: url(../images/down.png) no-repeat;
   cursor: pointer;
+  opacity: 0.9;
+}
+
+span.glyphicon.down:hover {
+  opacity: 1;
 }
 
 .bounce {
@@ -779,6 +789,42 @@ p.footer-text.left {
   margin: auto;
   line-height: 50px;
   vertical-align: middle;
+}
+
+/* Back to top Arrow */
+
+#back2Top {
+    width: 50px;
+    line-height: 40px;
+    overflow: hidden;
+    opacity: 0.3;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 0%;
+    left: 95%;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+}
+
+#back2Top:hover {
+    opacity: 1;
+}
+
+span.glyphicon.up {
+  border: none;
+  width: 30px;
+  height: 1rem;
+  background: url(../images/up.png) no-repeat;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+span.glyphicon.down:hover {
+  opacity: 1;
 }
 
 /* Bottom Nav Layout */

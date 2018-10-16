@@ -7,6 +7,10 @@ Site Grey: #6B6D76;
 Ice White: #f4fafe;
 */
 
+/**, *:before, *:after {
+border: 1px solid red;
+}*/
+
 /* Header */
 
 .photo-grid-head h2 {
@@ -120,12 +124,6 @@ span.glyphicon.photo.left {
 
 /* Photo Grid Start */
 
-.main-content.ng-scope {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .photog-group.clearfix {
   float: left;
   width: 33.3%;
@@ -203,6 +201,7 @@ img.photog-headshot {
   color: #fff;
   font-size: 1.5em;
   text-align: center;
+  font-variant: small-caps;
 }
 
 .fadeIn-bottom {
@@ -214,3 +213,41 @@ img.photog-headshot {
 }
 
 /* End Overlay */
+
+/* Photog Icons */
+
+.link-wrap {
+    padding: 2%;
+    border: 1px solid #00c1d9;
+    margin: 0% 0% 5%;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.link-wrap.jung {
+    margin: 0% 0% 2%;
+}
+
+.web-icon:before {
+    content:url(/images/icons/web-icon.png);
+    padding: 0% 2%;
+    vertical-align: -35%;
+}
+
+.web-icon {
+    font-variant: small-caps;
+
+    display: block;
+}
+
+.int-icon:before {
+    content:url(/images/icons/int-icon.png);
+    padding: 0% 2%;
+    vertical-align: -35%;
+}
+
+.int-icon {
+    font-variant: small-caps;
+    display: block;
+}

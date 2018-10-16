@@ -18,7 +18,7 @@ $(function () { // wait for document ready
         // triggerHook: 0,
       })
       .setPin(slides[i])
-      .addIndicators() // add indicators (requires plugin)
+      // .addIndicators() // add indicators (requires plugin)
       .addTo(controller);
   }
 });
