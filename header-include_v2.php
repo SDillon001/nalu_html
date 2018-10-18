@@ -21,7 +21,6 @@
 
       <div class="collapse navbar-collapse" id="js-navbar-collapse">
         <ul class="nav navbar-nav">
-          <!-- <li class="active"><a href="index.php">Home</a></li> -->
           <li class="dropdown">
             <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" href="/timeline.php">Timeline <b class="caret"></b></a>
             <ul class="dropdown-menu">

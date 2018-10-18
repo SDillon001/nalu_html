@@ -128,19 +128,28 @@ $(function() {
 
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 2000) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
+  var height = $(window).scrollTop();
+  if (height > 2000) {
+      $('#back2Top').fadeIn();
+  } else {
+      $('#back2Top').fadeOut();
+  }
 });
 $(function() {
-    $("#back2Top").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
-    });
+  $("#back2Top").click(function(event) {
+      event.preventDefault();
+      $("html, body").animate({ scrollTop: 0 }, "slow");
+      return false;
+  });
 
 });
- /*Scroll to top when arrow up clicked END*/
+
+// Scroll to top when arrow up clicked END
+
+// Image Flip
+function flip (event)
+{
+  var element = event.currentTarget;
+  /* Toggle the setting of the classname attribute */
+  element.className = (element.className == 'card') ? 'card flipped' : 'card';
+}

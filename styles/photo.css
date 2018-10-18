@@ -44,6 +44,22 @@ h1#photogs {
     -webkit-animation-name: slidein;
 }
 
+.int-title h2,
+.int-title h1 {
+    color: #0a3859;
+}
+
+.int-title h1 {
+  font-weight: 600;
+}
+
+.flex-container-interviews {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
 .interviews {
     width: 100%;
     background: #fff;
@@ -56,6 +72,13 @@ h1#photogs {
 .interviews {
     float: left;
     width: 100%;
+}
+
+hr.int-hr {
+    width: 60px;
+    border: 1px solid #2eb6d1;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 /* Carousel Start */
@@ -251,3 +274,27 @@ img.photog-headshot {
     font-variant: small-caps;
     display: block;
 }
+
+/* Responsive Video Embed From https://avexdesigns.com/responsive-youtube-embed/ */
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.video-container:hover {
+    opacity: .8;
+}
+
+/* Responsive Video Embed End */

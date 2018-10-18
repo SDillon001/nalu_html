@@ -109,7 +109,7 @@ a:hover, a:focus {
 
 img.logo {
   width: 22%;
-  margin: 0% 10% auto;
+  margin: 0% 11.2%;
   float: left;
   padding-left: 24px;
   padding-top: 13px;
@@ -124,7 +124,7 @@ ul.nav.navbar-nav {
   float: right;
   padding: 0;
   margin: 0;
-  padding-right: 5% !important;
+  padding-right: 6.4% !important;
 }
 
 .navbar.navbar-default {
@@ -667,7 +667,7 @@ div#section6 {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   box-sizing: border-box;
 }
 
@@ -705,7 +705,8 @@ div#section6 {
 .flex-item h2 {
   position: absolute;
   top: 30%;
-  left: 38%;
+  line-height: 100px;
+  vertical-align: middle;
   width: 100%;
   color: #fff;
   opacity: 0;
@@ -719,13 +720,12 @@ div#section6 {
 }
 
 .flex-item:hover img {
-    opacity: .2;
+  opacity: .2;
 }
 
 .flex-hr {
-    border: 1px solid #ffffff;
-    left: 35px;
-    position: absolute;
+  border: 1px solid #ffffff;
+  margin-top: 0px;
 }
 
 a.home-lm-link {
@@ -769,8 +769,23 @@ p.footer-text.left {
 /* Row Layout */
 
 .top-1, .top-2 {
-  margin: 5% 5% 2%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   color: #CCCCCC;
+}
+
+.col-md-4 {
+  width: 25%;
+  margin: 2%;
+  padding-left: 0px; 
+  text-align: left;
+}
+
+.flex-item2 img:hover {
+    opacity: .8;
 }
 
 .top-1 h5, .top-2 h5 {

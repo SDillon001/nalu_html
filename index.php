@@ -74,8 +74,8 @@
             </div>
 
             <div class="arrow bounce">
-            <a href="#image-grid"><span class="glyphicon down"></span></a>
-          </div> 
+              <a href="#image-grid"><span class="glyphicon down"></span></a>
+            </div> 
           </div>
 
           <a class="left carousel-control" data-target="#main-carousel" data-slide="prev">
@@ -183,7 +183,7 @@
     </div>
 
     <!-- Section 5  -->
-    <div class="section fp-auto-height" id="section5">
+    <div class="section" id="section5">
       <div class="section5_content">
         <h2>Beneath the Chaos</h2>
         <h1>UNDERWATER SURF PHOTOGRAPHY</h1>
@@ -193,7 +193,7 @@
     </div>
 
     <!-- Section 6  -->
-    <div class="section fp-auto-height" id="section6">
+    <div class="section" id="section6">
       <h3 id="section0"></h3>
       <div class="section6_content">
         <h2>Tradition | Culture | Stoke</h2>
@@ -202,24 +202,22 @@
       </div>
 
       <div class="flex-container2">
-        <div class="imGrid2">
-          <div class="flex-item2"><a href="/timeline.php"><img src="images/1958_huntington_pier.jpg" alt="1958_huntington_pier"></a>
-            <h3>Timeline</h3>
-            <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
-            <a href="/timeline.php" class="home-lm-link">Learn More</a>
-          </div>
+        <div class="flex-item2"><a href="/timeline.php"><img src="images/1958_huntington_pier.jpg" alt="1958_huntington_pier"></a>
+          <h3>Timeline</h3>
+          <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
+          <a href="/timeline.php" class="home-lm-link">Learn More</a>
+        </div>
 
-          <div class="flex-item2"><a href="/photographers.php"><img src="images/bolster_tavarua_empty_perfect.jpg" alt="bolster_tavarua_empty_perfect"></a>
-            <h3>Photo</h3>
-            <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
-            <a href="/photo.php" class="home-lm-link">Learn More</a>
-          </div>
+        <div class="flex-item2"><a href="/photographers.php"><img src="images/bolster_tavarua_empty_perfect.jpg" alt="bolster_tavarua_empty_perfect"></a>
+          <h3>Photo</h3>
+          <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
+          <a href="/photo.php" class="home-lm-link">Learn More</a>
+        </div>
 
-          <div class="flex-item2"><a href="/equipment.php"><img src="images/142_tom_blake_hollow_surfboard_grid.jpg" alt="tom_blake_hollow_surfboard_plans"></a>
-            <h3>Equipment</h3>
-            <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
-            <a href="/equipment.php" class="home-lm-link">Learn More</a>
-          </div>
+        <div class="flex-item2"><a href="/equipment.php"><img src="images/142_tom_blake_hollow_surfboard_grid.jpg" alt="tom_blake_hollow_surfboard_plans"></a>
+          <h3>Equipment</h3>
+          <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
+          <a href="/equipment.php" class="home-lm-link">Learn More</a>
         </div>
       </div>
     </div>

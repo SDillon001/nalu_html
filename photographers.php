@@ -15,7 +15,8 @@
     </div>
     <div class="section" id="description">
       <div class="desc-inner">
-        <h3>Bruce Brown</h3>
+        <h2>Bruce Brown</h2>
+        <hr>
         <p>Oscar-nominated surf moviemaker from Southern California; producer of 1966's The Endless Summer, the sport's best and best-known movie. Brown was born (1937) in San Francisco, California, spent his first nine years in Oakland, then moved with his family to Long Beach, in southwest Los Angeles County, where he began surfing.</p>
       </div>
     </div>
@@ -26,7 +27,8 @@
     </div>
     <div class="right-side one" id="one-description">
       <div class="desc-inner section">
-        <h3>Tom Blake</h3>
+        <h2>Tom Blake</h2>
+        <hr>
         <p>Blake was born (1902) in Milwaukee, Wisconsin, the son of a club steward and former bar owner. His mother died of tuberculosis when Blake was an infant, and his father left him to be raised by a series of Milwaukee-based relatives. Isolated as a child, Blake grew up to become a quiet and detached adult. At age nine or 10, he saw a newsreel featuring a short clip of surfing in Hawaii; at 18, as a high school dropout living in Detroit, Michigan, he met Hawaiian surfer and Olympic gold medal swimmer Duke Kahanamoku in a movie theater lobby. Blake moved to Los Angeles the following year where he began swimming competitively, and was soon one of the nation's best all-arounders, winning a 10-mile AAU race in 1922, and later defeating Kahanamoku himself in a 220-yard sprint.</p>
       </div>
     </div>
@@ -37,7 +39,8 @@
     </div>
     <div class="right-side two" id="two-description">
       <div class="desc-inner section">
-       <h3>Doc Ball</h3>
+       <h2>Doc Ball</h2>
+       <hr>
        <p>Prototype surf photographer and surf club organizer from Los Angeles, California; founder of the Palos Verdes Surf Club in 1935; author of the seminal 1946-published California Surfriders. While Ball and Wisconsin-born Tom Blake are both credited as the forebears of surf photography, it was Ball who had the greater influence on the next generation of photographers, including fellow California surf world icons Leroy Grannis and Don James. "The quality of his shots was superb," James later said of Ball's work. "I always wanted to try and get photos as good as Doc's, and I never quite made it."</p>
      </div>
    </div>
@@ -170,33 +173,40 @@
   </div>
 
   <div class="interviews">
-
     <div class="int-title">
       <h2>Check out these</h2>
       <h1>PHOTOGRAPHER INTERVIEWS</h1>
-      <hr>
+      <hr class="int-hr">
     </div>
 
-    <div class="flex-container2">
-      <div class="imGrid2">
-        <div class="flex-item2"><a href="https://www.youtube.com/watch?v=p7BeQmRpqRM" target="_blank"><img src="images/photo/a_life_surfing_the_photography_of_jeff_divine.jpg" alt=""></a>
-          <h3><span style="font-weight: 600">Jeff Divine:</span> "A Life Surfing"</h3>
-          <p>Jeff Divine is one of the most highly regarded surf photographers, and his work spans over 5 decades of surf culture. In this video, Jeff presents a slideshow of his work and discusses the culture, clothing, changes, people, waves, places, and general vibe of the sport.</p>
-          <a href="https://www.youtube.com/watch?v=p7BeQmRpqRM" class="home-lm-link">Watch on Youtube</a>
+    <div class="flex-container-interviews">
+      <div class="flex-item2">
+        <div class="video-container">
+          <iframe width="430" height="240" src="https://www.youtube.com/embed/p7BeQmRpqRM" frameborder="0" allowfullscreen ></iframe> 
         </div>
+        <h3><span style="font-weight: 600">Jeff Divine:</span> "A Life Surfing"</h3>
+        <p>Jeff Divine is one of the most highly regarded surf photographers, and his work spans over 5 decades of surf culture. In this video, Jeff presents a slideshow of his work and discusses the culture, clothing, changes, people, waves, places, and general vibe of the sport.</p>
+        <a href="https://www.youtube.com/watch?v=p7BeQmRpqRM" target="_blank" class="home-lm-link">Watch on Youtube</a>
+      </div>
 
-        <div class="flex-item2"><a href="https://www.youtube.com/watch?v=f55Vp7t0BTo" target="_blank"><img src="images/photo/the_wedge_and_surf_photographer_ben_ginsberg.jpg" alt=""></a>
-          <h3><span style="font-weight: 600">Benjamin Ginsberg:</span> "Exposure"</h3>
-          <p>An original Surf Channel production, “EXPOSURE” is an ongoing series featuring the world’s most talented surf photographers. Episode 5 features Red Bull Illume finalist, Ben Ginsberg. </p>
-
-          <a href="http://www.thesurfchannel.com/news/20150202/video-exposure-surf-photographer-ben-ginsberg/" class="home-lm-link">Watch on TheSurfChannel.com</a>
+      <div class="flex-item2">
+        <div class="video-container">
+          <iframe width="430" height="240" src="https://www.youtube.com/embed/f55Vp7t0BTo" frameborder="0" allowfullscreen ></iframe> 
         </div>
+        <h3><span style="font-weight: 600">Benjamin Ginsberg:</span> "Exposure"</h3>
+        <p>An original Surf Channel production, “EXPOSURE” is an ongoing series featuring the world’s most talented surf photographers. Episode 5 features Red Bull Illume finalist, Ben Ginsberg.</p>
 
-        <div class="flex-item2"><a href="https://edelkrone.com/blogs/featured-videomakers/stan-moniz" target="_blank"><img src="images/photo/edelkrone_stan_moniz_interview_thumb.jpg" alt=""></a>
-          <h3><span style="font-weight: 600">Stan Moniz:</span> "Edelkrone Featured Videomakers"</h3>
-          <p>Action & adventure photographer/filmmaker Stan Moniz was a water baby at birth, raised in the quite surf town of  Waialua, Hawaii. In 2010, he reacquainted himself with his love for the ocean, adventure and capturing the beauty of the world we live in.</p>
-          <a href="https://vimeo.com/191102691" class="home-lm-link">Watch on Vimeo</a>
+        <a href="http://www.thesurfchannel.com/news/20150202/video-exposure-surf-photographer-ben-ginsberg/" target="_blank" class="home-lm-link">Watch on TheSurfChannel.com</a>
+      </div>
+
+      <div class="flex-item2">
+
+        <div class="video-container">
+          <iframe width="430" height="240" src="https://www.youtube.com/embed/aHZCGBmfA-0" frameborder="0" allowfullscreen ></iframe>
         </div>
+        <h3><span style="font-weight: 600">Stan Moniz:</span> "Edelkrone Featured Videomakers"</h3>
+        <p>Action & adventure photographer/filmmaker Stan Moniz was a water baby at birth, raised in the quite surf town of  Waialua, Hawaii. In 2010, he reacquainted himself with his love for the ocean, adventure and capturing the beauty of the world we live in.</p>
+        <a href="https://edelkrone.com/blogs/featured-videomakers/stan-moniz" target="_blank" class="home-lm-link">Read the Article</a>
       </div>
     </div>
 

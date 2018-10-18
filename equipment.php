@@ -64,103 +64,106 @@ include("head.php");
     </div>
 
     <!-- Start Content -->
+    <div class="main-content">
+      <div class="equip-grid-head">
+        <h1>Surfboards Then and Now</h1>
+        <h2>~ click below for more info ~</h2>
+      </div>
+    </div>
 
-    <div class="photo wrapper">
-      <!-- Image Carousel -->
-      <div id="photo-carousel" class="carousel slide equipment" data-ride="carousel" data-interval="900000">
-        <div class="photo carousel-inner">
-          <div class="item photo active">
+    <!-- Longboard Flip -->
+    <div class="split-content-wrapper">
+      <div class="eq-split-content left">
+        <div class="card-container">
+          <div class="card">
             <div class="item container equipment" id="hotspot_image">
-              <img src="images/mini-eco-hybrid.png" alt="" usemap="#Map" />
-              <map name="Map" id="Map">
-                <area alt="" title="nose" href="#" shape="poly" coords="128,26,131,76,186,77,182,28" />
-                <area alt="" title="stringer" href="#" shape="poly" coords="57,189,59,235,101,235,96,187" />
-                <area alt="" title="specs" href="#" shape="poly" coords="93,473,97,530,135,528,137,473" />
-                <area alt="" title="tail" href="#" shape="poly" coords="119,698,120,759,164,758,161,696" />
-                <area alt="" title="fins" href="#" shape="poly" coords="789,640,792,696,836,699,833,636" />
-                <area alt="" title="bottom" href="#" shape="poly" coords="862,489,863,546,901,547,897,492" />
-                <area alt="" title="brand" href="#" shape="poly" coords="862,261,865,318,904,318,900,261" />
-                <area alt="" title="rails" href="#" shape="poly" coords="857,184,862,230,899,229,898,187" />
-              </map>
-            </div>
-
-            <div class="photo sub-item">
-              <h3>Mini Eco Hybrid</h3>
-              <p id="col">Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
-
-              <p id="col">Designer: The MINI surfboard is a Channel Islands collaboration with Kalani Robb and MINI automotive.</p>
-
-              <p id="col">More details: <a href="https://www.cisurfboards.com/board/mini/" target="_blank">Mini Eco Hybrid</a></p>
-            </div>
-          </div>
-
-          <div class="item photo">
-            <div class="item container equipment">
-              <!-- <a href="#"> -->
-                <img class="item-image" src="images/mctavish_involvement.jpg" /></a>
+              <div class="side">
+                <img src="images/equipment/boards/346_redwood_hotcurl_1937.jpg" alt=""/>
               </div>
-              <div class="photo sub-item">
-                <h3>Involvement - Mctavish Surfboards</h3>
-                <p id="col">We developed the Involvement in 1966, a variation on our Noosa 66 model. It’s the extreme end of the "Pig" template where the tail measurement (12” up) is wider than the nose. Pigs were pioneered by Dale Velzy at Malibu in the late 50s, good trimmers and nose riders found the template more nimble off the tail, and far faster in trim, and nose-riding wasn’t really hurt at all, surprisingly. We considered the design a little extreme until Matty Chojnacki urged us to make him one a few years back. He absolutely ripped on it, with gliding drop-ins followed by a snappy bottom turn, fast nimble walking, in-the-slot trimming, tight nose-rides, and high kick stalls. A real thriller, the Involvement is the extreme end of the pivot-trim-noseride approach for small lined up waves today.</p>
-
-                <p id="col">Designer: Bob McTavish</p>
-
-                <p id="col">More details: <a href="https://www.mctavish.com.au/collections/involvements" target="_blank">Involvement - Mctavish Surfboards</a></p>
+              <div class="side back">
+                <img src="images/equipment/boards/346_redwood_hotcurl_1937_back.jpg" alt="" usemap="#Map" />
               </div>
             </div>
-
           </div>
-
-          <a class="left equipment carousel-control" data-target="#photo-carousel" data-slide="prev">
-            <span class="glyphicon equipment left"></span>
-          </a>
-          <a class="right equipment carousel-control" data-target="#photo-carousel" data-slide="next">
-            <span class="glyphicon equipment right"></span>
-          </a>
         </div>
+      </div>
 
-        <!-- Surfboard Image Grid Start -->
-        <div class="main-content equipment">
-          <div class="equip-grid-head">
-            <h1>Choose a Board to View</h1>
+      <div class="eq-split-content right">
+        <h2>Hot Curl plank, 10’ 2.75”, 56 lbs</h2>
+        <h3>Circa 1940s, Hawaiian Origin, Unknown shaper, Redwood with a Koa Wood Tailblock</h3>
+        <p id="col">The “Hot Curl” was a board shape created in 1937 on Oahu by Honolulu surfer John Kelly. A finless predecessor to the big wave gun, it represents the first customized surfboard constructed exclusively for riding larger surf. Reshaped from “plank” surfboards, these boards had narrow vee-bottom tails that held in larger, more critical surf conditions. So named for keeping the rider in the hot part of the curl. “John Kelly, Wally Froiseth, Fran Heath and later, Woody Brown and George Downing, were among a small group who all but invented big-wave surfing at Makaha in the 1940s and early ‘50s while riding “Hot Curls.”</p>
+      </div>
+    </div>
+
+    <!-- Shortboard Flip -->
+    <div class="split-content-wrapper">
+      <div class="eq-split-content-left two">
+        <h2>Mini Eco Hybrid</h2>
+        <p id="col">Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
+
+        <p id="col">Designer: The MINI surfboard is a Channel Islands collaboration with Kalani Robb and MINI automotive.</p>
+
+        <p id="col"><span style="font-weight: 600">More details:</span> <a href="https://www.cisurfboards.com/board/mini/" target="_blank">Mini Eco Hybrid</a></p>
+      </div>
+
+      <div class="eq-split-content-right two">
+        <div class="card-container">
+          <div class="card">
+            <div class="item container equipment" id="hotspot_image">
+              <div class="side">
+                <img src="images/mini-eco-hybrid.png" alt=""/>
+              </div>
+              <div class="side back">
+                <img src="images/equipment/boards/346_redwood_hotcurl_1937_back.jpg" alt="" usemap="#Map" />
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+  </div>
 
-          <div class="flexbox_container">
-            <section class="view_data" id="board_table">
-              <!-- surfboards.js will publish surfboards from database here -->
-            </section>
+  <!-- Surfboard Image Grid Start -->
+  <div class="main-content equipment">
+    <div class="equip-grid-head">
+      <h1>Choose a Board to View</h1>
+    </div>
+
+    <div class="flexbox_container">
+      <section class="view_data" id="board_table">
+        <!-- surfboards.js will publish surfboards from database here -->
+      </section>
+    </div>
+
+    <!-- Modal Start -->
+    <div class="modal fade" id="surfboardModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false" tabindex="-1">
+      <div class="modal-dialog equipment">  
+        <div class="modal-content equipment">   
+          <!-- Modal Header -->
+          <div class="modal-header" id="modal">  
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button> 
+            <h1 class="modal-title"></h1>
           </div>
+          <div class="modal-body equipment">
+            <!-- Modal Image -->
+            <div class="modal-col one">
+             <img class="modal-image equipment" />
+           </div>
+           <!-- Modal Description -->
+           <div class="modal-col two">
+             <div class="modal-description"></div>
+           </div>
+         </div>
+         <!-- Modal Footer -->
+         <div class="modal-footer">  
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+        </div>  
+      </div>  
+    </div>  
+  </div> 
 
-          <!-- Modal Start -->
-          <div class="modal fade" id="surfboardModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-interval="false" tabindex="-1">
-            <div class="modal-dialog equipment">  
-              <div class="modal-content equipment">   
-                <!-- Modal Header -->
-                <div class="modal-header" id="modal">  
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button> 
-                  <h1 class="modal-title"></h1>
-                </div>
-                <div class="modal-body equipment">
-                  <!-- Modal Image -->
-                  <div class="modal-col one">
-                   <img class="modal-image equipment" />
-                 </div>
-                 <!-- Modal Description -->
-                 <div class="modal-col two">
-                   <div class="modal-description"></div>
-                 </div>
-               </div>
-               <!-- Modal Footer -->
-               <div class="modal-footer">  
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
-              </div>  
-            </div>  
-          </div>  
-        </div> 
-
-        <!--Included Header php file -->
-        <?php include("footer-include.php");?>
-      </body>
-      </html>
+  <!--Included Header php file -->
+  <?php include("footer-include.php");?>
+</body>
+</html>

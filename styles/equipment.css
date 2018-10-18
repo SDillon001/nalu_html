@@ -1,17 +1,8 @@
-
-.item.container.equipment {
-    width: 100%;
-    height: 100%;
-}
-
-.carousel.slide.equipment {
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 2%;
-}
-
 /* Photo Grid Start */
+
+html,body {
+  height:100%;
+}
 
 .board-group.clearfix {
   float: left;
@@ -20,39 +11,127 @@
 }
 
 .main-content.eqiupment {
-    padding-top: 8%;
+  padding-top: 8%;
 }
 
 .equip-grid-head {
-    width: 100%;
-    text-align: center;
-    background: #2eb6d1;
-    padding: 1%;
-    color: #fff;
-    text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  background: #0a3859;
+  padding: 1%;
+  color: #fff;
+  text-transform: uppercase;
+  border-top: 1px solid rgba(107, 109, 118, .3);
+
 }
 
-a.left.equipment.carousel-control, a.right.equipment.carousel-control {
-    top: 35%;
+.equip-grid-head h1, h2 {
+  color: #fff;
+  text-align: center !important;
 }
 
-span.glyphicon.equipment.right {
-  right: 5rem !important;
-  border: none;
-  width: 50px;
-  height: 8rem;
-  background: url(images/right_grey.png) no-repeat;
+/* Longboard Split Section 1 */
+
+.split-content-wrapper {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.split-content-wrapper > div {
+  width: 50%;
+  padding: 2%;
+}
+
+.eq-split-content.right {
+  padding: 12% 4%;
+  background: rgba(0, 193, 217, .15);
+}
+
+.eq-split-content.right h2 {
+  color: #0a3859;
+  text-align: left !important;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+.eq-split-content.right p {
+  color: #0a3859;
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Shortboard Split Section 2 */
+
+.eq-split-content-left.two {
+  padding: 12% 4%;
+  background: rgba(0, 193, 217, .15);
+}
+
+.eq-split-content-right.two {
+  padding: 5%;
+  background: transparent;
+}
+
+.eq-split-content-left.two h2 {
+  color: #0a3859;
+  text-align: left !important;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+.eq-split-content-left.two p {
+  color: #0a3859;
+  font-size: 1.2em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Short Section 2 End*/
+
+/* Card Flip from this CodePen https://codepen.io/shayhowe/pen/Fvjnf */
+
+.eq-split-content.left,
+.eq-split-content-right.two {
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+
+.card-container {
   cursor: pointer;
+  width: 100%;
+  height: 100%;
+  perspective: 600;
+  position: relative;
 }
 
-span.glyphicon.equipment.left {
-  left: 1rem !important;
-  border: none;
-  width: 50px;
-  height: 8rem;
-  background: url(images/left_grey.png) no-repeat;
-  cursor: pointer;
+.card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
+
+.eq-split-content.left:hover,
+.eq-split-content-right.two:hover {
+  transform: rotateY(180deg);
+}
+
+.eq-split-content.left .side,
+.eq-split-content-right.two .side {
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.eq-split-content.left .back,
+.eq-split-content-right.two .back {
+  transform: rotateY(180deg);
+}
+
+/* Flip End*/
 
 .flexbox_container {
   display: flex;
@@ -146,11 +225,11 @@ figcaption {
 }
 
 figcaption.fadeIn-bottom h1 {
-    color: #fff;
-    text-align: center;
-    font-weight: 500;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 }
 
 figcaption p {
