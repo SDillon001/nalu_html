@@ -1,6 +1,9 @@
 <?php
+
 //Create the connection and select database
 include 'connection.php';
+
+error_reporting(E_ALL); ini_set('display_errors', 1);
 
 //Select all data from the surfboards table
 $sql = "SELECT * FROM Surfboards ORDER BY id ASC";

@@ -286,7 +286,6 @@ a.left.carousel-control, a.right.carousel-control {
   position: absolute;
   z-index: 4;
   top: 40%;
-  opacity: 0.2;
   cursor: pointer;
   /*width: 0;*/
   height: 0;
@@ -332,6 +331,21 @@ span.glyphicon.glyphicon-chevron-right {
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
+}
+
+a.left.carousel-control.timeline, a.right.carousel-control.timeline {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  position: absolute;
+  z-index: 4;
+  top: 100%;
+  cursor: pointer;
+  height: 0;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 
 /* Down Arrow */

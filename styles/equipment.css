@@ -245,3 +245,20 @@ figure:hover figcaption {
   left: 50%;
   opacity: 1;
 }
+
+/* Equipment Modal */
+
+.col-sm-6 h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.b-img-group img {
+    margin-top: 0% !important;
+    border: 1px solid #000;
+}
+
+.b-grid {
+    width: 70%;
+    margin: auto;
+}

@@ -13,6 +13,28 @@ border: 1px solid red;
 
 /* Header */
 
+.carousel-caption.photogs {
+    top: 70% !important;
+    right: 40% !important;
+    left: 0% !important;
+}
+
+.section.content-wrapper3.fade-in h2,
+.section.content-wrapper3.fade-in h3 {
+    text-align: left !important;
+    line-height: 1.4;
+}
+
+.content-wrapper3 {
+    width: 90%;
+    padding: 2% 5%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    background-color: hsla(0, 0%, 2%, 0.5);
+    z-index: 2;
+}
+
 .photo-grid-head h2 {
   text-align: center;
   color: #fff;
@@ -242,7 +264,7 @@ img.photog-headshot {
 .link-wrap {
     padding: 2%;
     border: 1px solid #00c1d9;
-    margin: 0% 0% 5%;
+    margin: 0% 0% 3%;
     display: block;
     width: 100%;
     text-align: center;

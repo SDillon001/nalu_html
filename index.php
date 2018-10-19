@@ -30,7 +30,7 @@
 
             <!-- carousel image 1 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/122_blake_1930.jpg" alt="122_blake_1930.jpg" /></a>
+              <a href="#"><img src="images/banners/sized/082_duke_waikiki_1930_1.jpg" alt="duke" /></a>
             </div>
             <!-- carousel image 2 -->
             <div class="item">
@@ -38,11 +38,11 @@
             </div>
             <!-- carousel image 3 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/bolster_stan.jpg" alt="bolster_stan.jpg" /></a>
+              <a href="#"><img src="images/banners/sized/bolster_89.jpg" alt="Rell Sun" /></a>
             </div>
             <!-- carousel image 4 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/bolster_89.jpg" alt="bolster_89.jpg"/></a>
+              <a href="#"><img src="images/banners/sized/20-tahiti-teahupoo-2017-7_maria-fernanda.jpg"/></a>
             </div>
             <!-- carousel image 5 -->
             <div class="item">
@@ -58,7 +58,7 @@
             </div>
             <!-- carousel image 8 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/bolster_kewalobasindawn.jpg" alt="images/banners/sized/bolster_kewalobasindawn.jpg" /></a>
+              <a href="#"><img src="images/banners/sized/oahu-leah-2014-1_maria-fernanda.jpg" alt="Maria Fernanda - Leah, Oahu" /></a>
             </div>
             <!-- carousel image 9 -->
             <div class="item">
@@ -153,7 +153,7 @@
         <h3>Warren Bolster</h3>
         <h1>SURFING PIPELINE IN THE 70's</h1>
         <h2>What it takes to surf and shoot the North Shore of Oahu</h2>
-        <a class="btn caption section5_button" href="timeline.php/#1970's">LEARN MORE</a>
+        <a class="btn caption section5_button" href="timeline.php#1970's">LEARN MORE</a>
       </div>
     </div>
 

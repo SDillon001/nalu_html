@@ -91,6 +91,17 @@ ul.nav.navbar-nav {
 /* Photographers Page */
 
 
+/* Equipment Page */
+
+li.page-item.disabled {
+    display: block;
+}
+
+li.page-item {
+    display: none;
+}
+
+
 
 }
 

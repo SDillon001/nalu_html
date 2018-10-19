@@ -6,8 +6,8 @@ border: 1px solid red;
 /* Larger Modal */
 
 div#myModal {
-    z-index: 10001;
-    padding-right: 0px !important;
+  z-index: 10001;
+  padding-right: 0px !important;
 }
 
 .modal-content {
@@ -23,7 +23,7 @@ div#myModal {
 
 .modal-content.timeline,
 .modal-content.equipment {
-    bottom: 0;
+  bottom: 0;
 }
 
 .modal-dialog {
@@ -63,70 +63,95 @@ div#myModal {
   font-weight: 600;
 }
 
-.modal .col-1 {
-    width: 33%;
-    float: left;
-    padding: 2%;
-}
-
-.modal .col-2 {
-    padding: 2%;
+.modal-body {
+  min-height: 100vh !important;
 }
 
 /* Image Grid Start */
 
 .p-img-wrapper {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .p-grid {
-    width: 30%;
-    float: left;
-    margin: 0% 0% 2% 2%;
+  width: 48%;
+  float: left;
+  margin: 0% 0% 2% 2%;
 }
 
 .p-img-group img {
-    margin-top: 0% !important;
+  margin-top: 0% !important;
 }
 
 /* Image Grid End */
 
 .modal-description {
-    font-size: 1.2em;
-    color: #003859;
-    margin-top: 2%;
-}
-
-.col-1 .description {
-    font-size: 1.2em;
-    color: #003859;
-    margin-top: 2%;
-}
-
-.col-2 p {
   font-size: 1.2em;
   color: #003859;
   margin-top: 2%;
 }
 
-.carousel-indicators {
-    position: absolute;
-    bottom: 0;
-    left: 11% !important;
-    width: 10% !important;
-    margin-left: 0% !important;
+.description p {
+    font-size: 1.2em;
+    color: #0a3859;
 }
 
-.carousel-indicators li {
-    background-color: #0A3859;
-    background-color: #0A3859;
-    border: 0px solid #0A3859;
+.pagination {
+  display: flex;
+  padding-left: 0px;
+  list-style: none;
+  border-radius: 0.25rem;
+  justify-content: center;
 }
 
-.carousel-indicators .active {
-    background-color: #00C1D9 !important;
+a.page-link.previous,
+a.page-link.next {
+    background: #0a3859;
+    color: #fff !important;
+}
+
+ul.pagination.mx-auto.text-center {
+  margin: 0.5%;
+}
+
+.pagination > li > a, .pagination > li > span {
+  color: #0a3859 !important;
+  border: 1px solid rgba(107, 109, 118, .2) !important;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    background-color: #0a3859 !important;
+    color: #fff !important;
+}
+
+.tooltip.in {
+    filter: alpha(opacity=90);
+    opacity: 1 !important;
+}
+
+.tooltip.bottom .tooltip-inner {
+    max-width: 310px;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    background-color: #00c1d9;
+    border-radius: 0px;
+    margin-left: 0%;
+    font-size: 14px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #00c1d9 !important;
+}
+
+.tooltip.bottom .tooltip-inner:focus {
+  outline: none !important;
 }
 
 /* Image Grid End */
@@ -137,12 +162,12 @@ div#myModal {
   color: #003859;
   width: 100%;
   font-weight: 300;
-  padding-left: 2%;
+  padding-left: 0.75%;
 }
 
-.modal-body.equipment {
-  padding: 15px;
-  margin: 5% 0%;
+.modal-body {
+  padding: 0px 15px;
+  margin: 0%;
 }
 
 .modal-col.one {
@@ -156,6 +181,24 @@ div#myModal {
   padding: 5% 5% 0% 0%;
 }
 
+.table {
+    width: 70%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+td {
+    font-weight: 600;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    color: #0a3859;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+
 .modal-footer {
   position: absolute;
   right: 0;
@@ -166,11 +209,11 @@ div#myModal {
   background: #f1f3f5;
 }
 
-a.left.carousel-control.timeline,
-a.right.carousel-control.timeline {
-    top: 40%;
-}
-
 .close {
   font-size: 58px;
+}
+
+button#second-close {
+    left: 2%;
+    position: absolute;
 }

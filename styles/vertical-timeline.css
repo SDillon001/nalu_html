@@ -475,6 +475,11 @@ span.title.pre-1900s {
   border-right: 10px solid #2eb6d1;
 }
 
+.cd-timeline-content.left:hover,
+.cd-timeline-content.right:hover {
+    opacity: 0.8;
+}
+
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 1.5rem;

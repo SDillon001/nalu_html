@@ -26,15 +26,29 @@
         <div class="col-md-4 right">
           <h5>Newsletter</h5>
 
-          <!--Start mc_embed_signup-->
-          <form action="https://stevedillon.us10.list-manage.com/subscribe/post?u=1d58f9ef366258591bc129b44&amp;id=252074c059" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <!--Start Newsletter Signup-->
+
+          
+          <?php
+          if( $posted ) {
+            if( $result ) 
+              echo "<script type='text/javascript'>alert('submitted successfully!')</script>";
+            else
+              echo "<script type='text/javascript'>alert('failed!')</script>";
+          }
+          ?>
+
+          <form action="insert_news_user.php" method="post" id="news_signup" name="" class="">
+
             <div class="form-group">
-              <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" aria-describedby="emailHelp" placeholder="Enter Your Email" required>
+              <input type="email" name="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Enter Your Email" required>
               <br>
-              <input class="form-control" type="text" name="FNAME" placeholder="Enter Your Name" id="mce-FNAME">
+              <input class="form-control" type="text" name="Fname" placeholder="Enter Your Name" id="">
               <br>
               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1d58f9ef366258591bc129b44_252074c059" tabindex="-1" value=""></div>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1d58f9ef366258591bc129b44_252074c059" tabindex="-1" value="">
+              </div>
+
               <div class="clear">
                 <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
               </div>

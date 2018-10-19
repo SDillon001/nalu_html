@@ -153,3 +153,11 @@ function flip (event)
   /* Toggle the setting of the classname attribute */
   element.className = (element.className == 'card') ? 'card flipped' : 'card';
 }
+
+// Enable tootltips everywhere
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip({
+    trigger : 'hover',
+    html: true
+  })
+});
