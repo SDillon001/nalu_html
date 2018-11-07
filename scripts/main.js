@@ -25,37 +25,6 @@ $(document).ready(function($){
 	}
 });
 
-// Sticky Menu Timeline.html
-$( document ).ready(function() {
-
-$( ".cross" ).hide();
-$( ".menu" ).hide();
-$( ".hamburger" ).click(function() {
-$( ".menu" ).slideToggle( "fast", function() {
-$( ".hamburger" ).hide();
-$( ".cross" ).show();
-});
-});
-
-$( ".cross" ).click(function() {
-$( ".menu" ).slideToggle( "fast", function() {
-$( ".cross" ).hide();
-$( ".hamburger" ).show();
-});
-});
-
-});
-
-// // Sticky Menu 2 Timeline.html
-// $(function(){
-//   $('#demo').on('hide.bs.collapse', function () {
-//     $('#button').html('&#9776;');
-//   })
-//   $('#demo').on('show.bs.collapse', function () {
-//     $('#button').html('&#735;');
-//   })
-// })
-
 // Photo Modal
 $(function() {
 	$('.photog-group:not(.custom-modal)').on('click', function(event) {
@@ -80,7 +49,7 @@ $(function() {
 
 // Timeline Modal
 $(function() {
-	$('.flex-item1, .cd-read-more').on('click', function(event) {
+	$('.cd-timeline-content').on('click', function(event) {
 		//Gets the Item that was clicked
 		var $this = $(event.currentTarget);
 		$('#myModal').modal('show');
@@ -160,4 +129,52 @@ $(function () {
     trigger : 'hover',
     html: true
   })
+});
+
+// home page nav bar opacity on scroll
+$(window).scroll(function() {    
+  var scroll = $(window).scrollTop();
+  var $window = $(window)
+
+  if ($window.width() < 3000 && scroll >= 1200) {
+      $(".navbar-default").addClass("opaque");
+      $(".logo").addClass("small");
+  } else {
+      $(".navbar-default").removeClass("opaque");
+      $(".logo").removeClass("small");
+  }
+
+  // iPad
+  if ($window.width() < 769 && scroll >= 400) {
+      $(".navbar-default").addClass("opaque"); 
+      $(".logo").addClass("mobile");
+      $(".navbar-toggle.collapsed").addClass("but-shrink");
+  } else {
+      $(".logo").removeClass("mobile");
+      $(".navbar-toggle.collapsed").removeClass("but-shrink");
+  }
+
+  // iPhone
+  if ($window.width() < 475 && scroll >= 250) {
+      $(".navbar-default").addClass("opaque"); 
+      $(".logo").addClass("mobile2");
+  } else {
+      $(".logo").removeClass("mobile2");
+  }
+});
+
+// Hide indicators on Equipment page past a certain point
+$(window).scroll(function() {
+  var height = $(window).scrollTop();
+  if (height > 8000) {
+      $('.vert-links').addClass("vert-links-hide");
+  } else {
+      $('.vert-links').removeClass("vert-links-hide");
+  }
+});
+
+$(".item").mouseenter(function() {
+    $(".carousel-control").css("opacity: 1");
+}).mouseleave(function() {
+    $(".carousel-control").css("opacity: 0");
 });

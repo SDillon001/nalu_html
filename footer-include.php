@@ -1,7 +1,7 @@
-<div class="footer-wrapper">
+<footer>
   <div class="footer" id="section7">
+    <!-- Footer Row 1 -->
     <div class="container-fluid">
-      <!-- Row 1 -->
       <div class="top-1 row">
         <!-- Column 1 -->
         <div class="col-md-4 left">
@@ -22,13 +22,11 @@
             </a>
           </p>
         </div>
+
         <!-- Column 3 -->
         <div class="col-md-4 right">
           <h5>Newsletter</h5>
-
-          <!--Start Newsletter Signup-->
-
-          
+          <!--Start Newsletter Signup-->          
           <?php
           if( $posted ) {
             if( $result ) 
@@ -39,7 +37,6 @@
           ?>
 
           <form action="insert_news_user.php" method="post" id="news_signup" name="" class="">
-
             <div class="form-group">
               <input type="email" name="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Enter Your Email" required>
               <br>
@@ -55,47 +52,70 @@
             </form>
           </div>
         </div>
+      </div>
 
-        <!-- Row 2 -->
+      <!-- Footer Row 2 -->
+      <div class="container-fluid">
         <div class="top-2 row">
+
           <!-- Column 1 -->
-          <div class="col-md-4">
+          <div class="col-md-4 bottom left">
             <h5>Get Connected</h5>
-            <div class="flex-container">
-              <div class="imGrid social">
-                <div class="flex-item social">
-                  <a href="https://www.facebook.com/SteveDillonDesigns/" target="_blank"><img src="images/facebook.png" alt="facebook.png"></a>
-                </div>
-                <div class="flex-item social">
-                  <a href="https://www.instagram.com/stevedillonphoto" target="_blank"><img src="images/instagram.png" alt="instagram.png"></a>
-                </div>
-                <div class="flex-item social">
-                  <a href="https://www.linkedin.com/in/stevedillon1/" target="_blank"><img src="images/linkedin.png" alt="linkedin.png"></a>
-                </div>
-                <div class="flex-item social">
-                  <a href="https://plus.google.com/u/0/111716399104478997939" target="_blank"><img src="images/google_plus.png" alt="google_plus.png"></a>
-                </div>
+            <div class="imGrid social">
+              <div class="flex-item social">
+                <a href="https://www.facebook.com/Nalulive-the-History-of-Surfing-342411326336995/" target="_blank"><img src="images/facebook.png" alt="facebook.png"></a>
+              </div>
+              <div class="flex-item social">
+                <a href="https://www.instagram.com/stevedillonphoto" target="_blank"><img src="images/instagram.png" alt="instagram.png"></a>
+              </div>
+              <div class="flex-item social">
+                <a href="https://www.linkedin.com/in/stevedillon1/" target="_blank"><img src="images/linkedin.png" alt="linkedin.png"></a>
+              </div>
+              <div class="flex-item social">
+                <a href="https://plus.google.com/u/0/111716399104478997939" target="_blank"><img src="images/google_plus.png" alt="google_plus.png"></a>
               </div>
             </div>
           </div>
+
           <!-- Column 2 -->
-          <div class="col-md-4">
-            <h5>Instagram</h5>
-            <div class="flex-container">
-              <div class="imGrid">
-                <div class="flex-item"><img src="images/1900s_gurrey_surf_riders.jpg" alt="1900s Image Link"></div>
-                <div class="flex-item"><img src="images/1958_huntington_pier.jpg" alt="1950s Image Link"></div>
-                <div class="flex-item"><img src="images/1966_corky_carroll_surf_stoner.jpg" alt="1966_corky_carroll_surf - Ron Stoner"></div>
-                <div class="flex-item"><img src="images/lopez_pipe_71_divine.jpg" alt="1970s Image Link"></div>
-                <div class="flex-item"><img src="images/bolster_85_richie_collins.jpg" alt="1980s Image Link"></div>
-                <div class="flex-item"><img src="images/1990s_bolster_carroll.jpg" alt="1990s Image Link"></div>
-                <div class="flex-item"><img src="images/2000_bolster_manoa_tahiti.jpg" alt="2000s Image Link"></div>
-                <div class="flex-item"><img src="images/bruce.png" alt="Grid Image"></div>
-              </div>
-            </div>
+          <div class="col-md-4 bottom center">
+            <h5>Nalu.live on Instagram</h5>
+            <!-- Instagram feed from https://www.codeofaninja.com/2015/01/display-instagram-feed-website.html -->
+            <?php
+              // use this instagram access token generator http://instagram.pixelunion.net/
+            $access_token="8665918919.1677ed0.9155d4bf992b4be382bb08004d555055";
+            $photo_count=8;
+
+            $json_link="https://api.instagram.com/v1/users/self/media/recent/?";
+            $json_link.="access_token={$access_token}&count={$photo_count}";
+
+            $json = file_get_contents($json_link);
+            $obj = json_decode($json, true, 512, JSON_BIGINT_AS_STRING);
+
+            foreach ($obj['data'] as $post) {
+
+              $pic_link=$post['link'];
+              $pic_src=str_replace("http://", "https://", $post['images']['standard_resolution']['url']);
+
+              echo "<div class='col-md-4 col-sm-6 col-xs-12 item_box'>";        
+              echo "<a href='{$pic_link}' target='_blank'>";
+              echo "<img class='img-responsive photo-thumb' src='{$pic_src}' alt='{$pic_text}'>";
+              echo "</a>";
+              echo "<p>";
+              echo "<p>";
+              echo "<div style='color:#888;'>";
+              echo "<a href='{$pic_link}' target='_blank'>{$pic_created_time}</a>";
+              echo "</div>";
+              echo "</p>";
+              echo "<p>{$pic_text}</p>";
+              echo "</p>";
+              echo "</div>";
+            }
+            ?>
           </div>
+
           <!-- Column 3 -->
-          <div class="col-md-4">
+          <div class="col-md-4 bottom right">
             <h5>Contributors List</h5>
             <ul class="footer-list left">
               <li><a href="http://shacc.org/" target="_blank">Surfing Heritage and Culture Center</a></li>
@@ -113,51 +133,50 @@
               <li><a href="http://www.stanmoniz.com/" target="_blank">Stan Moniz</a></li>
             </ul>
           </div>
+
         </div>
       </div>
 
-    </div>
+  <!-- Bottom Row -->
+  <div class="container-fluid">
+    <div class="bottom row">
+      <!-- Column 1 -->
+      <div class="col-md-12">
+        <h5><a href="index.php">© 2018 Nalu.com</a></h5>
 
-    <div class="container-fluid">
-      <!-- Row 1 -->
-      <div class="bottom row">
-        <!-- Column 1 -->
-        <div class="col-md-12">
-          <h5><a href="index.php">© 2018 Nalu.com</a></h5>
-
-          <ul class="nav footer navbar-nav">
-            <!-- <li class="active"><a href="index.php">Home</a></li> -->
-            <li><a href="timeline.php">Timeline</a></li>
-            <li><a href="photographers.php">Photographers</a></li>
-            <li><a href="equipment.php">Equipment</a></li>
-            <li><a href="people.php">People</a></li>
-            <li><a href="share.php">Share</a></li>
-          </ul>
-        </div>
+        <ul class="nav footer navbar-nav">
+          <!-- <li class="active"><a href="index.php">Home</a></li> -->
+          <li><a href="timeline.php">Timeline</a></li>
+          <li><a href="photographers.php">Photographers</a></li>
+          <li><a href="equipment.php">Equipment</a></li>
+          <li><a href="people.php">People</a></li>
+          <li><a href="share.php">Share</a></li>
+        </ul>
       </div>
-
-      <!-- Back to top Arrow from https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ -->
-      <a id="back2Top" title="Back to top" href="#"><span class="glyphicon up"></span></a>
-      
     </div>
 
-    <!-- ScrollMagic Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-    <script src="scripts/scrollmagic_main.js"></script>
+    <!-- Back to top Arrow from https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ -->
+    <a id="back2Top" title="Back to top" href="#"><span class="glyphicon up"></span></a>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-    <script>
-      ! function(A, n, g, u, l, a, r) {
-        A.GoogleAnalyticsObject = l, A[l] = A[l] || function() {
-          (A[l].q = A[l].q || []).push(arguments)
-        }, A[l].l = +new Date, a = n.createElement(g),
-        r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
-      }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', 'UA-102205886-1');
-      ga('send', 'pageview');
-    </script>
   </div>
+
+  <!-- ScrollMagic Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <script src="scripts/scrollmagic_main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+  <script>
+    ! function(A, n, g, u, l, a, r) {
+      A.GoogleAnalyticsObject = l, A[l] = A[l] || function() {
+        (A[l].q = A[l].q || []).push(arguments)
+      }, A[l].l = +new Date, a = n.createElement(g),
+      r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+    }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-102205886-1');
+    ga('send', 'pageview');
+  </script>
+</footer>

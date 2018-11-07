@@ -1,162 +1,35 @@
-/* Header space fix */
+/* Pagination */
 
-.title-head.timeline {
-  margin: 5% 0% 2% 5%;
+ul.vert-links {
+ position: fixed;
+ top: 45%;
+ left: 15px;
+ line-height: 25px;
+ padding: 0px 15px 0px 15px;
+ color: #fff;
+ border: 0;
+ font-size: 1.4em;
+ font-weight: bold;
+ cursor: pointer;
+ outline: none;
+ z-index: 10000;
 }
 
-/* START Sticky Anchor bar from http://www.cssscript.com/ */
-
-.hamburger {
-  background: #2eb6d1;
-  position: fixed;
-  top: 275px;
-  left: 25px;
-  line-height: 45px;
-  padding: 0px 15px 0px 15px;
-  color: #fff;
-  border: 0;
-  font-size: 1.4em;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-  z-index: 10000;
+i.far.fa-circle {
+    font-size: 14px;
 }
-
-.cross {
-  background: none;
-  position: fixed;
-  top: 260px;
-  left: 25px;
-  padding: 7px 15px 0px 15px;
-  color: #999;
-  border: 0;
-  font-size: 3em;
-  line-height: 65px;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-  z-index: 10000;
-}
-
-.btn-primary {
-  background: #2eb6d1;
-  position: fixed;
-  top: 260px;
-  left: 25px;
-  line-height: 45px;
-  padding: 0px 15px 0px 15px;
-  color: #fff;
-  border: 0;
-  font-size: 1.4em;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-  z-index: 10000;
-}
-
-.menu {
-  z-index: 1000000;
-  font-weight: bold;
-  font-size: 0.8em;
-  width: 100%;
-  background: #f1f1f1;
-  position: absolute;
-  text-align: center;
-  font-size: 12px;
-}
-
-.menu ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  list-style-image: none;
-}
-
-.menu li {
-  display: block;
-  padding: 15px 0 15px 0;
-  border-bottom: #dddddd 1px solid;
-}
-
-.menu li:hover {
-  display: block;
-  background: #abb7bf;
-  padding: 0px 0px 0px 25px;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  margin: 0px;
-  color: #666;
-}
-
-.menu ul li a:hover {
-  color: #666;
-  text-decoration: none;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #666;
-}
-
-.menu a:hover {
-  text-decoration: none;
-  color: #666;
-}
-
-.glyphicon-home {
-  color: white;
-  font-size: 1.5em;
-  margin-top: 5px;
-  margin: 0 auto;
-}
-
-header {
-  display: inline-block;
-  font-size: 12px;
-}
-
 
 a {
   color: #336699;
 }
 
-.sticky-container {
-  padding: 0px;
-  margin: 0px;
-  position: fixed;
-  top: 310px;
-  width: 90px;
-  left: 25px;
+.vert-links-show {
+  display: block !important;
 }
 
-.sticky li {
-  list-style-type: none;
-  background-color: #2eb6d1;
-  color: #efefef;
-  height: 43px;
-  padding: 0px 20px;
-  margin: 0px 0px 1px 0px;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-  cursor: pointer;
+.vert-links-hide {
+  display: none;
 }
-
-.sticky li:hover {}
-
-.sticky li p {
-  padding: 0px;
-  margin: 0px;
-  text-transform: uppercase;
-  line-height: 43px;
-  color: hsla(0, 0%, 100%, 1.00);
-  font-size: 16px;
-}
-
-/* Sticky Menu END */
 
 /* --------------------------------
 Start Main Timeline Structure
@@ -210,8 +83,8 @@ Main components
   margin-bottom: 2em;
 }
 
+/* This is the vertical line */
 #cd-timeline::before {
-  /* this is the vertical line */
   content: '';
   position: absolute;
   top: 0;
@@ -230,6 +103,16 @@ Main components
   #cd-timeline::before {
     left: 50%;
     margin-left: -2px;
+  }
+
+    .cd-timeline-block {
+    margin: 4em 0;
+  }
+  .cd-timeline-block:first-child {
+    margin-top: 0;
+  }
+  .cd-timeline-block:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -250,18 +133,6 @@ Main components
 
 .cd-timeline-block:last-child {
   margin-bottom: 0;
-}
-
-@media only screen and (min-width: 1170px) {
-  .cd-timeline-block {
-    margin: 4em 0;
-  }
-  .cd-timeline-block:first-child {
-    margin-top: 0;
-  }
-  .cd-timeline-block:last-child {
-    margin-bottom: 0;
-  }
 }
 
 .title {
@@ -310,6 +181,7 @@ span.title.pre-1900s {
   background: #2eb6d1;
 }
 
+/* Slide in left image blocks animation. See main.js for more. 'is-hidden' class is removed and 'bounce-in is added */
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
@@ -320,10 +192,12 @@ span.title.pre-1900s {
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
-  .cssanimations .cd-timeline-img.is-hidden {
+
+   .cd-timeline-img.is-hidden {
     visibility: hidden;
   }
-  .cssanimations .cd-timeline-img.bounce-in {
+  
+   .cd-timeline-img.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-1 0.6s;
     -moz-animation: cd-bounce-1 0.6s;
@@ -402,8 +276,10 @@ span.title.pre-1900s {
 }
 
 .cd-timeline-content p {
-    font-size: 1.2em !important;
-    color: #003859;
+  margin: 1em 0;
+  line-height: 1.6;
+  font-size: 1.2em !important;
+  color: #003859;
 }
 
 .cd-timeline-content:after {
@@ -413,7 +289,7 @@ span.title.pre-1900s {
 }
 
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: #0a3859;
 }
 
 .cd-timeline-content p,
@@ -428,17 +304,16 @@ span.title.pre-1900s {
   display: inline-block;
 }
 
-.cd-timeline-content p {
-  margin: 1em 0;
-  line-height: 1.6;
-}
-
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .5em .8em;
   background: #2eb6d1;
   color: white;
   border-radius: 0.25em;
+}
+
+.cd-timeline-content.right span.cd-read-more {
+    float: left !important;
 }
 
 .no-touch .cd-timeline-content .cd-read-more:hover {
@@ -484,18 +359,15 @@ span.title.pre-1900s {
   .cd-timeline-content h2 {
     font-size: 1.5rem;
   }
+
   .cd-timeline-content p {
     font-size: 16px;
     font-size: 1rem;
   }
-  .cd-timeline-content .cd-read-more,
-  .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 1rem;
-    text-transform: uppercase;
-  }
+
 }
 
+/* Slide in right image blocks animation. See main.js for more. 'is-hidden' class is removed and 'bounce-in is added */
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
     margin-left: 0;
@@ -510,8 +382,10 @@ span.title.pre-1900s {
     border-bottom: 10px solid transparent;
     border-left: 10px solid #2eb6d1;
   }
+  
   .cd-timeline-content .cd-read-more {
     float: right;
+    text-transform: uppercase;
   }
 
   .cd-date {
@@ -521,7 +395,6 @@ span.title.pre-1900s {
     top: 27px;
     color: #2eb6d1;
     position: relative;
-    text-transform: uppercase;
     border: .5px solid #2eb6d1;
   }
 
@@ -551,20 +424,18 @@ span.title.pre-1900s {
     left: auto;
     right: 122%;
   }
-  .cssanimations .cd-timeline-content.is-hidden {
+   .cd-timeline-content.is-hidden {
     visibility: hidden;
   }
-  .cssanimations .cd-timeline-content.bounce-in {
+   .cd-timeline-content.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-2 0.6s;
     -moz-animation: cd-bounce-2 0.6s;
     animation: cd-bounce-2 0.6s;
   }
-}
 
-@media only screen and (min-width: 1170px) {
   /* inverse bounce effect on even content blocks */
-  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+   .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
     -moz-animation: cd-bounce-2-inverse 0.6s;
     animation: cd-bounce-2-inverse 0.6s;

@@ -1,3 +1,5 @@
+<!-- File from Nalu.live Code -->
+
 <?php
 
 //Create the connection and select database

@@ -10,11 +10,11 @@
   <?php include("header-include_v2.php");?>
 
   <!-- Section 1 -->
-  <div id="main-carousel" class="carousel slide" data-ride="carousel" data-interval="35000">
-    <div class="carousel-inner">
+  <div id="main-carousel" class="carousel slide" data-ride="carousel" data-interval="32000">
+    <div class="carousel-inner equipment">
       <div class="videoWrapper item active" id="video">
-        <video id="video" muted autoplay="autoplay" preload="auto">
-          <source src="images/equipment/board_animation.mp4"></source>
+        <video id="video" muted autoplay="autoplay" preload="auto" poster="images/banners/sized/page83_waikiki_1931.jpg">
+          <source src="http://nalu.live/images/equipment/adjust_height_animation_20MB.mp4"></source>
         </video>
         <div class="carousel-caption">
           <!-- <h1 class="caption-title">A <span style="font-family: 'Raleway-SemiBold'; color: #FCEFC5;">SURFING</span><span> COLLECTIVE<span class='spacer'></span><br /><h6 class="caption-sub-title">Explore the History of Surfing</h6></span><span class='spacer'></span><br /><a class="btn caption" href="timeline.php">LEARN MORE</a></h1> -->
@@ -71,6 +71,7 @@
       </div>
     </div>
 
+    <div class="arrow_box"></div>
     <div class="eq-split-content right">
       <h2>Hot Curl plank, 10’ 2.75”, 56 lbs</h2>
       <h3>Circa: 1940s, Hawaiian Origin, Unknown shaper, Redwood with a Koa Wood Tailblock</h3>
@@ -78,32 +79,59 @@
     </div>
   </div>
 
-  <!-- Shortboard Flip -->
+  <!-- Longboard  2 Flip -->
   <div class="split-content-wrapper">
     <div class="eq-split-content-left two">
-      <h2>Mini Eco Hybrid</h2>
-      <p id="col">Introducing an eco-minded production surfboard.  In partnership with (the auto maker) MINI’s new Countryman Plug-In Hybrid,  the MINI Eco-Hybrid surfboard utilizes ECOBOARD Project qualified EPS blanks and epoxy resins, and is hand-built at CI’s factory in Santa Barbara that has been audited by Sustainable Surf to build Gold Level ECOBOARDS.</p>
+      <h2>Dewey Weber, Performer Model | 9'5", 25 lbs.</h2>
+      <h3>Circa: 1966, The most popular shape from the mid-sixties, the Noserider</h3>
+      <p id="col">The Performer “was the first surfboard given a model name, and is the most popular single surfboard model in history.” Shea Weber believes the reason “the Performer is so popular is this: my dad and Harold (Iggy) had a goal, to design one board that would work for a variety of people in a variety of conditions. 
 
-      <p id="col">Designer: The MINI surfboard is a Channel Islands collaboration with Kalani Robb and MINI automotive.</p>
-
-      <p id="col"><span style="font-weight: 600">More details:</span> <a href="https://www.cisurfboards.com/board/mini/" target="_blank">Mini Eco Hybrid</a></p>
+      Shea estimates that over 10,000 Performers were produced from 1966-68, and he has built over 5,000 more since 1994. He’s seen many vintage Performers priced from $1,000 to $10,000 but they hold a different value for him, “because of what that board means to the history of our company and the history of surfboard design. My dad would be so stoked that the brand is still around, still family owned, and that the Performer is still our best selling board.”</p>
     </div>
+    <div class="arrow_box2"></div>
 
     <div class="eq-split-content-right two">
       <div class="card-container">
         <div class="card">
           <div class="item container equipment" id="hotspot_image">
             <div class="side">
-              <img src="images/mini-eco-hybrid.png" alt=""/>
+              <img src="images/equipment/boards/355_weber_performer_front.jpg" alt=""/>
             </div>
             <div class="side back">
-              <img src="images/equipment/boards/346_redwood_hotcurl_1937_back.jpg" alt="" usemap="#Map" />
+              <img src="images/equipment/boards/355_weber_performer_back.jpg" alt="" usemap="#Map" />
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div> 
+  </div>
+
+    <!-- Shortboard Flip -->
+  <div class="split-content-wrapper">
+    <div class="eq-split-content left">
+      <div class="card-container">
+        <div class="card">
+          <div class="item container equipment" id="hotspot_image">
+            <div class="side">
+              <img src="images/equipment/boards/389_ci_millenium_board_front.jpg" alt=""/>
+            </div>
+            <div class="side back">
+              <img src="images/equipment/boards/389_ci_millenium_board_back.jpg" alt="" usemap="#Map" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow_box"></div>
+    <div class="eq-split-content right slater">
+      <h2>The Millennium Board, 5'7", 4 lbs</h2>
+      <h3>Circa: 2000, Channel Islands squashtail</h3>
+      <p id="col">Pictured here is Kelly Slater’s "Millennium" board. Kelly Slater has won 11 World Titles on Al Merrick and Channel Islands surfboards. Then there are his 55 World Tour wins, seven Pipeline Masters victories, and 19 Surfer Poll Awards. Kelly arguably remains the world’s best surfer to this day.</p>
+
+      <blockquote class="equip-merrick">"The driving force behind Channel Islands Surfboards is the demand on design created by the world’s greatest surfers, allowing for the highest performance surfing possible. To provide the most dedicated surfers with the most advanced, performance designs is my passion" <a href="https://www.cisurfboards.com/about/" target="_blank">– Al Merrick, Designer/Shaper</a></blockquote>
+    </div>
+  </div>
   <!-- Top Section ends Here -->
 
   <!-- Surfboard Image Grid Start -->
@@ -334,54 +362,6 @@
 
         <!-- Carousel -->
         <div class="carousel slide" data-interval="false" id="MyCarousel" data-ride="carousel">
-          <div class="row">
-            <nav aria-label="Page navigation example">
-              <ul class="pagination mx-auto text-center">
-                <li class="page-item disabled">
-                  <a class="page-link previous" href="#MyCarousel" data-slide="prev" tabindex="-1">Previous</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Olo - 1700" data-slide-to="0" class="active"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Koa Alaia - 1900" data-slide-to="1"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Duke's Board - 1935" data-slide-to="2"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Waikiki Board - 1942" data-slide-to="3"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Balsa Gun - 1957" data-slide-to="4"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Hap Jacobs - 1965" data-slide-to="5"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Da Cat Model - 1966" data-slide-to="6"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Bonzer - 1973"data-slide-to="7"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Laser Zap Model - 1981" data-slide-to="8"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Hamish Graham Gun - 1996" data-slide-to="9"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="AI's Board - 2004" data-slide-to="10"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Fanning's DHD - 2009" data-slide-to="11"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item disabled">
-                  <a class="page-link next" href="#MyCarousel" data-slide="next">Next</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
@@ -962,8 +942,55 @@
               </div>
             </div><!-- 12th Modal in Photo Grid End -->
           </div>
+           <div class="row">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination mx-auto text-center">
+                <li class="page-item disabled">
+                  <a class="page-link previous" href="#MyCarousel" data-slide="prev" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Olo - 1700" data-slide-to="0" class="active"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Koa Alaia - 1900" data-slide-to="1"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Duke's Board - 1935" data-slide-to="2"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Waikiki Board - 1942" data-slide-to="3"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Balsa Gun - 1957" data-slide-to="4"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Hap Jacobs - 1965" data-slide-to="5"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Da Cat Model - 1966" data-slide-to="6"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Bonzer - 1973"data-slide-to="7"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Laser Zap Model - 1981" data-slide-to="8"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Hamish Graham Gun - 1996" data-slide-to="9"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="AI's Board - 2004" data-slide-to="10"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item">
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Fanning's DHD - 2009" data-slide-to="11"><i class="fas fa-tint"></i></a>
+                </li>
+                <li class="page-item disabled">
+                  <a class="page-link next" href="#MyCarousel" data-slide="next">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-
       </div>
     </div>
   </div>

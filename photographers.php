@@ -17,17 +17,17 @@
         <div class="carousel-caption photogs">
           <div class="section content-wrapper3">
             <h2>Bruce Brown</h2>
-            <h3>Oscar-nominated surf moviemaker from Southern California; producer of 1966's The Endless Summer, the sport's best and best-known movie. Brown was born (1937) in San Francisco, California, spent his first nine years in Oakland, then moved with his family to Long Beach, in southwest Los Angeles County, where he began surfing.</h3>
+            <h3>Oscar-nominated surf moviemaker from Southern California; producer of 1966's The Endless Summer, the sport's best and best-known movie.</h3>
           </div>
         </div>
       </div>
       <!-- carousel image 2 -->
       <div class="item">
         <a href="#"><img src="images/photo/banners/tom-blake_with_camera.jpg" alt="tom-blake_with_camera"/></a>
-        <div class="carousel-caption photogs">
+        <div class="carousel-caption photogs section">
           <div class="section content-wrapper3">
             <h2>Tom Blake</h2>
-            <h3>Blake became one of the first commercial boardbuilders in 1932 and helped develop surf photography and journalism. A few months after buying a Graflex camera from Duke Kahanamoku in 1929, he crafted a first-of-its-kind camera housing for use in the surf, and in 1931 one of his from-the-water Waikiki surf photos was published as a full-page image in the Los Angeles Times.</h3>
+            <h3>Blake became one of the first commercial boardbuilders in 1932 and helped develop surf photography and journalism. He crafted a first-of-its-kind camera housing for use in the surf.</h3>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@
         <div class="carousel-caption photogs">
           <div class="section content-wrapper3">
             <h2>Doc Ball</h2>
-            <h3>Prototype surf photographer and surf club organizer from Los Angeles, California; founder of the Palos Verdes Surf Club in 1935; author of the seminal 1946-published California Surfriders. While Ball and Wisconsin-born Tom Blake are both credited as the forebears of surf photography, it was Ball who had the greater influence on the next generation of photographers, including fellow California surf world icons Leroy Grannis and Don James.</h3>
+            <h3>Prototype surf photographer and surf club organizer from Los Angeles, California; founder of the Palos Verdes Surf Club in 1935; author of the seminal 1946-published California Surfriders.</h3>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
         <div class="carousel-caption photogs">
           <div class="section content-wrapper3">
             <h2>Maria Fernanda</h2>
-            <h3>Born and raised in Mexico City, Maria's passion for photography started when she finished high school, taking many beautiful pictures around her hometown of Mexico City.  After graduating from college, she traveled to Hawaii where she combined her love of surfing with her passion for photography and began shooting pictures of surfers in the water.</h3>
+            <h3>Born and raised in Mexico City, Maria's passion for photography started when she finished high school, taking many beautiful pictures around her hometown of Mexico City.</h3>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
         <div class="carousel-caption photogs">
           <div class="section content-wrapper3">
             <h2>Trevor Murphy</h2>
-            <h3>Trevor Murphy was born and raised on Cape Cod, Massachusetts. Growing up on and around the ocean embedded a great love for the sea and a strong fondness of the natural world. Trevor's photos have appeared in and graced the covers of many magazines and editorials world wide and he has won numerous international photography competitions with his unique and dramatic feel to his work.</h3>
+            <h3>Born and raised on Cape Cod, Massachusetts, Trevor's photos have appeared in and graced the covers of many magazines and editorials world wide and he has won numerous international photography competitions.</h3>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@
         <div class="carousel-caption photogs">
           <div class="section content-wrapper3">
             <h2>Diane Edmonds</h2>
-            <h3>My mom was a War Bride but she grew up in Australia and was a Bondi beach girl.  She always took us to the beach when we were kids and she was the only mom I knew that actually went in the ocean!  She body surfed well into her mid 60’s until she broke her arm colliding with a boogie boarder while body surfing.</h3>
+            <h3>My mom was a War Bride but she grew up in Australia and was a Bondi beach girl.  She always took us to the beach when we were kids and she was the only mom I knew that actually went in the ocean!</h3>
           </div>
         </div>
       </div>
@@ -89,6 +89,11 @@
     <a class="right carousel-control" data-target="#main-carousel" data-slide="next">
       <span class="glyphicon right"></span>
     </a>
+  </div>
+
+  <div class="phtgs-sec1">
+    <h1>Featured Photographers</h1>
+    <hr>
   </div>
 
   <!-- Main Content -->
@@ -270,37 +275,37 @@
         <!-- Carousel -->
         <div class="carousel slide" data-interval="false" id="MyCarousel" data-ride="carousel">
           <div class="row">
-            <nav aria-label="Page navigation example">
+            <nav aria-label="Page navigation">
               <ul class="pagination mx-auto text-center">
                 <li class="page-item disabled">
                   <a class="page-link previous" href="#MyCarousel" data-slide="prev" tabindex="-1">Previous</a>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Jeff Divine" data-slide-to="0" class="active">Divine</a>
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="0" class="active">Divine</a>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Ben Ginsberg" data-slide-to="1">Ginsberg</a>
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="1">Ginsberg</a>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Trevor Murphy" data-slide-to="2">Murphy</a>
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="2">Murphy</a>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Diane Edmonds" data-slide-to="3">Edmonds</a>
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="3">Edmonds</a>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Justin Jung" data-slide-to="4">Jung</a>
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="4">Jung</a>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Maria Fernanda" data-slide-to="5">Fernanda</a>
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="5">Fernanda</a>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Stan Moniz" data-slide-to="6">Moniz</a>
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="6">Moniz</a>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Joe O'Connor"data-slide-to="7">O'connor</a>
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="7">O'connor</a>
                 </li>
                 <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Adam King" data-slide-to="8">King</a>
+                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="8">King</a>
                 </li>
                 <li class="page-item disabled">
                   <a class="page-link next" href="#MyCarousel" data-slide="next">Next</a>

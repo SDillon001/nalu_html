@@ -133,7 +133,7 @@
               </a>
             </div>
             <div class="flex-item overlay">
-              <a href="photo.php#photogs"><img src="images/bruce_brown.jpg" alt="Grid Image">
+              <a href="photographers.php"><img src="images/bruce_brown.jpg" alt="Grid Image">
                 <h2>Photogs&nbsp;<hr class="flex-hr"></h2>
               </a>
             </div>
@@ -163,7 +163,7 @@
         <img src="images/duke_olo_blake.png" alt="Duke Kahanamoku - Outrigger Canoe Club" >
       </div>
       <div class="col1">
-        <h2>Duke Kahanamoku</h2>
+        <h2 id="home">Duke Kahanamoku</h2>
         <p class="lead"><a href="https://eos.surf/entries/kahanamoku-duke" target="blank" >Surfing Icon</a></p>
 
         <article>
@@ -188,13 +188,12 @@
         <h2>Beneath the Chaos</h2>
         <h1>UNDERWATER SURF PHOTOGRAPHY</h1>
         <h1>Art | Passion</h1>
-        <a class="btn caption section5_button" id="sec5-but" href="timeline.php">LEARN MORE</a>
+        <a class="btn caption section5_button" id="sec5-but" href="photographers.php">LEARN MORE</a>
       </div>
     </div>
 
     <!-- Section 6  -->
     <div class="section" id="section6">
-      <h3 id="section0"></h3>
       <div class="section6_content">
         <h2>Tradition | Culture | Stoke</h2>
         <h1>EXPLORE THE SPORT OF SURFING</h1>

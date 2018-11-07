@@ -1,38 +1,61 @@
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
+.navbar-brand {
+  float: none; 
+  height: 0px !important; 
+  padding: 0px !important; 
+  font-size: 0px !important; 
+  line-height: 0px !important;
+}
 
-  /* Remove the padding we set earlier
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-toggle {
+  margin-top: 4%;
+}
+
+img.logo {
+  width: 30%;
+  margin: 2%;    
+  padding: 0%;
+}
+
+.arrow.bounce {
+  display: none;
+}
+
+.carousel-caption {
+  right: 10% !important;
+  left: 10% !important;
+  top: 30% !important;
+}
+
+/* Modal */
+
+.row.timeline {
+    position: relative;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    padding-bottom: 2%;
+}
 
 }
 
 @media screen and (min-width: 2556px) {
 
   .carousel.slide.equipment {
-      width: 55%;
+    width: 55%;
   }
 
   .carousel-wrapper {
     width: 55%;
-}
+  }
 
-}
-
-@media (min-width: 768px) and (max-width: 1000px) {
-   .collapse {
-       display: none !important;
-   }
 }
 
 /* =======================================
@@ -47,60 +70,110 @@ MOBILE LAYOUT
 
 @media only screen and (max-device-width : 425px) {
 
-/* Navbar*/
+  /* Navbar*/
 
-img.logo {
+  img.logo {
     width: 50%;
-    margin: 2% 0% 0% 4%;
+    margin: 3% 8%;
     float: left;
     padding-left: 0px;
     padding-top: 0px;
-}
+  }
 
-.navbar-brand {
-    float: left;
-    height: 20px;
-    padding: 2% 2%;
-    font-size: 18px;
-    line-height: 20px;
-}
+  .header.relative {
+    margin-bottom: 0px;
+    height: 70px;
+  }
 
-.navbar-toggle {
-    float: right;
-    margin-top: 0px;
-    margin-right: 0px;
-}
+  div#js-navbar-collapse {
+    background: rgba(156, 154, 149, 1);
+  }
 
-/* Dropdown */
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
 
-ul.nav.navbar-nav {
+  .navbar-default .navbar-toggle {
+    border-color: #fff;
+  }
+
+  .navbar-header {
+    width: 100%;
+  }
+
+  /* Dropdown */
+
+  ul.nav.navbar-nav {
     float: none;
     padding: 5% 0%;
     margin: 0;
     padding-right: 0px !important;
-}
+  }
 
-.section.bcg-parallax {
-    padding: 22% 0% !important;
-}
-
-.bcg {
-    height: 126% !important;
-}
-
-/* Photographers Page */
-
-
-/* Equipment Page */
-
-li.page-item.disabled {
-    display: block;
-}
-
-li.page-item {
+  .carousel-control {
     display: none;
+  }
+
+  .carousel-caption {
+    right: 0% !important;
+    left: 0% !important;
+    top: 25% !important;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2em !important;
+  }
+
+  .content-wrapper2 h2 {
+    font-size: 1.5em !important;
+  }
+
+  .content-wrapper2 a.btn.caption.section5_button {
+    font-size: 1em !important;
+  }
+
+  .section.bcg-parallax {
+    padding: 22% 0% !important;
+  }
+
+  .bcg {
+    height: 126% !important;
+  }
+
+  /* Equipment Page */
+
+  /* Hero Video */
+
+  .videoWrapper {
+    padding-bottom: 40%;
 }
 
+  li.page-item.disabled {
+    display: block;
+  }
+
+  li.page-item {
+    display: none;
+  }
+
+  .col-md-4 {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .flex-item.social {
+    width: 25%;
+  }
+
+  .col-md-12 h5 {
+    width: 100%;
+  }
+
+  #back2Top {
+    left: 85%;
+  }
+
+  /* Photographers Page */
 
 
 }
@@ -112,7 +185,7 @@ li.page-item {
   section.end {
     position: absolute;
     top: 409.2% !important;
-}
+  }
 
 }
 
@@ -122,20 +195,7 @@ li.page-item {
 
 @media only screen and (max-device-width : 320px) {
 
-  img.logo {
-      width: 50%;
-      margin: auto;
-      margin-left: 4%;
-      float: left;
-      padding-left: 0px;
-      padding-top: 0px;
-  }
 
-  .navbar-toggle {
-      float: right;
-      margin-top: 0px;
-      margin-right: 0px;
-  }
 }
 
 /* Smartphones (landscape) (max-device-width : 667px) ----------- */
@@ -152,28 +212,28 @@ li.page-item {
 
 @media only screen and (max-device-width: 767px) {
 
-figcaption {
+  figcaption {
     display: none !important;
-}
+  }
 
-.section.bcg-parallax {
+  .section.bcg-parallax {
     padding: 22% 0%;
     color: #fff;
     background-color: #000;
     position: relative;
     overflow: hidden;
-}
+  }
 
 }
 
 /* iPads Portrait Only */
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
 
-/* Styles here */
+  /* Styles here */
 
 }
 
@@ -184,29 +244,70 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 
-/* Styles here */
+  /* Styles here */
 
 }
 
-/* General Media Queries ----------- */
+/* Collapse Navbar at  ----------- */
 
-@media only screen and (min-width: 1240px) {
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+}
 
+@media (min-width: 1200px) {
 
-
+  .navbar-brand {
+    height: 0px !important;
+  }
 }
 
 /* General Media Queries ----------- */
 
 @media only screen and (max-width: 1440px) {
 
+.carousel-caption.photogs {
+    top: 65% !important;
+}
 
 
 }
 
 @media only screen and (min-device-width : 1680px) {
 
-/* Styles here */
+  /* Styles here */
 
 }
 
@@ -214,6 +315,6 @@ and (orientation : landscape) {
 
 @media only screen and (min-device-width : 1900px) {
 
-/* Styles here */
+  /* Styles here */
 
 }

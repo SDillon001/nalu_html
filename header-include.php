@@ -5,7 +5,7 @@
 <![endif]-->
 
 <!-- Content Start -->
-<div class="header">
+<header>
   <div class="navbar navbar-default" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="js-navbar-collapse">
         <ul class="nav navbar-nav">
           <li class="dropdown">
-            <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/timeline.php">Timeline <b class="caret"></b></a>
+            <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" href="/timeline.php">Timeline <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="timeline.php">1900's</a></li>
               <li><a href="timeline.php#1950's">1950's</a></li>
@@ -41,4 +41,4 @@
       </div>
     </div>
   </div>
-</div>
+</header>
