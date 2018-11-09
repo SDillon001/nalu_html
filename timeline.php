@@ -18,6 +18,7 @@
     <!-- Indicators -->
     <nav aria-label="Page navigation">
       <ul class="vert-links">
+        <li class="page-item"><a class="page-link" href="#surfing-timeline" data-toggle="tooltip" data-placement="right" title="Top"><i class="fas fa-caret-up"></i></a></li>
         <li class="page-item"><a class="page-link" href="#1900's" data-toggle="tooltip" data-placement="right" title="1900's"><i class="far fa-circle"></i></a></li>
         <li class="page-item"><a class="page-link" href="#1930's" data-toggle="tooltip" data-placement="right" title="1930's"><i class="far fa-circle"></i></a></li>
         <li class="page-item"><a class="page-link" href="#1940's" data-toggle="tooltip" data-placement="right" title="1940's"><i class="far fa-circle"></i></a></li>
@@ -27,6 +28,7 @@
         <li class="page-item"><a class="page-link" href="#1980's" data-toggle="tooltip" data-placement="right" title="1980's"><i class="far fa-circle"></i></a></li>
         <li class="page-item"><a class="page-link" href="#1990's" data-toggle="tooltip" data-placement="right" title="1990's"><i class="far fa-circle"></i></a></li>
         <li class="page-item"><a class="page-link" href="#2000's" data-toggle="tooltip" data-placement="right" title="2000's"><i class="far fa-circle"></i></a></li>
+        <li class="page-item"><a class="page-link" href="#2000's" data-toggle="tooltip" data-placement="right" title="Bottom"><i class="fas fa-caret-down"></i></a></li>
       </ul>
     </nav>
 

@@ -16,9 +16,6 @@
         <video id="video" muted autoplay="autoplay" preload="auto" poster="images/banners/sized/page83_waikiki_1931.jpg">
           <source src="http://nalu.live/images/equipment/adjust_height_animation_20MB.mp4"></source>
         </video>
-        <div class="carousel-caption">
-          <!-- <h1 class="caption-title">A <span style="font-family: 'Raleway-SemiBold'; color: #FCEFC5;">SURFING</span><span> COLLECTIVE<span class='spacer'></span><br /><h6 class="caption-sub-title">Explore the History of Surfing</h6></span><span class='spacer'></span><br /><a class="btn caption" href="timeline.php">LEARN MORE</a></h1> -->
-        </div>
       </div>
       <!-- carousel image 2 -->
       <div class="item">

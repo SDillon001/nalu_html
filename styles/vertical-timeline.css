@@ -1,10 +1,69 @@
+/*
+Site:       Nalu.live
+Author:     Steve Dillon
+Converted:  July, 2018
+
+/* Title Header */
+
+.title-head {
+  height: 100px;
+  background-color: #2eb6d1;
+  width: 90%;
+  margin: 2% 0% 2% 5%;
+}
+
+.title-head h1 {
+  color: #fff;
+  text-align: center;
+  padding: 1.5%;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+/*==================================================
+ * Effect 2
+ * ===============================================*/
+ .corner-shadow
+ {
+  position: relative;
+}
+.corner-shadow:before, .corner-shadow:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 75%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.corner-shadow:after {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
 /* Pagination */
 
 ul.vert-links {
  position: fixed;
  top: 45%;
  left: 15px;
- line-height: 25px;
+ line-height: 30px;
  padding: 0px 15px 0px 15px;
  color: #fff;
  border: 0;
@@ -16,7 +75,12 @@ ul.vert-links {
 }
 
 i.far.fa-circle {
-    font-size: 14px;
+    font-size: 18px;
+}
+
+i.fas.fa-caret-up,
+i.fas.fa-caret-down {
+    font-size: 26px;
 }
 
 a {
@@ -335,7 +399,7 @@ span.title.pre-1900s {
   width: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #2eb6d1;
+  border-right: 10px solid #2eb6d1;
 }
 
 .cd-timeline-content.right::before {
@@ -381,6 +445,7 @@ span.title.pre-1900s {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 10px solid #2eb6d1;
+    border-right: 0px;
   }
   
   .cd-timeline-content .cd-read-more {
@@ -416,6 +481,7 @@ span.title.pre-1900s {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-right: 10px solid #2eb6d1;
+    border-left: 0px;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;

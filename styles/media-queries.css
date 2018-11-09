@@ -1,72 +1,104 @@
+/*
+Site:       Nalu.live
+Author:     Steve Dillon
+Converted:  July, 2018
+
+Table of Contents
+1.  TABLETS (max-width: 768px)
+2.  Smartphones (portrait) (max-device-width : 425px)
+3.  Smartphones (portrait) (max-device-width : 375px)
+4.  Smartphones (portrait) (max-device-width : 320px)
+5.  Smartphones (landscape) (max-device-width : 667px)
+6.  Collapse Navbar at max-width: 1200px
+7.  General Media Queries - (max-width: 1440px)
+8.  General Media Queries - (max-width: 1680px)
+9.  General Media Queries - (max-width: 1900px)
+10. General Media Queries - (max-width: 2556px)
+
+
+/* =======================================
+Nalu Branding
+======================================= */
+
+/* Brand Colors 
+
+Primary Blue: #0a3859 
+Secondary Blue: #00c1d9
+Accent Color: #FFBC00
+Site Grey: #6B6D76;
+Ice White: #f4fafe;
+*/
+
+/*  */
+
+/* ----------- TABLETS (max-width: 768px) ----------- */
 
 /* Responsive: Portrait tablets and up */
 @media screen and (max-width: 768px) {
 
-.navbar-brand {
-  float: none; 
-  height: 0px !important; 
-  padding: 0px !important; 
-  font-size: 0px !important; 
-  line-height: 0px !important;
-}
+  img.logo {
+    width: 30%;
+    margin: 2%;    
+    padding: 0%;
+  }
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
-}
+  .arrow.bounce {
+    display: none;
+  }
 
-.navbar-toggle {
-  margin-top: 4%;
-}
+  .carousel-caption {
+    right: 10% !important;
+    left: 10% !important;
+    top: 30% !important;
+  }
 
-img.logo {
-  width: 30%;
-  margin: 2%;    
-  padding: 0%;
-}
+  /* Modal */
 
-.arrow.bounce {
-  display: none;
-}
-
-.carousel-caption {
-  right: 10% !important;
-  left: 10% !important;
-  top: 30% !important;
-}
-
-/* Modal */
-
-.row.timeline {
+  .row.timeline {
     position: relative;
     bottom: 0;
     left: 0%;
     right: 0%;
     padding-bottom: 2%;
-}
-
-}
-
-@media screen and (min-width: 2556px) {
-
-  .carousel.slide.equipment {
-    width: 55%;
   }
 
-  .carousel-wrapper {
-    width: 55%;
+  .section.bcg-parallax {
+    padding: 22% 0%;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
   }
 
 }
 
-/* =======================================
-MOBILE LAYOUT
-======================================= */
+/* iPads Portrait Only */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
 
-/* MOBILE GLOBAL */
+  ul.nav.footer.navbar-nav {
+      display: inline-flex;
+      float: right !important;
+      padding-top: .5%;
+  }
 
+}
 
+/* iPads Landscape Only ----------- */
 
-/* Smartphones (portrait) (max-device-width : 425px) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+  /* Styles here */
+
+}
+
+/* ----------- Smartphones (portrait) (max-device-width : 425px) ----------- */
 
 @media only screen and (max-device-width : 425px) {
 
@@ -146,7 +178,7 @@ MOBILE LAYOUT
 
   .videoWrapper {
     padding-bottom: 40%;
-}
+  }
 
   li.page-item.disabled {
     display: block;
@@ -173,12 +205,9 @@ MOBILE LAYOUT
     left: 85%;
   }
 
-  /* Photographers Page */
-
-
 }
 
-/* Smartphones (portrait) (max-device-width : 375px) ----------- */
+/* ----------- Smartphones (portrait) (max-device-width : 375px) ----------- */
 
 @media only screen and (max-device-width : 375px) {
 
@@ -189,66 +218,29 @@ MOBILE LAYOUT
 
 }
 
-
-
-/* Smartphones (portrait) (max-device-width : 320px) ----------- */
+/* ----------- Smartphones (portrait) (max-device-width : 320px) ----------- */
 
 @media only screen and (max-device-width : 320px) {
 
 
 }
 
-/* Smartphones (landscape) (max-device-width : 667px) ----------- */
+/* ----------- Smartphones (landscape) (max-device-width : 667px) ----------- */
 
 @media only screen and (min-width: 480px) and (max-width: 667px) {
 
 
-
 }
 
-/* TABLETS */
+@media (max-width: 1170px) {
 
-/* Tablet (portrait) (max-device-width : 767px) ----------- */
-
-@media only screen and (max-device-width: 767px) {
-
-  figcaption {
-    display: none !important;
-  }
-
-  .section.bcg-parallax {
-    padding: 22% 0%;
-    color: #fff;
-    background-color: #000;
-    position: relative;
-    overflow: hidden;
+  .cd-date.right, .cd-date.left {
+    display: none;
   }
 
 }
 
-/* iPads Portrait Only */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) 
-and (orientation: portrait) 
-and (-webkit-min-device-pixel-ratio: 1) {
-
-  /* Styles here */
-
-}
-
-/* iPads Landscape Only ----------- */
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-
-  /* Styles here */
-
-}
-
-/* Collapse Navbar at  ----------- */
+/* ----------- Collapse Navbar at max-width: 1200px ----------- */
 
 @media (max-width: 1200px) {
   .navbar-header {
@@ -264,15 +256,19 @@ and (orientation : landscape) {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
   }
+  div#js-navbar-collapse {
+    background: #0a3859;
+    padding: 2%;
+  }
   .navbar-fixed-top {
     top: 0;
     border-width: 0 0 1px;
   }
   .navbar-collapse.collapse {
-    display: none!important;
+    display: none !important;
   }
   .navbar-nav {
-    float: none!important;
+    float: none !important;
     margin-top: 7.5px;
   }
   .navbar-nav>li {
@@ -285,6 +281,35 @@ and (orientation : landscape) {
   .collapse.in{
     display:block !important;
   }
+
+  img.logo {
+    margin: 3% 5% !important;
+  }
+
+  .navbar-brand {
+    float: none; 
+    height: 0px !important; 
+    padding: 0px !important; 
+    font-size: 0px !important; 
+    line-height: 0px !important;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+
+  .navbar-toggle {
+    margin-top: 4%;
+  }
+
+  ul.nav.navbar-nav {
+    padding-right: 0% !important;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    padding: 3% 0%;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -294,14 +319,21 @@ and (orientation : landscape) {
   }
 }
 
-/* General Media Queries ----------- */
+@media (max-width: 1300px) {
+
+  img.logo {
+    margin: 0% 5%;
+  }
+
+}
+
+/* ----------- General Media Queries ----------- */
 
 @media only screen and (max-width: 1440px) {
 
-.carousel-caption.photogs {
+  .carousel-caption.photogs {
     top: 65% !important;
-}
-
+  }
 
 }
 
@@ -316,5 +348,17 @@ and (orientation : landscape) {
 @media only screen and (min-device-width : 1900px) {
 
   /* Styles here */
+
+}
+
+@media screen and (min-width: 2556px) {
+
+  .carousel.slide.equipment {
+    width: 55%;
+  }
+
+  .carousel-wrapper {
+    width: 55%;
+  }
 
 }
