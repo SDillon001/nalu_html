@@ -91,179 +91,277 @@
     </a>
   </div>
 
-  <div class="phtgs-sec1">
-    <h1>Featured Photographers</h1>
-    <hr>
-  </div>
+  <div class="film-container"> <!-- Start Film Section -->
+    <div class="film-title">
+      <h1>Early Surf Films</h1>
+      <hr>
+    </div>
+
+    <section class="flex-container">
+      <div class="content-section left">
+        <div class="cont-sect one">
+          <h2>The Endless Summer</h2>
+          <h3>Bruce Brown</h3>
+          <p>Filmed in 1963 at the very height of the boom, <em>Endless Summer</em> wasn’t released to general audiences until fall 1966, at which point the movie played like a coda for a era of the sport that, rather than being endless, vanished almost instantly.</p>
+
+          <blockquote class="equip-merrick photog">"A brilliant documentary," a New Yorker review said of Brown's deceptively simple $50,000 film, "perfectly expressing the surfing spirit. Great background music. Great movie. Out of sight."</blockquote>
+        </div>
+      </div>
+
+      <div class="content-section right">
+          <div id="main-carousel-film" class="carousel slide" data-ride="carousel" data-interval="5000" data-keyboard="true">
+            <div class="carousel-inner film">
+              <!-- Film Section carousel image 1 -->
+              <div class="item active">
+                <img src="images/photo/endless-summer-poster-b-brown.jpg">
+                <div class="carousel-caption film">
+                  <h4>The Endless Summer, 1966, surfing's best-known movie.</h4>
+                </div>
+              </div>
+
+              <!-- Film Section carousel image 2 -->
+              <div class="item">
+                <img src="images/photo/endless_summer_on_set_2.jpg">
+                <div class="carousel-caption film">
+                  <h4>Bruce Brown, on set of the Endless Summer</h4>
+                </div>
+              </div> <!-- End Carousel Item -->
+
+              <!-- Film Section carousel image 3 -->
+              <div class="item">
+                <img src="images/photo/endless_summer_on_set.jpg">
+                <div class="carousel-caption film">
+                  <h4>Bruce Brown, on set of the Endless Summer</h4>
+                </div>
+              </div> <!-- End Carousel Item -->
+
+              <!-- Film Section carousel image 4 -->
+              <div class="item">
+                <img src="images/photo/browns-16mm-camera-housing.jpg">
+                <div class="carousel-caption film">
+                  <h4>Bruce Brown's 16mm camera inside his custom surf housing.</h4>
+                </div>
+              </div> <!-- End Carousel Item -->
+
+              <!-- Film Section carousel image 5 -->
+              <div class="item">
+                <img src="images/photo/endless-summer-poster-sketch.jpg">
+                <div class="carousel-caption film">
+                  <h4>Early Endless Summer movie poster sketch</h4>
+                </div>
+              </div> <!-- End Carousel Item -->
+
+              <!-- Film Section carousel image 6 -->
+              <div class="item">
+                <img src="images/photo/endless-summer-poster-sketch_2.jpg">
+                <div class="carousel-caption film">
+                  <h4>Early Endless Summer movie poster sketch</h4>
+                </div>
+              </div> <!-- End Carousel Item -->
+            </div>
+
+            <a class="left carousel-control film" data-target="#main-carousel-film" data-slide="prev">
+              <span class="glyphicon left"></span>
+            </a>
+            <a class="right carousel-control film" data-target="#main-carousel-film" data-slide="next">
+              <span class="glyphicon right"></span>
+            </a>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div> <!-- End Film Section -->
 
   <!-- Main Content -->
   <div class="main-content">
     <div class="photo-grid-head">
       <h1 class="local-photogs">Local Surf Photographers</h1>
-      <h2 class="local-photogs">~ click below for more info ~</h2>
-    </div>
-  </div>
-</section> <!-- scrollContent ends Here -->
+      <hr>
 
-<div class="photogs">
-  <!-- Image Grid Row 1 -->
-  <div class="photog-group clearfix" data-slide="0">
-    <div class="content">
-      <div class="content-overlay"></div>
-      <img class="photog-headshot" src="images/photo/jeff_divine_74_sunset_beach_profile_sized.jpg" />
-      <div class="content-details fadeIn-bottom">
-        <h1 class="content-title">Jeff Divine</h1>
-        <hr>
-        <p class="content-text">La Jolla, CA</p>
-      </div>
-    </div>
-  </div>
+      <div id="main-carousel-testimonials" class="carousel slide" data-ride="carousel" data-interval="20000" data-keyboard="true">
+            <div class="carousel-inner testimonials">
+              <!-- Film Section carousel image 1 -->
+              <div class="item active">
+                <h3>"Better live webcasts of contests all around the world has increased the number of fans, and now <br>the excitement of surfing in the next Olympics will spread the stoke even more."</h3>
+                <h3 class="test-credit">- Diane Edmonds, Photographer</h3>
+              </div>
 
-  <div class="photog-group clearfix" data-slide="1">
-    <div class="content">
-      <div class="content-overlay"></div>
-      <img class="photog-headshot" src="images/photo/ben_ginsberg.jpg" alt="ben ginsberg profile" />
-      <div class="content-details fadeIn-bottom">
-        <h1 class="content-title">Ben Ginsberg</h1>
-        <hr>
-        <p class="content-text">Huntington Beach, CA</p>
-      </div>
-    </div>
-  </div>
+              <!-- Film Section carousel image 2 -->
+              <div class="item">
+                <h3>"The shift from film to digital photography lowered some of the cost of surf photography and opened the door to a new generation <br>of photographers. I think it's pushed every surf photographer to be the best they can be."</h3>
+                <h3 class="test-credit">- Steve Dillon, Photographer</h3>
+              </div> <!-- End Carousel Item -->
 
-  <div class="photog-group clearfix" data-slide="2">
-    <div class="content">
-      <div class="content-overlay"></div>
-      <img class="photog-headshot" src="images/photo/trevor_murphy.jpg" />
-      <div class="content-details fadeIn-bottom">
-        <h1 class="content-title">Trevor Murphy</h1>
-        <hr>
-        <p class="content-text">Cape Cod, MA</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Image Grid Row 2 -->
-  <div class="photog-group clearfix" data-slide="3">
-    <div class="content">
-      <div class="content-overlay"></div>
-      <img class="photog-headshot" src="images/photo/diane_edmonds.jpg" />
-      <div class="content-details fadeIn-bottom">
-        <h1 class="content-title">Diane Edmonds</h1>
-        <hr>
-        <p class="content-text">Huntington Beach, CA</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="photog-group clearfix" data-slide="4">
-    <div class="content">
-      <div class="content-overlay"></div>
-      <img class="photog-headshot" src="images/photo/justin_jung.jpg" />
-      <div class="content-details fadeIn-bottom">
-        <h1 class="content-title">Justin Jung</h1>
-        <hr>
-        <p class="content-text">Orange County, CA</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="photog-group clearfix" data-slide="5">
-    <div class="content">
-      <div class="content-overlay"></div>
-      <img class="photog-headshot" src="images/photo/maria_fernanda.jpg" />
-      <div class="content-details fadeIn-bottom">
-        <h1 class="content-title">Maria Fernanda</h1>
-        <hr>
-        <p class="content-text">Mexico City, MX</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Image Grid Row 3 -->
-  <div class="photog-group clearfix" data-slide="6">
-    <div class="content">
-      <div class="content-overlay"></div>
-      <img class="photog-headshot" src="images/photo/stan-moniz_profile_sized.jpg" />
-      <div class="content-details fadeIn-bottom">
-        <h1 class="content-title">Stan Moniz</h1>
-        <hr>
-        <p class="content-text">Orange County, CA</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="photog-group clearfix" data-slide="7">
-    <div class="content">
-      <div class="content-overlay"></div>
-      <img class="photog-headshot" src="images/photo/joe_oconnor.jpg" />
-      <div class="content-details fadeIn-bottom">
-        <h1 class="content-title">Joe O'Connor</h1>
-        <hr>
-        <p class="content-text">Long Beach, NY</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="photog-group clearfix" data-slide="8">
-    <div class="content">
-      <div class="content-overlay"></div>
-      <img class="photog-headshot" src="images/photo/adam_king.jpg" />
-      <div class="content-details fadeIn-bottom">
-        <h1 class="content-title">Adam King</h1>
-        <hr>
-        <p class="content-text">Jacksonville, FL</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="interviews">
-    <div class="int-title">
-      <h2>Check out these</h2>
-      <h1>PHOTOGRAPHER INTERVIEWS</h1>
-      <hr class="int-hr">
-    </div>
-
-    <div class="flex-container-interviews">
-      <div class="flex-item2">
-        <div class="video-container">
-          <iframe width="430" height="240" src="https://www.youtube.com/embed/p7BeQmRpqRM" frameborder="0" allowfullscreen ></iframe> 
+            <a class="left carousel-control test" data-target="#main-carousel-testimonials" data-slide="prev"><i class="fas fa-angle-left test"></i></a>
+            <a class="right carousel-control test" data-target="#main-carousel-testimonials" data-slide="next"><i class="fas fa-angle-right test"></i></a>
+          </div>
         </div>
-        <h3><span style="font-weight: 600">Jeff Divine:</span> "A Life Surfing"</h3>
-        <p>Jeff Divine is one of the most highly regarded surf photographers, and his work spans over 5 decades of surf culture. In this video, Jeff presents a slideshow of his work and discusses the culture, clothing, changes, people, waves, places, and general vibe of the sport.</p>
-        <a href="https://www.youtube.com/watch?v=p7BeQmRpqRM" target="_blank" class="home-lm-link">Watch on Youtube</a>
-      </div>
 
-      <div class="flex-item2">
-        <div class="video-container">
-          <iframe width="430" height="240" src="https://www.youtube.com/embed/f55Vp7t0BTo" frameborder="0" allowfullscreen ></iframe> 
+        <h4 class="local-photogs">~ click below for more info ~</h4>
+
+    </div>
+  </div>
+
+  <div class="photogs">
+    <!-- Image Grid Row 1 -->
+    <div class="photog-group clearfix" data-slide="0">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="photog-headshot" src="images/photo/jeff_divine_74_sunset_beach_profile_sized.jpg" />
+        <div class="content-details fadeIn-bottom">
+          <h1 class="content-title">Jeff Divine</h1>
+          <hr>
+          <p class="content-text">La Jolla, CA</p>
         </div>
-        <h3><span style="font-weight: 600">Benjamin Ginsberg:</span> "Exposure"</h3>
-        <p>An original Surf Channel production, “EXPOSURE” is an ongoing series featuring the world’s most talented surf photographers. Episode 5 features Red Bull Illume finalist, Ben Ginsberg.</p>
-
-        <a href="http://www.thesurfchannel.com/news/20150202/video-exposure-surf-photographer-ben-ginsberg/" target="_blank" class="home-lm-link">Watch on TheSurfChannel.com</a>
-      </div>
-
-      <div class="flex-item2">
-
-        <div class="video-container">
-          <iframe width="430" height="240" src="https://www.youtube.com/embed/aHZCGBmfA-0" frameborder="0" allowfullscreen ></iframe>
-        </div>
-        <h3><span style="font-weight: 600">Stan Moniz:</span> "Edelkrone Featured Videomakers"</h3>
-        <p>Action & adventure photographer/filmmaker Stan Moniz was a water baby at birth, raised in the quite surf town of  Waialua, Hawaii. In 2010, he reacquainted himself with his love for the ocean, adventure and capturing the beauty of the world we live in.</p>
-        <a href="https://edelkrone.com/blogs/featured-videomakers/stan-moniz" target="_blank" class="home-lm-link">Read the Article</a>
       </div>
     </div>
 
-    <section class="end">
-      <!--Included Header php file -->
-      <?php include("footer-include.php");?>
-    </section>
+    <div id="ben-ginsberg" class="photog-group clearfix" data-slide="1">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="photog-headshot" src="images/photo/ben_ginsberg.jpg" alt="ben ginsberg profile" />
+        <div class="content-details fadeIn-bottom">
+          <h1 class="content-title">Ben Ginsberg</h1>
+          <hr>
+          <p class="content-text">Huntington Beach, CA</p>
+        </div>
+      </div>
+    </div>
 
-  </div>
+    <div class="photog-group clearfix" data-slide="2">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="photog-headshot" src="images/photo/trevor_murphy.jpg" />
+        <div class="content-details fadeIn-bottom">
+          <h1 class="content-title">Trevor Murphy</h1>
+          <hr>
+          <p class="content-text">Cape Cod, MA</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Grid Row 2 -->
+    <div id="diane-edmonds" class="photog-group clearfix" data-slide="3">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="photog-headshot" src="images/photo/diane_edmonds.jpg" />
+        <div class="content-details fadeIn-bottom">
+          <h1 class="content-title">Diane Edmonds</h1>
+          <hr>
+          <p class="content-text">Huntington Beach, CA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="photog-group clearfix" data-slide="4">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="photog-headshot" src="images/photo/adam_king.jpg" />
+        <div class="content-details fadeIn-bottom">
+          <h1 class="content-title">Adam King</h1>
+          <hr>
+          <p class="content-text">Jacksonville, FL</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="photog-group clearfix" data-slide="5">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="photog-headshot" src="images/photo/maria_fernanda.jpg" />
+        <div class="content-details fadeIn-bottom">
+          <h1 class="content-title">Maria Fernanda</h1>
+          <hr>
+          <p class="content-text">Mexico City, MX</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Grid Row 3 -->
+    <div id="stan-moniz" class="photog-group clearfix" data-slide="6">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="photog-headshot" src="images/photo/stan-moniz_profile_sized.jpg" />
+        <div class="content-details fadeIn-bottom">
+          <h1 class="content-title">Stan Moniz</h1>
+          <hr>
+          <p class="content-text">Orange County, CA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="photog-group clearfix" data-slide="7">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="photog-headshot" src="images/photo/joe_oconnor.jpg" />
+        <div class="content-details fadeIn-bottom">
+          <h1 class="content-title">Joe O'Connor</h1>
+          <hr>
+          <p class="content-text">Long Beach, NY</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="photog-group clearfix" data-slide="8">
+      <div class="content">
+        <div class="content-overlay"></div>
+        <img class="photog-headshot" src="images/photo/nathan-french-profile.jpg" />
+        <div class="content-details fadeIn-bottom">
+          <h1 class="content-title">Nathan French</h1>
+          <hr>
+          <p class="content-text">San Diego, CA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="interviews">
+      <div class="int-title">
+        <h2>Check out these</h2>
+        <h1>PHOTOGRAPHER INTERVIEWS</h1>
+        <hr class="int-hr">
+      </div>
+
+      <div class="flex-container-interviews">
+        <div class="flex-item2">
+          <div class="video-container">
+            <iframe width="430" height="240" src="https://www.youtube.com/embed/p7BeQmRpqRM" frameborder="0" allowfullscreen ></iframe> 
+          </div>
+          <h3><span style="font-weight: 600">Jeff Divine:</span> "A Life Surfing"</h3>
+          <p>Jeff Divine is one of the most highly regarded surf photographers, and his work spans over 5 decades of surf culture. In this video, Jeff presents a slideshow of his work and discusses the culture, clothing, changes, people, waves, places, and general vibe of the sport.</p>
+          <a href="https://www.youtube.com/embed/p7BeQmRpqRM" target="_blank" class="home-lm-link">Watch on Youtube</a>
+        </div>
+
+        <div class="flex-item2">
+          <div class="video-container">
+            <iframe width="430" height="240" src="https://www.youtube.com/embed/f55Vp7t0BTo" frameborder="0" allowfullscreen ></iframe> 
+          </div>
+          <h3><span style="font-weight: 600">Benjamin Ginsberg:</span> "Exposure"</h3>
+          <p>An original Surf Channel production, “EXPOSURE” is an ongoing series featuring the world’s most talented surf photographers. Episode 5 features Red Bull Illume finalist, Ben Ginsberg.</p>
+
+          <a href="http://www.thesurfchannel.com/news/20150202/video-exposure-surf-photographer-ben-ginsberg/" target="_blank" class="home-lm-link">Watch on TheSurfChannel.com</a>
+        </div>
+
+        <div class="flex-item2">
+
+          <div class="video-container">
+            <iframe width="430" height="240" src="https://www.youtube.com/embed/aHZCGBmfA-0" frameborder="0" allowfullscreen ></iframe>
+          </div>
+          <h3><span style="font-weight: 600">Stan Moniz:</span> "Edelkrone Featured Videomakers"</h3>
+          <p>Action & adventure photographer/filmmaker Stan Moniz was a water baby at birth, raised in the quite surf town of  Waialua, Hawaii. In 2010, he reacquainted himself with his love for the ocean, adventure and capturing the beauty of the world we live in.</p>
+          <a href="https://edelkrone.com/blogs/featured-videomakers/stan-moniz" target="_blank" class="home-lm-link">Read the Article</a>
+        </div>
+      </div>
+
+      <section class="end">
+        <!--Included Header php file -->
+        <?php include("footer-include.php");?>
+      </section>
+
+    </div>
 
 
-</div> <!-- End Photogs -->
+  </div> <!-- End Photogs -->
 </div> <!-- Div after Photogs -->
 
 <!-- Modal Code Start -->
@@ -271,45 +369,26 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
-
         <!-- Carousel -->
         <div class="carousel slide" data-interval="false" id="MyCarousel" data-ride="carousel">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <!-- Pagination -->
           <div class="row">
             <nav aria-label="Page navigation">
               <ul class="pagination mx-auto text-center">
-                <li class="page-item disabled">
-                  <a class="page-link previous" href="#MyCarousel" data-slide="prev" tabindex="-1">Previous</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="0" class="active">Divine</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="1">Ginsberg</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="2">Murphy</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="3">Edmonds</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="4">Jung</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="5">Fernanda</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="6">Moniz</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="7">O'connor</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="8">King</a>
-                </li>
-                <li class="page-item disabled">
-                  <a class="page-link next" href="#MyCarousel" data-slide="next">Next</a>
-                </li>
+                <li class="page-item disabled"><a class="page-link previous" href="#MyCarousel" data-slide="prev" tabindex="-1"><i class="fas fa-angle-left"></i> Previous</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="0">Divine</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="1">Ginsberg</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="2">Murphy</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="3">Edmonds</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="4">King</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="5">Fernanda</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="6">Moniz</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="7">O'Connor</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-slide-to="8">French</a></li>
+                <li class="page-item disabled"><a class="page-link next" href="#MyCarousel" data-slide="next">Next <i class="fas fa-angle-right"></i></a></li>
               </ul>
             </nav>
           </div>
@@ -319,10 +398,6 @@
 
             <!-- 1st Modal in Photo Grid -->
             <div class="item active">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
               <div class="container">
                 <div class="row-eq-height">
                   <h1><span style="font-weight: 600">Photographer:</span> Jeff Divine</h1>
@@ -374,10 +449,6 @@
 
             <!-- 2nd Modal in Photo Grid -->
             <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
               <div class="container">
                 <div class="row-eq-height">
                   <h1><span style="font-weight: 600">Photographer:</span> Ben Ginsberg</h1>
@@ -428,10 +499,6 @@
 
             <!-- 3rd Modal in Photo Grid -->
             <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
               <div class="container">
                 <div class="row-eq-height">
                   <h1><span style="font-weight: 600">Photographer:</span> Trevor Murphy</h1>
@@ -482,10 +549,6 @@
 
             <!-- 4th Modal in Photo Grid -->
             <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
               <div class="container">
                 <div class="row-eq-height">
                   <h1><span style="font-weight: 600">Photographer:</span> Diane Edmonds</h1>
@@ -544,26 +607,22 @@
 
             <!-- 5th Modal in Photo Grid -->
             <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
               <div class="container">
                 <div class="row-eq-height">
-                  <h1><span style="font-weight: 600">Photographer:</span> Justin Jung</h1>
+                  <h1><span style="font-weight: 600">Photographer:</span> Adam King</h1>
                   <div class="col-sm-4">
                     <div class="p-img-wrapper">
-                      <img class="p-img-profile" src="images/photo/justin_jung.jpg" id="img5" alt="" />
+                      <img class="p-img-profile" src="images/photo/adam_king.jpg" id="img9" alt="" />
                     </div>
                     <div class="description">
-                      <p>Justin Jung is a self taught photographer and cinematographer based in Southern California. Justin often features subjects such as action sports, landscapes, documentaries and the ocean and he has obtained an established position with Rip Curl as a videographer as well as continuing to work with numerous other companies. His work has been featured in National Geographic, Surfing Magazine, Departure Magazine, and many others.</p>
+                      <p>How did I get started with photography? I’d credit my father’s influence, and his love of photography when I was young. My own dedication really started as me and my wife began to travel, and then with the arrival of my first child. I just wanted to capture everything.</p>
 
-                      <div class="link-wrap jung">
-                        <a class="web-icon" href="http://jungphoto.com/" target="_blank">Website</a>
+                      <div class="link-wrap">
+                        <a class="web-icon" href="https://www.adamking.photo/" target="_blank">Website</a>
                       </div>
 
                       <div class="link-wrap">
-                        <a class="int-icon" href="https://www.digitalphotopro.com/profiles/justin-jung-the-story-in-the-surf/" target="_blank">Interview: Justin Jung: The Story In The Surf</a>
+                        <a class="int-icon" href="https://www.surfline.com/surf-news/local-pro-adam-king/26308" target="_blank">Surfline Interview</a>
                       </div>
                     </div>
 
@@ -576,19 +635,19 @@
                   <div class="col-sm-8">
                     <div class="p-img-group">
                       <div class="p-grid img1">
-                        <img src="images/photo/jung/justin-jung_fiji_barrel.jpg">
+                        <img src="images/photo/king/adam_king_kim_crawford_scott_road.jpg">
                       </div>
 
                       <div class="p-grid img2">
-                        <img src="images/photo/jung/justin-jung_mexico.jpg">
+                        <img src="images/photo/king/adam_king_loggerhead_classic_day_2.jpg">
                       </div>
 
                       <div class="p-grid img3">
-                        <img src="images/photo/jung/justin-jung_pipe_masters_rainbow.jpg">
+                        <img src="images/photo/king/adam_king_hugeunot_park.jpg">
                       </div>
 
                       <div class="p-grid img4">
-                        <img src="images/photo/jung/justin-jung_pipe_masters.jpg">
+                        <img src="images/photo/king/adam_king_fernandina_jose_swell.jpg">
                       </div>
                     </div>
                   </div>
@@ -596,12 +655,9 @@
               </div>
             </div>
 
+
             <!-- 6th Modal in Photo Grid -->
             <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
               <div class="container">
                 <div class="row-eq-height">
                   <h1><span style="font-weight: 600">Photographer:</span> Maria Fernanda</h1>
@@ -664,10 +720,6 @@
 
             <!-- 7th Modal in Photo Grid -->
             <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
               <div class="container">
                 <div class="row-eq-height">
                   <h1><span style="font-weight: 600">Photographer:</span> Stan Moniz</h1>
@@ -718,10 +770,6 @@
 
             <!-- 8th Modal in Photo Grid -->
             <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
               <div class="container">
                 <div class="row-eq-height">
                   <h1><span style="font-weight: 600">Photographer:</span> Joseph O'Connor</h1>
@@ -772,29 +820,25 @@
 
             <!-- 9th Modal in Photo Grid -->
             <div class="item">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-
               <div class="container">
                 <div class="row-eq-height">
-                  <h1><span style="font-weight: 600">Photographer:</span> Adam King</h1>
+                  <h1><span style="font-weight: 600">Photographer:</span> Nathan French</h1>
                   <div class="col-sm-4">
                     <div class="p-img-wrapper">
-                      <img class="p-img-profile" src="images/photo/adam_king.jpg" id="img9" alt="" />
+                      <img class="p-img-profile" src="images/photo/nathan-french-profile.jpg" id="img5" alt="" />
                     </div>
                     <div class="description">
-                      <p>How did I get started with photography? I’d credit my father’s influence, and his love of photography when I was young. My own dedication really started as me and my wife began to travel, and then with the arrival of my first child. I just wanted to capture everything.</p>
+                      <p>Nathan grew up in Coronado, CA and St. Thomas, U.S.V.I. and has spent the majority of his life in, or near, the ocean.  He brings his love of nature into every photo shoot, and his sense of humor turns even the stiffest “cheese” faces into genuine smiles.  When Nathan is not behind his camera, he’s creating masterpieces in the kitchen or riding his Gravity board around town. </p>
 
-                      <div class="link-wrap">
-                        <a class="web-icon" href="https://www.adamking.photo/" target="_blank">Website</a>
+                      <div class="link-wrap jung">
+                        <a class="web-icon" href="https://www.nathanfrenchphotography.com/" target="_blank">Website</a>
                       </div>
 
                       <div class="link-wrap">
-                        <a class="int-icon" href="https://www.surfline.com/surf-news/local-pro-adam-king/26308" target="_blank">Surfline Interview</a>
+                        <a class="int-icon" href="http://solspot.com/content/solspot/jon/in-focus-nathan-french" target="_blank">Interview: SolSpot: In Focus - Nathan French</a>
                       </div>
                     </div>
-                    
+
                     <button type="button" class="close" id="second-close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button> 
@@ -804,19 +848,19 @@
                   <div class="col-sm-8">
                     <div class="p-img-group">
                       <div class="p-grid img1">
-                        <img src="images/photo/king/adam_king_kim_crawford_scott_road.jpg">
+                        <img src="images/photo/french/mark_healey_mavericks_french.jpg">
                       </div>
 
                       <div class="p-grid img2">
-                        <img src="images/photo/king/adam_king_loggerhead_classic_day_2.jpg">
+                        <img src="images/photo/french/nilsschweitzer_barrel_french.jpg">
                       </div>
 
                       <div class="p-grid img3">
-                        <img src="images/photo/king/adam_king_hugeunot_park.jpg">
+                        <img src="images/photo/french/peter_mel_mavericks_french.jpg">
                       </div>
 
                       <div class="p-grid img4">
-                        <img src="images/photo/king/adam_king_fernandina_jose_swell.jpg">
+                        <img src="images/photo/french/joediamond_sunset_french.jpg">
                       </div>
                     </div>
                   </div>
@@ -830,13 +874,6 @@
     </div>
   </div>
 </div> <!-- End of Modal -->
-
-<!-- ScrollMagic Scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-<script src="scripts/scrollmagic_v2.js"></script>
 
 </body>
 

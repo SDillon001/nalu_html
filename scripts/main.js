@@ -78,15 +78,24 @@ $(function() {
   });
 
 // Pause photo carousel on hover
-
 $(function() {
-  $('#container').hover(function(){
-    $(".photo.carousel-inner").carousel('pause');
+  $('#main-carousel').hover(function(){
+    $("carousel-inner").carousel('pause');
   },
   function(){
-    $(".photo.carousel-inner").carousel('cycle');
-});
+    $("carousel-inner").carousel('cycle');
   });
+});
+
+// Pause film carousel on hover
+$(function() {
+  $('#main-carousel').hover(function(){
+    $("carousel-inner-film").carousel('pause');
+  },
+  function(){
+    $("carousel-inner-film").carousel('cycle');
+  });
+});
 
 // Link Timeline in main nav
 $(function() {
@@ -95,7 +104,7 @@ $(function() {
   });
 });
 
-/*Scroll to top when arrow up clicked BEGIN*/
+// Scroll to top when arrow up clicked BEGIN
 $(window).scroll(function() {
   var height = $(window).scrollTop();
   if (height > 2000) {
@@ -116,20 +125,11 @@ $(function() {
 // Scroll to top when arrow up clicked END
 
 // Image Flip
-function flip (event)
-{
-  var element = event.currentTarget;
-  /* Toggle the setting of the classname attribute */
-  element.className = (element.className == 'card') ? 'card flipped' : 'card';
-}
-
-// Enable tootltips everywhere
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip({
-    trigger : 'hover',
-    html: true
-  })
-});
+// function flip (event) {
+//   var element = event.currentTarget;
+//    Toggle the setting of the classname attribute 
+//   element.className = (element.className == 'card') ? 'card flipped' : 'card';
+// }
 
 // home page nav bar opacity on scroll
 $(window).scroll(function() {    
@@ -164,17 +164,96 @@ $(window).scroll(function() {
 });
 
 // Hide indicators on Equipment page past a certain point
-$(window).scroll(function() {
-  var height = $(window).scrollTop();
-  if (height > 8000) {
-      $('.vert-links').addClass("vert-links-hide");
-  } else {
-      $('.vert-links').removeClass("vert-links-hide");
-  }
-});
+// $(window).scroll(function() {
+//   var height = $(window).scrollTop();
+//   if (height > 8000) {
+//       $('.vert-links').addClass("vert-links-hide");
+//   } else {
+//       $('.vert-links').removeClass("vert-links-hide");
+//   }
+// });
 
 $(".item").mouseenter(function() {
     $(".carousel-control").css("opacity: 1");
 }).mouseleave(function() {
     $(".carousel-control").css("opacity: 0");
+});
+
+$(".item").mouseenter(function() {
+    $(".carousel-control.film").css("opacity: 1");
+}).mouseleave(function() {
+    $(".carousel-control.film").css("opacity: 0");
+});
+
+// Timeline 80's Photo Switch
+$(function(){
+  $(".80s-image-switch").on({mouseenter: function(){
+    $(this).attr('src','http://nalu.live/images/1980s/tom_carrol_pipeline_80s_warren_bolster.jpg');
+  },mouseleave: function(){
+    $(this).attr('src','http://nalu.live/images/1980s/tom_carrol_damien_hardman_80s.jpg');
+  }
+  }); 
+});
+
+// Timeline 90's Photo Switch
+$(function(){
+  $(".90s-image-switch").on({mouseenter: function(){
+    $(this).attr('src','http://nalu.live/images/1990s/kelly_slater_rodeo_air_90s.jpg');
+  },mouseleave: function(){
+    $(this).attr('src','http://nalu.live/images/1990s/kelly_slater_hurley_pro_2012_steve_dillon.gif');
+  }
+  }); 
+});
+
+// Enable tootltips everywhere
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip({
+    trigger : 'hover',
+    html: true
+  })
+
+// $('[data-toggle="tooltip"]').on("mouseenter", function () {
+//   $(this).tooltip('show');
+// });
+
+// Timeline anchor links active state
+// $oldElement = undefined;
+
+// $('ul li a').click(function(){
+//   $(this).find('i').addClass("fas");
+//   $(this).tooltip('show');
+
+//   if($oldElement !== undefined)
+//   {
+//     $oldElement.find('i').removeClass("fas");
+//     $oldElement.tooltip('hide');
+//   }
+
+//   $oldElement = $(this);
+// });
+
+// $('ul li a').click(function(){
+//   $(this).find('i').addClass('fas');
+// });
+
+});
+
+// Pagination active class
+$(function() {
+  var pageItem = $(".pagination li").not(".prev,.next");
+  var prev = $(".pagination li.prev");
+  var next = $(".pagination li.next");
+
+  pageItem.click(function() {
+    pageItem.removeClass("active");
+    $(this).not(".prev,.next").addClass("active");
+  });
+
+  next.click(function() {
+    $('li.active').removeClass('active').next().addClass('active');
+  });
+
+  prev.click(function() {
+    $('li.active').removeClass('active').prev().addClass('active');
+  });
 });

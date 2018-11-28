@@ -28,11 +28,11 @@ Ice White: #f4fafe;
 GLOBAL
 ======================================= */
 
-/* 
-*, *:before, *:after {
+ 
+/**, *:before, *:after {
 border: 1px solid red;
-} 
-*/
+} */
+
 
 html, body {
   height: 100%;
@@ -69,6 +69,16 @@ h2 {
   font-size: 2em;
   margin-bottom: 0.2em;
   line-height: 1.2;
+  font-family: 'Raleway', "Palatino Linotype", "Book Antiqua" !important;
+}
+
+h1 {
+  font-family: 'Raleway', "Palatino Linotype", "Book Antiqua" !important;
+}
+
+h3 {
+  font-size: 1.4em !important;
+  font-family: 'Raleway', "Palatino Linotype", "Book Antiqua" !important;
 }
 
 h2#home {
@@ -199,6 +209,7 @@ ul.nav.navbar-nav {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-family: 'Raleway', "Palatino Linotype", "Book Antiqua" !important;
 }
 
 /* ---- Dropdown Menu ---- */
@@ -245,7 +256,7 @@ ul.dropdown-menu {
 /* Controls Height of Carousel */
 .carousel-inner.equipment {
   width:100%;
-  max-height: 885px !important;
+  height: auto !important;
 }
 
 .carousel-caption {
@@ -714,7 +725,8 @@ hr {
 
   .flex-item h2 {
     position: absolute;
-    top: 30%;
+    top: 35%;
+    transform: translateY(-50%);
     line-height: 100px;
     vertical-align: middle;
     width: 100%;
@@ -722,7 +734,6 @@ hr {
     opacity: 0;
     z-index: 1;
     font-size: 3em;
-    transform: translate(-1%, -25%);
   }
 
   .flex-item.overlay:hover h2 {
@@ -759,8 +770,12 @@ div#section7 {
 }
 
 p.footer-text {
-  color: #999999;
+  color: #CCCCCC;
   margin-bottom: 0px !important;
+}
+
+footer a {
+  color: #CCCCCC !important;
 }
 
 p.footer-text.left {
@@ -903,6 +918,11 @@ input#mc-embedded-subscribe {
   padding: 2% 8%;
 }
 
+input#mc-embedded-subscribe:hover {
+  background: #00c1d9;
+  color: #0a3859;
+}
+
 input, select, textarea{
   color: #fff;
 }
@@ -925,7 +945,7 @@ PHOTOGRAPHER'S PAGE
 /* ---- Hero Slider ----- */
 
 .carousel-caption.photogs {
-  top: 70% !important;
+  top: 65% !important;
   right: 40% !important;
   left: 0% !important;
 }
@@ -946,16 +966,97 @@ PHOTOGRAPHER'S PAGE
   z-index: 2;
 }
 
-/* ---- Featured Photogs Section ----- */
+.section.content-wrapper3.fade-in h2 {
+  text-decoration: underline;
+  text-decoration-color: #00c1d9;
+  padding-bottom: 0px;
+  margin-bottom: 1%;
+}
 
-.phtgs-sec1 {
+.section.content-wrapper3.fade-in h3 {
+  margin-top: 0px;
+}
+
+/* ---- Films Section ----- */
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: normal;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.film-container {
+  padding: 1% 0% 3.5% 0%;
+  background-color: rgba(251, 238, 196, .5);
+}
+
+.film-title {
   width: 83%;
-  margin-top: 2%;
+  margin-top: 1.5%;
+  padding-bottom: 1%;
   font-size: 1em;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+
+.content-section.left {
+  width: 35%;
+}
+
+.cont-sect.one {
+  padding-top: 5%;
+}
+
+.cont-sect.one h2 {
+  font-size: 2em;
+  text-decoration: underline;
+  text-decoration-color: #00c1d9;
+  padding-bottom: 0px;
+  margin-bottom: 1%;
+  text-align: left !important;
+  color: #0a3859;
+}
+
+.cont-sect.one p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: #0a3859;
+}
+
+blockquote.equip-merrick.photog {
+  margin: 0px;
+}
+
+/* Right Section Carousel */
+
+.carousel-caption.film {
+  position: relative;
+  padding: 0%;
+  margin-top: 6.5%;
+  top: 0% !important;
+  right: 0% !important;
+  left: 0% !important;
+}
+
+.carousel-inner.film {
+  box-shadow: 8px 8px 6px -6px rgba(0, 0, 0, 0.3);
+  background-color: #00c1d9;
+}
+
+.carousel-control.film {
+  opacity: 1 !important; 
+}
+
+.carousel-caption.film h4 {
+  margin: 1% 0% 0% 0%;
+  color: #0a3859;
+  text-shadow: 0 0px 0px;
+}
+
+/* Testimonials Section */
 
 .photo-grid-head h2 {
   text-align: center;
@@ -965,9 +1066,41 @@ PHOTOGRAPHER'S PAGE
 .photo-grid-head {
   width: 100%;
   text-align: center;
-  background: #2eb6d1;
-  padding: 1%;
+  background: #0a3859;
+  padding: 2% 0% 3.5% 0%;
   color: #fff;
+}
+
+div#main-carousel-testimonials {
+  min-height: 180px;
+}
+
+.carousel-inner.testimonials .item h4 {
+  margin: 0%;
+}
+
+i.fas.fa-angle-left.test,
+i.fas.fa-angle-right.test {
+    font-size: 1.8em;
+}
+
+.item h3 {
+  line-height: 1.5;
+  font-family: 'Open Sans' !important;
+}
+
+.carousel-control.test {
+    opacity: 0.5 !important;
+}
+
+h3.test-credit {
+  text-align: right;
+  font-weight: 600;
+  width: 75%;
+}
+
+h4.local-photogs {
+  margin: 0;
 }
 
 .int-title h2,
@@ -984,19 +1117,17 @@ PHOTOGRAPHER'S PAGE
   flex-flow: row wrap;
   justify-content: center;
   box-sizing: border-box;
+  padding-bottom: 2%;
 }
 
 .interviews {
   width: 100%;
+  float: left;
+  padding-top: 2%;
   background: #fff;
   position: relative;
   text-align: center;
   border-top: 1px solid #dcdcdc;
-}
-
-.interviews {
-  float: left;
-  width: 100%;
 }
 
 hr.int-hr {
@@ -1173,6 +1304,10 @@ img.photog-headshot {
   text-align: center;
 }
 
+.description div:nth-child(3) {
+    margin-bottom: 0px !important;
+}
+
 .link-wrap.jung {
   margin: 0% 0% 2%;
 }
@@ -1205,7 +1340,8 @@ img.photog-headshot {
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px; height: 0; overflow: hidden;
+  padding-top: 0px; 
+  height: 0; overflow: hidden;
 }
 
 .video-container iframe,
@@ -1269,12 +1405,15 @@ EQUIPMENT PAGE CSS START
 
 .split-content-wrapper > div {
   width: 50%;
-  padding: 2%;
 }
 
 .eq-split-content.right {
-  padding: 12% 4%;
+  padding: 5% 8%;
   background: rgba(0, 193, 217, .15);
+}
+
+.eq-split-content.right h3 {
+  line-height: 1.4;
 }
 
 .eq-split-content.right h2 {
@@ -1295,12 +1434,11 @@ EQUIPMENT PAGE CSS START
 /* Longboard 2 Split Section 2 */
 
 .eq-split-content-left.two {
-  padding: 12% 4%;
+  padding: 5% 4%;
   background: rgba(0, 193, 217, .15);
 }
 
 .eq-split-content-right.two {
-  padding: 2%;
   background: transparent;
 }
 
@@ -1320,7 +1458,7 @@ EQUIPMENT PAGE CSS START
 }
 
 .eq-split-content.right.slater {
-  padding: 10% 4%;
+  padding: 5.1% 4%;
 }
 
 blockquote.equip-merrick {
@@ -1372,6 +1510,7 @@ blockquote.equip-merrick {
   border-color: rgba(136, 183, 213, 0);
   border-left-color: rgba(0, 193, 217, .15);
   border-width: 40px;
+  z-index: 9999;
 }
 
 /* ---- CSS Arrows End ----- */
@@ -1481,7 +1620,7 @@ blockquote.equip-merrick {
   position: relative;
   /* padding-bottom: 55%; 16:9 */
   padding-bottom: 44.4%;
-  padding-top: 25px;
+  padding-top: 15px;
   height: 0;
 }
 .videoWrapper video {

@@ -66,13 +66,10 @@
                 <a href="https://www.facebook.com/Nalulive-the-History-of-Surfing-342411326336995/" target="_blank"><img src="images/facebook.png" alt="facebook.png"></a>
               </div>
               <div class="flex-item social">
-                <a href="https://www.instagram.com/stevedillonphoto" target="_blank"><img src="images/instagram.png" alt="instagram.png"></a>
+                <a href="https://www.instagram.com/nalu.live/" target="_blank"><img src="images/instagram.png" alt="instagram.png"></a>
               </div>
               <div class="flex-item social">
                 <a href="https://www.linkedin.com/in/stevedillon1/" target="_blank"><img src="images/linkedin.png" alt="linkedin.png"></a>
-              </div>
-              <div class="flex-item social">
-                <a href="https://plus.google.com/u/0/111716399104478997939" target="_blank"><img src="images/google_plus.png" alt="google_plus.png"></a>
               </div>
             </div>
           </div>
@@ -126,7 +123,7 @@
             </ul>
 
             <ul class="footer-list right">
-              <li><a href="http://jungphoto.com/" target="_blank">Justin Jung</a></li>
+              <li><a href="https://www.nathanfrenchphotography.com/" target="_blank">Nathan French</a></li>
               <li><a href="http://www.mariafernandaphoto.com/" target="_blank">Maria Fernanda</a></li>
               <li><a href="https://www.adamking.photo/" target="_blank">Adam King</a></li>
               <li><a href="https://www.instagram.com/joeoc_photo/?hl=en" target="_blank">Joe O'Connor</a></li>
@@ -149,8 +146,8 @@
           <li><a href="timeline.php">Timeline</a></li>
           <li><a href="photographers.php">Photographers</a></li>
           <li><a href="equipment.php">Equipment</a></li>
-          <li><a href="people.php">People</a></li>
-          <li><a href="share.php">Share</a></li>
+          <!-- <li><a href="people.php">People</a></li>
+          <li><a href="share.php">Share</a></li> -->
         </ul>
       </div>
     </div>

@@ -19,11 +19,11 @@
       </div>
       <!-- carousel image 2 -->
       <div class="item">
-        <a href="#"><img src="images/equipment/banners/142_tom_blake_hollow_surfboard_2.jpg" alt="duke_waikiki_1930"/></a>
+        <a href="#"><img src="images/equipment/banners/143_tom_blake_hollow_surfboard.jpg" alt="duke_waikiki_1930"/></a>
       </div>
       <!-- carousel image 3 -->
       <div class="item">
-        <a href="#"><img src="images/equipment/banners/142_tom_blake_hollow_surfboard_2.jpg" alt="duke_waikiki_1930"/></a>
+        <a href="#"><img src="images/equipment/banners/142_tom_blake_hollow_surfboard_3.jpg" alt="duke_waikiki_1930"/></a>
       </div>
       <!-- carousel image 4 -->
       <div class="item">
@@ -53,12 +53,14 @@
 
   <!-- Longboard Flip -->
   <div class="split-content-wrapper">
+
     <div class="eq-split-content left">
+
       <div class="card-container">
         <div class="card">
-          <div class="item container equipment" id="hotspot_image">
+          <div class="item container equipment">
             <div class="side">
-              <img src="images/equipment/boards/346_redwood_hotcurl_1937.jpg" alt=""/>
+              <img src="images/equipment/boards/346_redwood_hotcurl_1937_3.jpg" alt=""/>
             </div>
             <div class="side back">
               <img src="images/equipment/boards/346_redwood_hotcurl_1937_back.jpg" alt="" usemap="#Map" />
@@ -66,6 +68,7 @@
           </div>
         </div>
       </div>
+
     </div>
 
     <div class="arrow_box"></div>
@@ -359,6 +362,27 @@
 
         <!-- Carousel -->
         <div class="carousel slide" data-interval="false" id="MyCarousel" data-ride="carousel">
+          <div class="row">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination mx-auto text-center">
+                <li class="page-item disabled"><a class="page-link previous" href="#MyCarousel" data-slide="prev" tabindex="-1"><i class="fas fa-angle-left"></i> Previous</a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Olo - 1700" data-slide-to="0" class="active"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Koa Alaia - 1900" data-slide-to="1"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Duke's Board - 1935" data-slide-to="2"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Waikiki Board - 1942" data-slide-to="3"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Balsa Gun - 1957" data-slide-to="4"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Hap Jacobs - 1965" data-slide-to="5"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Da Cat Model - 1966" data-slide-to="6"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Bonzer - 1973"data-slide-to="7"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Laser Zap Model - 1981" data-slide-to="8"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Hamish Graham Gun - 1996" data-slide-to="9"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="AI's Board - 2004" data-slide-to="10"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item"><a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="bottom" title="Fanning's DHD - 2009" data-slide-to="11"><i class="fas fa-tint"></i></a></li>
+                <li class="page-item disabled">
+                  <a class="page-link next" href="#MyCarousel" data-slide="next">Next <i class="fas fa-angle-right"></i></a></li>
+              </ul>
+            </nav>
+          </div>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
@@ -938,54 +962,6 @@
                 </div>
               </div>
             </div><!-- 12th Modal in Photo Grid End -->
-          </div>
-           <div class="row">
-            <nav aria-label="Page navigation example">
-              <ul class="pagination mx-auto text-center">
-                <li class="page-item disabled">
-                  <a class="page-link previous" href="#MyCarousel" data-slide="prev" tabindex="-1">Previous</a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Olo - 1700" data-slide-to="0" class="active"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Koa Alaia - 1900" data-slide-to="1"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Duke's Board - 1935" data-slide-to="2"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Waikiki Board - 1942" data-slide-to="3"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Balsa Gun - 1957" data-slide-to="4"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Hap Jacobs - 1965" data-slide-to="5"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Da Cat Model - 1966" data-slide-to="6"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Bonzer - 1973"data-slide-to="7"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Laser Zap Model - 1981" data-slide-to="8"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Hamish Graham Gun - 1996" data-slide-to="9"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="AI's Board - 2004" data-slide-to="10"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item">
-                  <a href="#" class="page-link" data-target="#MyCarousel" data-toggle="tooltip" data-placement="top" title="Fanning's DHD - 2009" data-slide-to="11"><i class="fas fa-tint"></i></a>
-                </li>
-                <li class="page-item disabled">
-                  <a class="page-link next" href="#MyCarousel" data-slide="next">Next</a>
-                </li>
-              </ul>
-            </nav>
           </div>
         </div>
       </div>

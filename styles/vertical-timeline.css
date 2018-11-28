@@ -20,11 +20,18 @@ Converted:  July, 2018
   text-transform: uppercase;
 }
 
+figcaption {
+  text-align: center;
+  margin: 5%;
+  font-size: 1.2em;
+  color: #0a3859;
+}
+
 /*==================================================
- * Effect 2
- * ===============================================*/
- .corner-shadow
- {
+* Effect 2
+* ===============================================*/
+.corner-shadow
+{
   position: relative;
 }
 .corner-shadow:before, .corner-shadow:after
@@ -59,39 +66,81 @@ Converted:  July, 2018
 
 /* Pagination */
 
-ul.vert-links {
- position: fixed;
- top: 45%;
- left: 15px;
- line-height: 30px;
- padding: 0px 15px 0px 15px;
- color: #fff;
- border: 0;
- font-size: 1.4em;
- font-weight: bold;
- cursor: pointer;
- outline: none;
- z-index: 10000;
+.arrow-up { 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  border-bottom: 10px solid #0a3859;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  border-top: 10px solid #0a3859;
+}
+
+ul.pagination.vert-links {
+  position: fixed;
+  display: inline-grid;
+  top: 30%;
+  left: 15px;
+  line-height: 30px;
+  padding: 0px 15px 0px 15px;
+  color: #fff;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000;
+}
+
+.pagination.vert-links > li > a, .pagination.vert-links > li > span {
+    background-color: transparent !important;
+    border: 0px !important;
+    padding: 0px 12px !important;
 }
 
 i.far.fa-circle {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 i.fas.fa-caret-up,
 i.fas.fa-caret-down {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 a {
   color: #336699;
 }
 
-.vert-links-show {
+.pagination.vert-links > .active > a, 
+.pagination.vert-links > .active > span, 
+.pagination.vert-links > .active > a:hover, 
+.pagination.vert-links > .active > span:hover, 
+.pagination.vert-links > .active > a:focus, 
+.pagination.vert-links > .active > span:focus {
+  color: #00c1d9 !important;
+  cursor: pointer;
+  background-color: transparent !important;
+}
+
+.pagination.vert-links > li > a:hover,
+.pagination.vert-links > li > span:hover,
+.pagination.vert-links > li > a:focus,
+.pagination.vert-links > li > span:focus {
+  color: #00c1d9 !important;
+  background-color: transparent !important;
+}
+
+ul.pagination.vert-links-show {
   display: block !important;
 }
 
-.vert-links-hide {
+ul.pagination.vert-links-hide {
   display: none;
 }
 
@@ -101,7 +150,8 @@ Modules - reusable parts of design
 -------------------------------- */
 
 .cd-container {
-  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  /* this class is used to give a max-width to the element it is applied to, 
+  and center it horizontally when it reaches that max-width */
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
@@ -119,25 +169,25 @@ Main components
 -------------------------------- */
 
 .cd-date.left:before {
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 0;
-    right: -10px;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid #2eb6d1;
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  right: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #2eb6d1;
 }
 
 .cd-date.right:before {
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 0;
-    left: -10px;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 10px solid #2eb6d1;
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  left: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #2eb6d1;
 }
 
 #cd-timeline {
@@ -169,7 +219,7 @@ Main components
     margin-left: -2px;
   }
 
-    .cd-timeline-block {
+  .cd-timeline-block {
     margin: 4em 0;
   }
   .cd-timeline-block:first-child {
@@ -201,15 +251,16 @@ Main components
 
 .title {
   text-align: center;
-  /*text-transform: uppercase;*/
-  font-size: 12px;
+  font-size: 1.2em;
   display: block;
   color: #fff;
-  margin-top: 22px;
+  line-height: 60px;
 }
 
 span.title.pre-1900s {
-    margin-top: 11px;
+  font-size: 14px;
+  margin-top: 10%;
+  line-height: 20px !important;
 }
 
 .cd-timeline-img {
@@ -257,11 +308,11 @@ span.title.pre-1900s {
     -webkit-backface-visibility: hidden;
   }
 
-   .cd-timeline-img.is-hidden {
+  .cd-timeline-img.is-hidden {
     visibility: hidden;
   }
-  
-   .cd-timeline-img.bounce-in {
+
+  .cd-timeline-img.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-1 0.6s;
     -moz-animation: cd-bounce-1 0.6s;
@@ -333,7 +384,7 @@ span.title.pre-1900s {
   cursor: pointer;
   position: relative;
   margin-left: 60px;
-  background: #efefef;
+  background: #eeeeee;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 hsla(190, 64%, 50%, 0.32);
@@ -354,6 +405,7 @@ span.title.pre-1900s {
 
 .cd-timeline-content h2 {
   color: #0a3859;
+  margin-top: 1%;
 }
 
 .cd-timeline-content p,
@@ -377,7 +429,7 @@ span.title.pre-1900s {
 }
 
 .cd-timeline-content.right span.cd-read-more {
-    float: left !important;
+  float: left !important;
 }
 
 .no-touch .cd-timeline-content .cd-read-more:hover {
@@ -416,12 +468,12 @@ span.title.pre-1900s {
 
 .cd-timeline-content.left:hover,
 .cd-timeline-content.right:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .cd-timeline-content p {
@@ -435,7 +487,7 @@ span.title.pre-1900s {
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
     margin-left: 0;
-    padding: 1.6em;
+    padding: 1% 2% 2%;
     width: 45%;
   }
   .cd-timeline-content.left::before {
@@ -444,10 +496,10 @@ span.title.pre-1900s {
     right: -10px;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 10px solid #2eb6d1;
+    border-left: 10px solid #eeeeee;
     border-right: 0px;
   }
-  
+
   .cd-timeline-content .cd-read-more {
     float: right;
     text-transform: uppercase;
@@ -480,7 +532,7 @@ span.title.pre-1900s {
     right: 100%;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid #2eb6d1;
+    border-right: 10px solid #eeeeee;
     border-left: 0px;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
@@ -490,10 +542,10 @@ span.title.pre-1900s {
     left: auto;
     right: 122%;
   }
-   .cd-timeline-content.is-hidden {
+  .cd-timeline-content.is-hidden {
     visibility: hidden;
   }
-   .cd-timeline-content.bounce-in {
+  .cd-timeline-content.bounce-in {
     visibility: visible;
     -webkit-animation: cd-bounce-2 0.6s;
     -moz-animation: cd-bounce-2 0.6s;
@@ -501,7 +553,7 @@ span.title.pre-1900s {
   }
 
   /* inverse bounce effect on even content blocks */
-   .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
+  .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
     -moz-animation: cd-bounce-2-inverse 0.6s;
     animation: cd-bounce-2-inverse 0.6s;

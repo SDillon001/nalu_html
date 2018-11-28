@@ -29,8 +29,6 @@ Site Grey: #6B6D76;
 Ice White: #f4fafe;
 */
 
-/*  */
-
 /* ----------- TABLETS (max-width: 768px) ----------- */
 
 /* Responsive: Portrait tablets and up */
@@ -70,6 +68,42 @@ Ice White: #f4fafe;
     overflow: hidden;
   }
 
+  .dropdown ul {
+    position: absolute !important;
+    top: 60% !important;
+    left: 32%;
+    padding: 5%;
+    background-color: white !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,.175) !important;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #0a3859 !important;
+    padding: 5% 28% !important;
+}
+
+  .carousel-caption.photogs {
+    top: 35% !important;
+    width: 95%;
+}
+
+/* Equipment Board Section Description */
+
+.eq-split-content.right #col,
+.eq-split-content-left.two #col,
+.eq-split-content.right.slater blockquote.equip-merrick {
+  display: none;
+}
+
+.arrow_box:after,
+.arrow_box2:after {
+  display: none;
+}
+
+.card {
+  top: 15%;
+}
+
 }
 
 /* iPads Portrait Only */
@@ -80,9 +114,9 @@ and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 1) {
 
   ul.nav.footer.navbar-nav {
-      display: inline-flex;
-      float: right !important;
-      padding-top: .5%;
+    display: inline-flex;
+    float: right !important;
+    padding-top: .5%;
   }
 
 }
@@ -94,7 +128,6 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 
-  /* Styles here */
 
 }
 
@@ -204,6 +237,62 @@ and (orientation : landscape) {
   #back2Top {
     left: 85%;
   }
+
+  .eq-split-content.right,
+  .eq-split-content-left.two {
+    padding: 2% 4%;
+  }
+
+  .eq-split-content.right.slater {
+    padding: 5% 4%;
+  }
+
+  .eq-split-content.right h2,
+  .eq-split-content-left.two h2 {
+      font-size: 1.5em;
+  }
+
+  .eq-split-content.right h3,
+  .eq-split-content-left.two h3 {
+    font-size: 1.2em !important;
+    line-height: 1.2;
+  }
+
+  /* Timeline */
+
+  span.title.pre-1900s {
+    font-size: 10px;
+    margin-top: 8%;
+    line-height: 14px !important;
+  }
+
+  .title {
+    text-align: center;
+    font-size: .8em;
+    display: block;
+    color: #fff;
+    line-height: 40px;
+  }
+
+  /* Modal Pagination */
+
+  ul.pagination.mx-auto.text-center {
+    margin: 4% 0% 0% 5%;
+  }
+
+  .carousel-inner.equipment {
+    width: 100%;
+    height: auto !important;
+}
+
+.eq-split-content.left:hover,
+.eq-split-content-right.two:hover {
+  transform: rotateY(0deg) !important;
+}
+
+.side.back {
+    display: none;
+}
 
 }
 
@@ -329,17 +418,25 @@ and (orientation : landscape) {
 
 /* ----------- General Media Queries ----------- */
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) {
 
   .carousel-caption.photogs {
-    top: 65% !important;
+    top: 55% !important;
+    width: 70%;
   }
+
+  .section.content-wrapper3.fade-in h3 {
+    font-size: 16px !important;
+}
 
 }
 
 @media only screen and (min-device-width : 1680px) {
 
-  /* Styles here */
+.carousel-caption.photogs {
+    top: 65% !important;
+    width: 70%;
+}
 
 }
 
@@ -360,5 +457,30 @@ and (orientation : landscape) {
   .carousel-wrapper {
     width: 55%;
   }
+}
 
+@media screen and (max-width: 700px) {
+
+  .carousel-caption.photogs {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+
+  p#col {
+    opacity: 0;
+      -webkit-transition: opacity 1s ease-in-out;
+       -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+         -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+
+  p#col {
+    display: none;
+  }
 }

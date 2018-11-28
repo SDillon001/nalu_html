@@ -35,8 +35,8 @@
           </li>
           <li><a href="/photographers.php">Photographers</a>
           <li><a href="equipment.php">Equipment</a></li>
-          <li><a href="people.php">People</a></li>
-          <li><a href="share.php">Share</a></li>
+          <!-- <li><a href="people.php">People</a></li>
+          <li><a href="share.php">Share</a></li> -->
         </ul>
       </div>
     </div>

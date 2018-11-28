@@ -84,6 +84,17 @@ div#myModal {
     color: #0a3859;
 }
 
+.link-wrap a {
+  font-size: 1.2em !important;
+  font-family: Raleway;
+}
+
+/*--- Pagination ---*/
+
+ul.pagination.mx-auto.text-center {
+    margin: .5% 0% 0% 0%;
+}
+
 .pagination {
   display: flex;
   padding-left: 0px;
@@ -92,28 +103,54 @@ div#myModal {
   justify-content: center;
 }
 
-a.page-link.previous,
-a.page-link.next {
-    background: #0a3859;
-    color: #fff !important;
-}
-
-ul.pagination.mx-auto.text-center {
+/*ul.pagination.mx-auto.text-center {
   margin: 1% 0% 0%;
-}
+}*/
 
 ul.pagination.timeline.mx-auto.text-center {
     margin: .2%;
 }
 
-.pagination > li > a, .pagination > li > span {
-  color: #0a3859 !important;
-  border: 1px solid rgba(107, 109, 118, .2) !important;
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    color: #00c1d9 !important;
+    background-color: #f9f9f9 !important;
 }
 
-.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-    background-color: #0a3859 !important;
-    color: #fff !important;
+a.page-link.previous,
+a.page-link.next {
+    background-color: #f4fafe;
+    color: #0a3859 !important;
+}
+
+a.page-link.previous:hover,
+a.page-link.next:hover {
+  color: #00c1d9 !important;
+  background-color: #f9f9f9 !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus, .pagination > .active > span:focus {
+    color: #00c1d9 !important;
+    background-color: #f9f9f9 !important;
+}
+
+/*.pagination > li > a, .pagination > li > span {
+  color: #848484 !important;
+  border: 1px solid rgba(107, 109, 118, .2) !important;
+}*/
+
+.pagination > li > a, 
+.pagination > li > span {
+    line-height: 2.5;
+    color: #0a3859;
+    text-decoration: none;
+    background-color: #f4fafe;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 .tooltip.in {
@@ -121,7 +158,7 @@ ul.pagination.timeline.mx-auto.text-center {
     opacity: 1 !important;
 }
 
-.tooltip.top .tooltip-inner {
+.tooltip.bottom .tooltip-inner {
     max-width: 310px;
     padding: 10px 15px;
     color: #fff;
@@ -143,12 +180,12 @@ ul.pagination.timeline.mx-auto.text-center {
     font-size: 14px;
 }
 
-.tooltip.top .tooltip-arrow {
-    top: 45px;
+.tooltip.bottom .tooltip-arrow {
+    top: -5px;
     left: 50%;
     margin-left: -5px;
     border-width: 5px 5px 5px;
-    border-top-color: #00c1d9 !important;
+    border-bottom-color: #00c1d9 !important;
 }
 
 .tooltip.right .tooltip-arrow {
@@ -157,29 +194,6 @@ ul.pagination.timeline.mx-auto.text-center {
     margin-left: -5px;
     border-width: 5px 5px 5px 5px;
     border-right-color: #00c1d9 !important;
-}
-
-.tooltip.top .tooltip-inner:focus {
-  outline: none !important;
-}
-
-.tooltip.bottom .tooltip-inner {
-    max-width: 310px;
-    padding: 10px 15px;
-    color: #fff;
-    text-align: center;
-    background-color: #00c1d9;
-    border-radius: 0px;
-    margin-left: 0%;
-    font-size: 14px;
-}
-
-.tooltip.bottom .tooltip-arrow {
-    top: 0;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 0 5px 5px;
-    border-bottom-color: #00c1d9 !important;
 }
 
 .tooltip.bottom .tooltip-inner:focus {
@@ -280,8 +294,13 @@ TIMELINE PAGE MODAL
   text-align: left;
 }
 
+.p-img-wrapper.timeline h1 span {
+  text-decoration: underline;
+  text-decoration-color: #00c1d9;
+}
+
 .description.timeline {
-    padding-top: 4%;
+    padding-top: 10%;
 }
 
 .row.timeline {

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <!--Included head.php file -->
 <?php include("head.php");?>
@@ -34,15 +34,15 @@
             </div>
             <!-- carousel image 2 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/bolster_43_pipe_80s.jpg" alt="bolster_43_pipe_80s"/></a>
+              <a href="#"><img src="images/banners/sized/page65_A_waikiki_1930.jpg" alt="page65_A_waikiki_1930" /></a>
             </div>
             <!-- carousel image 3 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/bolster_89.jpg" alt="Rell Sun" /></a>
+              <a href="#"><img src="images/banners/sized/bolster_43_pipe_80s.jpg" alt="bolster_43_pipe_80s"/></a>
             </div>
             <!-- carousel image 4 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/20-tahiti-teahupoo-2017-7_maria-fernanda.jpg"/></a>
+              <a href="#"><img src="images/banners/sized/bolster_89.jpg" alt="Rell Sun" /></a>
             </div>
             <!-- carousel image 5 -->
             <div class="item">
@@ -50,7 +50,7 @@
             </div>
             <!-- carousel image 6 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/bolster_makahaparkinglotaerial.jpg" alt="bolster_makaha_parking_lot_aerial"/></a>
+              <a href="#"><img src="images/banners/sized/adamkingphoto26_malibu.jpg" alt="nilsschweitzer_barrel_nathan_french" /></a>
             </div>
             <!-- carousel image 7 -->
             <div class="item">
@@ -58,19 +58,23 @@
             </div>
             <!-- carousel image 8 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/oahu-leah-2014-1_maria-fernanda.jpg" alt="Maria Fernanda - Leah, Oahu" /></a>
+              <a href="#"><img src="images/banners/sized/20-tahiti-teahupoo-2017-7_maria-fernanda.jpg"/></a>
             </div>
             <!-- carousel image 9 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/blake5.jpg" alt="blake5.jpg" /></a>
+              <a href="#"><img src="images/banners/sized/oahu-leah-2014-1_maria-fernanda.jpg" alt="Maria Fernanda - Leah, Oahu" /></a>
             </div>
             <!-- carousel image 10 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/yellow_board_air.jpg" alt="yellow_board_air Salt Creek" /></a>
+              <a href="#"><img src="images/banners/sized/jean_desilva_flare_trevor_murphy.jpg" alt="blake5.jpg" /></a>
             </div>
             <!-- carousel image 11 -->
             <div class="item">
-              <a href="#"><img src="images/banners/sized/page65_A_waikiki_1930.jpg" alt="page65_A_waikiki_1930" /></a>
+              <a href="#"><img src="images/banners/sized/courtney-conlogue_diane_edmonds.jpg" alt="courtney-conlogue air" /></a>
+            </div>
+            <!-- carousel image 12 -->
+            <div class="item">
+              <a href="#"><img src="images/banners/sized/nilsschweitzer_barrel_nathan_french.jpg" alt="yellow_board_air Salt Creek" /></a>
             </div>
 
             <div class="arrow bounce">
@@ -163,7 +167,7 @@
         <img src="images/duke_olo_blake.png" alt="Duke Kahanamoku - Outrigger Canoe Club" >
       </div>
       <div class="col1">
-        <h2 id="home">Duke Kahanamoku</h2>
+        <h2 id="home"><a href="https://eos.surf/entries/kahanamoku-duke" target="blank" >Duke Kahanamoku</a></h2>
         <p class="lead"><a href="https://eos.surf/entries/kahanamoku-duke" target="blank" >Surfing Icon</a></p>
 
         <article>
@@ -175,7 +179,7 @@
 
           <p>In the 1912 Olympics, held in Stockholm, Sweden, the 6'1" 190-pound Duke used the already-famous "Kahanamoku Kick" to set another world record on his way to a gold medal in the 100-meter freestyle; he also won a silver medal in the 200-meter freestyle relay. In the 1920 Olympics in Antwerp, Belgium (World War I forced the cancellation of the 1916 Games), Kahanamoku won gold medals in both the 100-meter freestyle and the 400-meter freestyle relay; in the 1924 Olympics in Paris, the 34-year-old won a silver medal in the 100-meter freestyle. He was called the "human fish" and the "Bronzed Duke," and at age 42 Kahanamoku swam sprints as fast as when he was 21. In 1925, he made what the Honolulu Star-Bulletin described as a "superhuman rescue act," pulling eight fishermen out of heavy seas at Newport Beach, California.</p>
           <div class="read-more-link">
-            <a href="/equipment.php" class="home-lm-link">Read More</a>
+            <a href="/timeline.php" class="home-lm-link">Read More</a>
           </div>
         </article>
 
@@ -203,19 +207,19 @@
       <div class="flex-container2">
         <div class="flex-item2"><a href="/timeline.php"><img src="images/1958_huntington_pier.jpg" alt="1958_huntington_pier"></a>
           <h3>Timeline</h3>
-          <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
+          <p>Learn more about how surfing has evolved over the years and read about some of the significant historical events that shaped the sport.</p>
           <a href="/timeline.php" class="home-lm-link">Learn More</a>
         </div>
 
         <div class="flex-item2"><a href="/photographers.php"><img src="images/bolster_tavarua_empty_perfect.jpg" alt="bolster_tavarua_empty_perfect"></a>
-          <h3>Photo</h3>
-          <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
+          <h3>Photographers</h3>
+          <p>View photos and interviews with the surf photographers who have changed the way we see the sport of surfing.</p>
           <a href="/photo.php" class="home-lm-link">Learn More</a>
         </div>
 
         <div class="flex-item2"><a href="/equipment.php"><img src="images/142_tom_blake_hollow_surfboard_grid.jpg" alt="tom_blake_hollow_surfboard_plans"></a>
           <h3>Equipment</h3>
-          <p>Sed sapien ex, egestas vel elit non, fringilla maximus odio. Sed in est vulputate, fermentum massa vel, lacinia justo.</p>
+          <p>Witness the evolution of the surfboard and learn how board designs have changed over the years.</p>
           <a href="/equipment.php" class="home-lm-link">Learn More</a>
         </div>
       </div>
