@@ -7,17 +7,25 @@
   <meta name="description" content="Nalu - A Surfing Collective" />
   <meta name="keywords" content="Surfing, History, Interactive, Surf Photography" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="fb:app_id"          content="966242223397117" /> 
+  <meta property="og:type"            content="article" /> 
+  <meta property="og:url"             content="http://nalu.live/index.php" /> 
+  <meta property="og:title"           content="Nalu - A Surfing Collective" /> 
+  <meta property="og:image" content="http://nalu.live/images/Nalu.live_Home_FB_share_image_2.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:description"    content="http://nalu.live/timeline.php" />
 
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="image_src" href="images/Nalu.live_Home_FB_share_image_2.png" / >
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
-    <!-- Start CSS -->
+  <!-- Start CSS -->
   <link rel="stylesheet" href="styles/bootstrap.css" />
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/vertical-timeline.css">

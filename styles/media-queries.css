@@ -104,6 +104,10 @@ Ice White: #f4fafe;
   top: 15%;
 }
 
+p.mobile-hidden {
+  display: none;
+}
+
 }
 
 /* iPads Portrait Only */
@@ -127,6 +131,12 @@ and (-webkit-min-device-pixel-ratio: 1) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
+
+  ul.nav.footer.navbar-nav {
+    float: right !important;
+    display: inline-flex;
+    padding-right: 6.4% !important;
+}
 
 
 }

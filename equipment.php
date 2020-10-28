@@ -10,7 +10,7 @@
   <?php include("header-include_v2.php");?>
 
   <!-- Section 1 -->
-  <div id="main-carousel" class="carousel slide" data-ride="carousel" data-interval="32000">
+  <div id="main-carousel" class="carousel slide" data-ride="carousel" data-interval="38000">
     <div class="carousel-inner equipment">
       <div class="videoWrapper item active" id="video">
         <video id="video" muted autoplay="autoplay" preload="auto" poster="images/banners/sized/page83_waikiki_1931.jpg">
@@ -47,7 +47,7 @@
   <div class="main-content">
     <div class="equip-grid-head">
       <h1>Surfboards Then and Now</h1>
-      <h2>~ click below for more info ~</h2>
+      <h2>~ Hover on a Board for another view ~</h2>
     </div>
   </div>
 

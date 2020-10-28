@@ -96,7 +96,7 @@
         <div class="section2_content">
           <h2>THE MISSION</h2>
           <hr>
-          <p class="section2_text"><span style="font-family: 'Raleway-SemiBold'">Nalu.live</span> is a website for surfers and non-surfers alike who love the sport of surfing and the culture that surrounds it. This website provides an interactive way for you to learn more about how the sport of surfing has evolved over the years and how innovations in surf photography have influenced some of those changes. Nalu is an educational site with a documentary feel – communicating content through beautiful photography, infographics, and videos to provide a fun, informative, and interactive experience.</p>
+          <p class="section2_text"><span style="font-family: 'Raleway-SemiBold'">Nalu.live</span> is a website for surfers and non-surfers alike who love the sport of surfing and the culture that surrounds it. This website provides an interactive way for you to learn more about the history of the sport of surfing and how surf photography has been used to promote the sport and communicate information while becoming an art form of its own. Nalu is an educational site with a documentary feel – communicating content through beautiful photography, infographics, and videos to provide a modern, fun, informative, and interactive experience.</p>
         </div>
 
         <div class="flex-container" id="image-grid">
@@ -173,11 +173,11 @@
         <article>
           <p>The long-celebrated father of modern surfing, from Honolulu, Hawaii; an Olympic gold medal swimmer and Hawaii's beloved ambassador to the world through much of the first half of the 20th century. Kahanamoku was a skilled wave-rider, but his real gift to surfing was the way he presented the sport as something that could be practiced with grace, humor, and generosity. "You know," he said in 1965, "there are so many waves coming in all the time, you don't have to worry about that. Take your time—wave come. Let the other guys go; catch another one." The sport's greatest shortcoming may be that surfers have for the most part failed to live up to the Kahanamoku ideal.</p>
 
-          <p>Kahanamoku was born (1890) and raised in Honolulu, a full-blooded Hawaiian, and the first-born son of a delivery clerk. Five male siblings followed; all were first-rate surfers, swimmers, and paddlers. Surfing, along with other native Hawaiian forms of recreation, had all but vanished at the time of Kahanamoku's birth, partly because the indigenous population had been decimated by a century's worth of Western-borne disease, and partly due to the work-not-play influence of homesteading Calvinist missionaries. By the time Kahanamoku was in school, however, agricultural and tourist interests had replaced the missionaries in setting the political and cultural tone in Hawaii, and surfing began to flourish in Waikiki. It soon became the romantic symbol of America's newest vacation destination.</p>
+          <p class="mobile-hidden">Kahanamoku was born (1890) and raised in Honolulu, a full-blooded Hawaiian, and the first-born son of a delivery clerk. Five male siblings followed; all were first-rate surfers, swimmers, and paddlers. Surfing, along with other native Hawaiian forms of recreation, had all but vanished at the time of Kahanamoku's birth, partly because the indigenous population had been decimated by a century's worth of Western-borne disease, and partly due to the work-not-play influence of homesteading Calvinist missionaries. By the time Kahanamoku was in school, however, agricultural and tourist interests had replaced the missionaries in setting the political and cultural tone in Hawaii, and surfing began to flourish in Waikiki. It soon became the romantic symbol of America's newest vacation destination.</p>
 
-          <p>Kahanamoku, a high school dropout, was a natural at virtually all water-related activities—bodysurfing, board-surfing, diving, sailing, and outrigger canoe paddling—but he first came to prominence as a short-distance swimmer. In the summer of 1911, at age 20, he broke the American 50-yard record by more than a second, and beat the 100-yard world record by more than four seconds. (Kahanamoku had earlier that year confounded the Hui Nalu Club, the world's second surfing organization following the 1908-formed Outrigger Canoe Club.)</p>
+          <p class="mobile-hidden">Kahanamoku, a high school dropout, was a natural at virtually all water-related activities—bodysurfing, board-surfing, diving, sailing, and outrigger canoe paddling—but he first came to prominence as a short-distance swimmer. In the summer of 1911, at age 20, he broke the American 50-yard record by more than a second, and beat the 100-yard world record by more than four seconds. (Kahanamoku had earlier that year confounded the Hui Nalu Club, the world's second surfing organization following the 1908-formed Outrigger Canoe Club.)</p>
 
-          <p>In the 1912 Olympics, held in Stockholm, Sweden, the 6'1" 190-pound Duke used the already-famous "Kahanamoku Kick" to set another world record on his way to a gold medal in the 100-meter freestyle; he also won a silver medal in the 200-meter freestyle relay. In the 1920 Olympics in Antwerp, Belgium (World War I forced the cancellation of the 1916 Games), Kahanamoku won gold medals in both the 100-meter freestyle and the 400-meter freestyle relay; in the 1924 Olympics in Paris, the 34-year-old won a silver medal in the 100-meter freestyle. He was called the "human fish" and the "Bronzed Duke," and at age 42 Kahanamoku swam sprints as fast as when he was 21. In 1925, he made what the Honolulu Star-Bulletin described as a "superhuman rescue act," pulling eight fishermen out of heavy seas at Newport Beach, California.</p>
+          <p class="mobile-hidden">In the 1912 Olympics, held in Stockholm, Sweden, the 6'1" 190-pound Duke used the already-famous "Kahanamoku Kick" to set another world record on his way to a gold medal in the 100-meter freestyle; he also won a silver medal in the 200-meter freestyle relay. In the 1920 Olympics in Antwerp, Belgium (World War I forced the cancellation of the 1916 Games), Kahanamoku won gold medals in both the 100-meter freestyle and the 400-meter freestyle relay; in the 1924 Olympics in Paris, the 34-year-old won a silver medal in the 100-meter freestyle. He was called the "human fish" and the "Bronzed Duke," and at age 42 Kahanamoku swam sprints as fast as when he was 21. In 1925, he made what the Honolulu Star-Bulletin described as a "superhuman rescue act," pulling eight fishermen out of heavy seas at Newport Beach, California.</p>
           <div class="read-more-link">
             <a href="/timeline.php" class="home-lm-link">Read More</a>
           </div>
@@ -207,14 +207,14 @@
       <div class="flex-container2">
         <div class="flex-item2"><a href="/timeline.php"><img src="images/1958_huntington_pier.jpg" alt="1958_huntington_pier"></a>
           <h3>Timeline</h3>
-          <p>Learn more about how surfing has evolved over the years and read about some of the significant historical events that shaped the sport.</p>
+          <p>Learn more about the history of surfing and some of the significant historical events that shaped the sport.</p>
           <a href="/timeline.php" class="home-lm-link">Learn More</a>
         </div>
 
         <div class="flex-item2"><a href="/photographers.php"><img src="images/bolster_tavarua_empty_perfect.jpg" alt="bolster_tavarua_empty_perfect"></a>
           <h3>Photographers</h3>
           <p>View photos and interviews with the surf photographers who have changed the way we see the sport of surfing.</p>
-          <a href="/photo.php" class="home-lm-link">Learn More</a>
+          <a href="/photographers.php" class="home-lm-link">Learn More</a>
         </div>
 
         <div class="flex-item2"><a href="/equipment.php"><img src="images/142_tom_blake_hollow_surfboard_grid.jpg" alt="tom_blake_hollow_surfboard_plans"></a>

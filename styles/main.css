@@ -88,7 +88,7 @@ h2#home {
 
 p {
   font-size: 1em;
-  text-align: justify;
+  text-align: left;
   line-height: 1.5em;
   margin-bottom: 1.3em;
 }
@@ -683,6 +683,10 @@ hr {
     justify-content: center;
     box-sizing: border-box;
   }
+
+.flex-container2 p {
+    font-size: 1.2em;
+}
 
   .imGrid2 {
     width: 100%;

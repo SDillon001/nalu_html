@@ -70,7 +70,7 @@
           <img src="images/pre-1900s/pre_1900's_bishop_.jpg">
         </div>
 
-        <p>Only on the main islands of what is called East Polynesia (Hawaii, the Marquesas, Tahiti, the Cook Islands, and New Zealand) was surfing practiced by adults as well as children. </p>
+        <p>Surfing was practiced by adults as well as children on the main islands of Hawaii, the Marquesas, Tahiti, the Cook Islands, and New Zealand. The Hawaiians, probably beginning around a.d. 1,200, developed the sport into a communal obsession.</p>
         <span class="cd-read-more" data-slide="2">Read more</span>
         <span class="cd-date left" id="1900's">Pre-1900's</span>
       </div>
@@ -90,7 +90,7 @@
           <img src="images/pre-1900s/pre_1900s_gurrey_surf_riders.jpg">
         </div>
 
-        <p>Mostly forgotten early-20th century photographer and surfer; creator  The Surf Riders of Hawaii, a handmade, self-published booklet that came out in 1914, and is regarded by some as the first book of surfing photographs.</p>
+        <p>Mostly forgotten, early-20th century photographer and surfer; creator of "The Surf Riders of Hawaii", a handmade, self-published booklet that came out in 1914, and is regarded by some as the first book of surfing photographs.</p>
         <span class="cd-read-more" data-slide="1">Read more</span>
         <span class="cd-date right">1900's</span>
       </div>
@@ -580,7 +580,13 @@
 
                     <div class="col-sm-6 timeline">
                       <div class="description timeline">
-                        <p>“Villagers in Huanchaco, five hundred miles north of Lima, used the caballito for nearshore fishing and to ride waves for fun and sport. Pomar looked at the caballito for a moment. The Hawaiians, he asked with a little rhetorical tilt of the head, have been surfing for how long? One thousand years? Fifteen hundred? He nodded toward the caballito. Three thousand years, he said. That’s how long they’ve been riding waves in Huanchaco. Three thousand years—maybe longer.”</p>
+                        <p>The caballito reed boat was probably invented around 3000 bc, as tiny coastal enclaves of northern Peru coalesced into larger, more complex villages and communities. Traders used the caballito to move goods short distances along the coast, while fisherman used it as a roving nearshore platform.</p>
+
+                        <p>The caballito is organic and decomposes quickly, so there are no examples from even fifty years ago, much less any from antiquity. Used daily, a caballito remains seaworthy for about six weeks, at which point the reeds turn mushy.</p>
+
+                        <blockquote class="equip-merrick">The caballito remains the fisherman’s craft of choice. The locals at Huanchaco now paddle out wearing bright polyester soccer jerseys and surf trunks, but the scene is often shrouded in a kind of grayish prehistoric gloom.</blockquote>
+
+                        <p>In the view of most Peruvian wave riders, including 1965 world champion Felipe Pomar, surf history's revised prologue begins in the coastal salt marshes west of Trujillo. “Villagers in Huanchaco, five hundred miles north of Lima, used the caballito for nearshore fishing and to ride waves for fun and sport. Pomar looked at the caballito for a moment. The Hawaiians, he asked with a little rhetorical tilt of the head, have been surfing for how long? One thousand years? Fifteen hundred? He nodded toward the caballito. Three thousand years, he said. That’s how long they’ve been riding waves in Huanchaco. Three thousand years—maybe longer.”</p>
                         <p class="timeline-credit"><a href="https://eos.surf/history/" target="_blank">Source: Warshaw, Matt. The History of Surfing</a></p>
                       </div>
                     </div>
@@ -605,6 +611,13 @@
                         <p>Only on the main islands of what is called East Polynesia (Hawaii, the Marquesas, Tahiti, the Cook Islands, and New Zealand) was surfing practiced by adults as well as children. Of this group, just the Tahitians and Hawaiians used full-length boards and rode while standing. And of these two, only the Hawaiians, probably beginning around a.d. 1200, developed the sport into a communal obsession. This original surf-lust, as much as the islands’ accrued developments in board design and riding technique, is what marks Hawaii as surfing’s birthplace.</p>
 
                         <p>“All thought of work is at an end,” a nineteenth-century Hawaiian scholar wrote, describing his ancestors’ wave-riding fervency in terms recognizable to any hardcore twenty-first-century surfer. “The wife may go hungry, [and] the children . . . but the head of the house does not care. All day there is nothing but surfing.”</p>
+
+                        <blockquote class="equip-merrick">Unlike ancient Peru, where wave-riding was a byproduct of work and probably limited to fishermen, surfing in Hawaii was both recreational and universal.</blockquote>
+
+                        <p>The ruling class had special boards and exclusive breaks, but even so, the sport was the island nation’s great common denominator. Surfing was practiced with equal enthusiasm (and class-leveling nudity) by farmers, warriors, weavers, healers, fishermen, children, grandparents, chiefs, and regents. Work and warfare were barred during the annual Makahiki harvest celebration, a three-month sports tournament and bacchanal in honor of the great Hawaiian god Lono, with surfing contests and other events scheduled more or less as diversions from a writhing shorefront sexual marathon.</p>
+
+                        <p>Surfing in ancient Hawaii was touched by religion and fantasy, but it was fused to sex, competition, and gambling. A pair of would-be lovers riding side by side for more than two or three waves did so in the knowledge that they’d taken their flirtation to a level that practically demanded a beeline for the beach and a quick damp-skinned coupling in the nearest available hut or glade. </p>
+
                         <p class="timeline-credit"><a href="https://eos.surf/history/" target="_blank">Source: Warshaw, Matt. The History of Surfing</a></p>
                       </div>
                     </div>
@@ -1136,17 +1149,15 @@
 
                       <div class="col-sm-6 timeline">
                         <div class="description timeline">
-                          <p>Tom Carroll represented a surfing nation that had dominated the leaderboard since the pro tour's inception in 1976, and would continue to hold power for another 10 or so years. In 1977, Carroll won the Pro Junior in Sydney, surfing’s premier 18-and-under event, and along with Cheyne Horan, they became the sport’s brightest teenage sensations.</p>
+                          <p>Surf publishing was a nonstop growth industry throughout the 1980s, with increased ad revenue, new titles, bigger issues, more color. The trend was worldwide but most obvious in America. In the late 1970s, <strong>Surfer</strong> and <strong>Surfing</strong> had both gone monthly, and the average issue size was just over a hundred pages. By 1988, both magazines were producing copies at Vogue-like two-hundred-plus pages, and circulation for each was about 110,000 — more than double the size of their nearest rivals.</p>
 
-                          <p>In 1979, Carroll joined the pro circuit full-time. At 5' 6", 145 pounds, he was the second smallest competitor—Hawaii’s Michael Ho was an inch shorter and ten pounds lighter—but nonetheless recognized as a purebred power surfer. As quick and sharp as Carroll was in smaller waves, he didn’t come into full devastating form until the surf was overhead, and on Oahu’s North Shore—the better part of Carroll’s reputation was made at Sunset Beach and Pipeline.</p>
+                          <p>The cult of the surf photographer grew as well—a tradition going back 20 years to Ron Stoner’s short but brilliant Surfer career. Even with all the new jumbo-sized magazines, only two dozen or so surf photographers worldwide were pulling down a middle-class-or-better wage. It was a glamour job in the sport, apart from being a pro surfer. This was particularly true in America, where photographers like <strong>Jeff Divine</strong>, Dan Merkel, <strong>Warren Bolster</strong>, Don King, Steve Wilkings, Aaron Chang, Larry “Flame” Moore, Art Brewer, and Jeff Hornbaker were regularly featured in profiles with the same heft and detail as those given to Gerry Lopez, Shaun Tomson, and Tom Curren. </p>
 
-                          <blockquote class="equip-merrick">He was among the leaders during the first half of the 1983 season, then he went on a tear down the stretch, winning four of the last six events to easily take the first of two back-to-back world titles.</blockquote>
+                          <blockquote class="equip-merrick">By 1988, both magazines (Surfer and Surfing) were producing copies at Vogue-like two-hundred-plus pages, and <strong>circulation for each was about 110,000</strong> — more than double the size of their nearest rivals.</blockquote>
 
-                          <p>At a pro tour event in Bondi Beach in 1984, newly-crowned world champion Tom Carroll was introduced to just-elected Prime Minister Bob Hawke—a tanned and pompadoured Labor Party centrist whose love of sport helped boost him to a 70% national approval rating.</p>
+                          <p>No sport in the world, in fact, was shot from so many angles. Surfers were photographed from underwater, from helicopters, from the back of a Jet Ski running full-throttle just ahead of the wave, and from a wide-angle board-mounted camera operated from the beach by remote control. Water photography was completely overhauled. The waterhousing-covered camera had slimmed down to a ten-pound unit that could be held like a lunchbox and taken into the heart of the impact zone.</p>
 
-                          <p>The two men hit it off, and in 1993, when Carroll announced he was retiring from the pro tour after fifteen exemplary years, Hawke was the featured speaker at Carroll's black-tie retirement dinner. “There is no Australian sporting hero or legend, at whose name I have a greater surge of affection and admiration than [that of] Tom Carroll,” Hawke said. “Thank you for what you’ve done for your sport. Thank you for what you’ve done for your country.”</p>
-
-                          <p>A prime minister getting misty-eyed over a surfer. That’s where the sport stood in Australia.</p>
+                          <p>Professional surfers and photographers worked together often — and it was work, since everybody’s paycheck depended to one degree or another on a steady feed of magazine photos — and the whole operation became practically choreographed.</p>
                           <p class="timeline-credit"><a href="https://eos.surf/history/" target="_blank">Source: Warshaw, Matt. The History of Surfing</a></p>
                         </div>
                       </div>

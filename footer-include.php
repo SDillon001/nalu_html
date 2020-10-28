@@ -116,13 +116,16 @@
             <h5>Contributors List</h5>
             <ul class="footer-list left">
               <li><a href="http://shacc.org/" target="_blank">Surfing Heritage and Culture Center</a></li>
+              <li><a href="https://eos.surf/history/" target="_blank">"The History of Surfing", Matt Warshaw</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Warren_Bolster" target="_blank">Warren Bolster</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Tom_Blake_(surfer)" target="_blank">Tom Blake</a></li>
               <li><a href="https://jeffdivinesurf.com/" target="_blank">Jeff Divine</a></li>
               <li><a href="https://driftwoodfoto.com/" target="_blank">Ben Ginsberg</a></li>
               <li><a href="https://tmurphyphotography.smugmug.com/" target="_blank">Trevor Murphy</a></li>
-              <li><a href="https://www.yourwavepics.com/" target="_blank">Diane Edmonds</a></li>
             </ul>
 
             <ul class="footer-list right">
+              <li><a href="https://www.yourwavepics.com/" target="_blank">Diane Edmonds</a></li>
               <li><a href="https://www.nathanfrenchphotography.com/" target="_blank">Nathan French</a></li>
               <li><a href="http://www.mariafernandaphoto.com/" target="_blank">Maria Fernanda</a></li>
               <li><a href="https://www.adamking.photo/" target="_blank">Adam King</a></li>

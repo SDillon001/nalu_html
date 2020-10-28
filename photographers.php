@@ -184,13 +184,13 @@
               <!-- Film Section carousel image 1 -->
               <div class="item active">
                 <h3>"Better live webcasts of contests all around the world has increased the number of fans, and now <br>the excitement of surfing in the next Olympics will spread the stoke even more."</h3>
-                <h3 class="test-credit">- Diane Edmonds, Photographer</h3>
+                <h3 class="test-credit">- Diane Edmonds, Surf Photographer</h3>
               </div>
 
               <!-- Film Section carousel image 2 -->
               <div class="item">
                 <h3>"The shift from film to digital photography lowered some of the cost of surf photography and opened the door to a new generation <br>of photographers. I think it's pushed every surf photographer to be the best they can be."</h3>
-                <h3 class="test-credit">- Steve Dillon, Photographer</h3>
+                <h3 class="test-credit">- Steve Dillon, Surf Photographer</h3>
               </div> <!-- End Carousel Item -->
 
             <a class="left carousel-control test" data-target="#main-carousel-testimonials" data-slide="prev"><i class="fas fa-angle-left test"></i></a>

@@ -113,13 +113,13 @@ $(window).scroll(function() {
       $('#back2Top').fadeOut();
   }
 });
+
 $(function() {
   $("#back2Top").click(function(event) {
       event.preventDefault();
       $("html, body").animate({ scrollTop: 0 }, "slow");
       return false;
   });
-
 });
 
 // Scroll to top when arrow up clicked END
@@ -211,31 +211,6 @@ $(function () {
     trigger : 'hover',
     html: true
   })
-
-// $('[data-toggle="tooltip"]').on("mouseenter", function () {
-//   $(this).tooltip('show');
-// });
-
-// Timeline anchor links active state
-// $oldElement = undefined;
-
-// $('ul li a').click(function(){
-//   $(this).find('i').addClass("fas");
-//   $(this).tooltip('show');
-
-//   if($oldElement !== undefined)
-//   {
-//     $oldElement.find('i').removeClass("fas");
-//     $oldElement.tooltip('hide');
-//   }
-
-//   $oldElement = $(this);
-// });
-
-// $('ul li a').click(function(){
-//   $(this).find('i').addClass('fas');
-// });
-
 });
 
 // Pagination active class

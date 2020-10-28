@@ -25,6 +25,8 @@
             <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" href="/timeline.php">Timeline <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="timeline.php">1900's</a></li>
+              <li><a href="timeline.php#1930's">1930's</a></li>
+              <li><a href="timeline.php#1940's">1940's</a></li>
               <li><a href="timeline.php#1950's">1950's</a></li>
               <li><a href="timeline.php#1960's">1960's</a></li>
               <li><a href="timeline.php#1970's">1970's</a></li>
