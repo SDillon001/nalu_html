@@ -1,4 +1,4 @@
-# [Nalu.live](https://http://nalu.live/)
+# [Nalu.live](http://nalu.live/)
 ## HTML Version - Converted from Angular JS
 A Surfing Collective
 
